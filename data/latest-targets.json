@@ -1,11 +1,17 @@
 [
  {
-  "id": "yeswehack:keycloak-bug-bounty-program",
-  "platform": "YesWeHack",
-  "name": "Keycloak",
-  "url": "https://yeswehack.com/programs/keycloak-bug-bounty-program",
-  "tags": [],
-  "bounty_max": 5000,
-  "first_seen": "2026-08-04T14:19:58.143727+00:00"
+  "id": "hackerone:box_private",
+  "platform": "HackerOne",
+  "name": "Box BB",
+  "url": "https://hackerone.com/box_private",
+  "tags": [
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-04T19:39:50.950574+00:00"
  }
 ]

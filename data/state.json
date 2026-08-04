@@ -2870,6 +2870,11 @@
    "name": "VINCI SA - Public program",
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   },
+  "yeswehack:keycloak-bug-bounty-program": {
+   "platform": "YesWeHack",
+   "name": "Keycloak",
+   "first_seen": "2026-08-04T14:19:58.143727+00:00"
+  },
   "yeswehack:ezviz-bug-bounty-program": {
    "platform": "YesWeHack",
    "name": "Ezviz - Bug Bounty Program",
@@ -2941,5 +2946,5 @@
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   }
  },
- "last_run": "2026-08-04T08:40:19.420367+00:00"
+ "last_run": "2026-08-04T14:19:58.143727+00:00"
 }

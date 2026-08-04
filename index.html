@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bug Radar — Live Public Bug Bounty Programs</title>
+<meta name="description" content="Track fresh public bug bounty programs across HackerOne, Bugcrowd and YesWeHack. Live data, filters, and scope-change alerts.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #070b12;
+    --bg-2: #0a1019;
+    --surface: #0c1320;
+    --surface-2: #111a2b;
+    --surface-3: #16213a;
+    --border: rgba(148, 163, 184, 0.14);
+    --border-strong: rgba(148, 163, 184, 0.28);
+    --ink: #e6edf7;
+    --ink-dim: #9fb0c7;
+    --ink-faint: #64748b;
+    --accent: #2ee6a8;
+    --accent-dim: rgba(46, 230, 168, 0.12);
+    --accent-glow: rgba(46, 230, 168, 0.35);
+    --cyan: #4cc9f0;
+    --amber: #fbbf24;
+    --red: #f87171;
+    --mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    --sans: "Space Grotesk", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --radius: 12px;
+    --radius-sm: 8px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scrollbar-color: var(--surface-3) var(--bg); }
+  body {
+    background:
+      radial-gradient(1200px 600px at 80% -10%, rgba(46, 230, 168, 0.05), transparent 60%),
+      radial-gradient(900px 500px at 10% -20%, rgba(76, 201, 240, 0.05), transparent 60%),
+      var(--bg);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 15px;
+    line-height: 1.5;
+    min-height: 100vh;
+  }
+  a { color: var(--cyan); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /* ---------- header ---------- */
+  header {
+    position: sticky; top: 0; z-index: 50;
+    background: rgba(7, 11, 18, 0.85);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+  }
+  .header-inner {
+    max-width: 1240px; margin: 0 auto; padding: 14px 24px;
+    display: flex; align-items: center; gap: 16px;
+  }
+  .brand { display: flex; align-items: center; gap: 14px; min-width: 0; }
+  .radar-logo {
+    width: 42px; height: 42px; flex: none; position: relative;
+    border-radius: 50%;
+    background: radial-gradient(circle, var(--surface-2), var(--bg));
+    border: 1px solid var(--border-strong);
+    overflow: hidden;
+  }
+  .radar-logo .sweep {
+    position: absolute; inset: 0; border-radius: 50%;
+    background: conic-gradient(from 0deg, transparent 0deg, transparent 300deg, var(--accent-glow) 355deg, transparent 360deg);
+    animation: sweep 3.2s linear infinite;
+  }
+  .radar-logo .ring { position: absolute; border-radius: 50%; border: 1px solid var(--border-strong); }
+  .radar-logo .ring.r1 { inset: 18%; }
+  .radar-logo .ring.r2 { inset: 36%; }
+  .radar-logo .dot {
+    position: absolute; width: 4px; height: 4px; border-radius: 50%;
+    background: var(--accent); box-shadow: 0 0 8px var(--accent-glow);
+  }
+  .radar-logo .dot.d1 { top: 28%; left: 55%; }
+  .radar-logo .dot.d2 { top: 62%; left: 32%; }
+  @keyframes sweep { to { transform: rotate(360deg); } }
+  @media (prefers-reduced-motion: reduce) {
+    .radar-logo .sweep { animation: none; opacity: 0.5; }
+  }
+  .brand h1 { font-size: 19px; font-weight: 700; letter-spacing: 0.3px; line-height: 1.15; }
+  .brand h1 .accent { color: var(--accent); }
+  .brand .tagline { font-size: 12.5px; color: var(--ink-dim); margin-top: 1px; }
+  .live-badge {
+    margin-left: auto; display: flex; align-items: center; gap: 8px;
+    font-family: var(--mono); font-size: 12px; color: var(--ink-dim);
+    background: var(--surface); border: 1px solid var(--border);
+    padding: 6px 12px; border-radius: 999px; white-space: nowrap;
+  }
+  .live-badge .pulse {
+    width: 7px; height: 7px; border-radius: 50%; background: var(--accent);
+    box-shadow: 0 0 0 0 var(--accent-glow); animation: pulse 2s infinite;
+  }
+  @keyframes pulse {
+    0% { box-shadow: 0 0 0 0 var(--accent-glow); }
+    70% { box-shadow: 0 0 0 8px transparent; }
+    100% { box-shadow: 0 0 0 0 transparent; }
+  }
+
+  /* ---------- stats ---------- */
+  .stats {
+    max-width: 1240px; margin: 0 auto; padding: 20px 24px 4px;
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px;
+  }
+  .stat {
+    background: linear-gradient(180deg, var(--surface), var(--bg-2));
+    border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 14px 18px;
+  }
+  .stat .num {
+    font-family: var(--mono); font-size: 26px; font-weight: 700;
+    color: var(--ink); font-variant-numeric: tabular-nums;
+  }
+  .stat .num small { font-size: 14px; color: var(--ink-faint); font-weight: 500; }
+  .stat .lbl { font-size: 12px; color: var(--ink-dim); text-transform: uppercase; letter-spacing: 0.8px; margin-top: 2px; }
+  .stat .sub { font-size: 12px; color: var(--ink-faint); margin-top: 2px; font-family: var(--mono); }
+  .stat.hot .num { color: var(--accent); }
+
+  /* ---------- latest targets ticker ---------- */
+  .ticker-wrap { max-width: 1240px; margin: 18px auto 0; padding: 0 24px; }
+  .ticker {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius); overflow: hidden;
+  }
+  .ticker-head {
+    display: flex; align-items: center; gap: 10px;
+    padding: 10px 16px; border-bottom: 1px solid var(--border);
+    font-size: 12.5px; font-weight: 600; letter-spacing: 0.6px; text-transform: uppercase; color: var(--ink-dim);
+  }
+  .ticker-head .spark { color: var(--accent); animation: blink 1.4s infinite; }
+  @keyframes blink { 50% { opacity: 0.25; } }
+  .ticker-body { display: flex; gap: 10px; padding: 12px 16px; overflow-x: auto; scrollbar-width: thin; }
+  .tick-chip {
+    flex: none; display: flex; align-items: center; gap: 8px;
+    background: var(--surface-2); border: 1px solid var(--border);
+    border-radius: 999px; padding: 6px 12px; font-size: 13px; white-space: nowrap;
+    transition: border-color 0.15s, background 0.15s;
+  }
+  .tick-chip:hover { border-color: var(--border-strong); background: var(--surface-3); }
+  .tick-chip .plat { font-family: var(--mono); font-size: 10.5px; color: var(--cyan); }
+  .tick-chip .ago { font-family: var(--mono); font-size: 11px; color: var(--ink-faint); }
+  .ticker-empty { padding: 12px 16px; font-size: 13px; color: var(--ink-faint); }
+
+  /* ---------- controls ---------- */
+  .controls {
+    max-width: 1240px; margin: 20px auto 0; padding: 0 24px;
+    display: flex; flex-direction: column; gap: 12px;
+  }
+  .controls-row1 { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+  .search-box { position: relative; flex: 1 1 260px; min-width: 200px; }
+  .search-box input {
+    width: 100%; background: var(--surface); border: 1px solid var(--border-strong);
+    color: var(--ink); border-radius: var(--radius-sm); padding: 10px 14px 10px 38px;
+    font-family: var(--sans); font-size: 14px; outline: none; transition: border-color 0.15s, box-shadow 0.15s;
+  }
+  .search-box input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-dim); }
+  .search-box svg { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); opacity: 0.5; }
+  select, .btn {
+    background: var(--surface); color: var(--ink);
+    border: 1px solid var(--border-strong); border-radius: var(--radius-sm);
+    padding: 10px 14px; font-family: var(--sans); font-size: 14px; cursor: pointer;
+    transition: border-color 0.15s, background 0.15s;
+  }
+  select:hover, .btn:hover { border-color: var(--accent); background: var(--surface-2); }
+  select:focus { outline: none; border-color: var(--accent); }
+  .btn.active { background: var(--accent-dim); border-color: var(--accent); color: var(--accent); }
+  .btn-row { display: flex; gap: 8px; }
+  .toggle {
+    display: flex; align-items: center; gap: 8px; cursor: pointer;
+    font-size: 13px; color: var(--ink-dim); user-select: none; white-space: nowrap;
+  }
+  .toggle input { display: none; }
+  .toggle .track {
+    width: 34px; height: 19px; border-radius: 999px; background: var(--surface-3);
+    border: 1px solid var(--border-strong); position: relative; transition: background 0.15s, border-color 0.15s; flex: none;
+  }
+  .toggle .track::after {
+    content: ""; position: absolute; top: 2px; left: 2px; width: 13px; height: 13px;
+    border-radius: 50%; background: var(--ink-dim); transition: transform 0.15s, background 0.15s;
+  }
+  .toggle input:checked + .track { background: var(--accent-dim); border-color: var(--accent); }
+  .toggle input:checked + .track::after { transform: translateX(15px); background: var(--accent); }
+
+  .controls-row2 { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  .chip {
+    background: var(--surface); border: 1px solid var(--border);
+    color: var(--ink-dim); border-radius: 999px; padding: 5px 12px;
+    font-size: 12.5px; font-family: var(--mono); cursor: pointer; user-select: none;
+    transition: all 0.13s;
+  }
+  .chip:hover { border-color: var(--border-strong); color: var(--ink); }
+  .chip.on { background: var(--accent-dim); border-color: var(--accent); color: var(--accent); }
+  .chip .n { opacity: 0.6; margin-left: 3px; }
+  .chips-group { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+  .chips-label { font-size: 11px; color: var(--ink-faint); text-transform: uppercase; letter-spacing: 0.8px; margin-right: 2px; }
+
+  /* ---------- results ---------- */
+  .results-meta {
+    max-width: 1240px; margin: 18px auto 0; padding: 0 24px;
+    display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap;
+    font-size: 13px; color: var(--ink-dim);
+  }
+  .results-meta .count { font-family: var(--mono); }
+  .results-meta .count b { color: var(--accent); font-weight: 700; }
+
+  .grid {
+    max-width: 1240px; margin: 14px auto 0; padding: 0 24px;
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 14px;
+  }
+  .card {
+    background: linear-gradient(180deg, var(--surface), var(--bg-2));
+    border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 16px; cursor: pointer; position: relative; overflow: hidden;
+    display: flex; flex-direction: column; gap: 10px;
+    transition: border-color 0.15s, transform 0.15s, box-shadow 0.15s;
+  }
+  .card:hover {
+    border-color: var(--accent); transform: translateY(-2px);
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.45), 0 0 0 1px var(--accent-dim);
+  }
+  .card .top { display: flex; align-items: flex-start; gap: 12px; }
+  .avatar {
+    width: 42px; height: 42px; border-radius: var(--radius-sm); flex: none;
+    background: var(--surface-3); border: 1px solid var(--border-strong);
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 700; font-size: 17px; color: var(--accent); overflow: hidden;
+  }
+  .avatar img { width: 100%; height: 100%; object-fit: cover; }
+  .card .name { font-weight: 600; font-size: 14.5px; line-height: 1.3; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+  .card .meta-row { display: flex; align-items: center; gap: 8px; font-family: var(--mono); font-size: 11px; color: var(--ink-faint); }
+  .plat-badge {
+    font-family: var(--mono); font-size: 10.5px; font-weight: 500;
+    padding: 2px 8px; border-radius: 4px; letter-spacing: 0.3px;
+    background: var(--accent-dim); color: var(--accent);
+  }
+  .plat-badge.bc { background: rgba(76, 201, 240, 0.12); color: var(--cyan); }
+  .plat-badge.yw { background: rgba(251, 191, 36, 0.12); color: var(--amber); }
+  .new-flag {
+    font-family: var(--mono); font-size: 10px; font-weight: 700; letter-spacing: 0.5px;
+    background: var(--accent); color: #06281c; padding: 2px 7px; border-radius: 4px;
+    animation: pulse 2s infinite;
+  }
+  .card .tags { display: flex; flex-wrap: wrap; gap: 6px; }
+  .tag {
+    font-family: var(--mono); font-size: 10.5px; color: var(--ink-dim);
+    background: var(--surface-2); border: 1px solid var(--border);
+    padding: 2px 8px; border-radius: 4px;
+  }
+  .card .bottom { display: flex; justify-content: space-between; align-items: center; margin-top: auto; }
+  .bounty { font-family: var(--mono); font-weight: 700; font-size: 14px; color: var(--ink); }
+  .bounty .cur { color: var(--accent); }
+  .bounty.none { color: var(--ink-faint); font-weight: 500; font-size: 12px; }
+  .tier {
+    font-family: var(--mono); font-size: 10px; font-weight: 700; letter-spacing: 0.6px;
+    padding: 3px 8px; border-radius: 999px; border: 1px solid;
+  }
+  .tier.Elite { color: #fbbf24; border-color: rgba(251, 191, 36, 0.4); background: rgba(251, 191, 36, 0.08); }
+  .tier.Hot { color: #fb923c; border-color: rgba(251, 146, 60, 0.4); background: rgba(251, 146, 60, 0.08); }
+  .tier.Strong { color: #2ee6a8; border-color: rgba(46, 230, 168, 0.4); background: rgba(46, 230, 168, 0.08); }
+  .tier.Potential { color: #4cc9f0; border-color: rgba(76, 201, 240, 0.4); background: rgba(76, 201, 240, 0.08); }
+
+  /* list view */
+  .list {
+    max-width: 1240px; margin: 14px auto 0; padding: 0 24px;
+    display: flex; flex-direction: column; gap: 8px;
+  }
+  .lrow {
+    display: grid; grid-template-columns: 44px minmax(0, 2fr) auto minmax(0, 1.2fr) auto auto;
+    align-items: center; gap: 14px;
+    background: linear-gradient(180deg, var(--surface), var(--bg-2));
+    border: 1px solid var(--border); border-radius: var(--radius-sm);
+    padding: 10px 14px; cursor: pointer;
+    transition: border-color 0.15s, background 0.15s;
+  }
+  .lrow:hover { border-color: var(--accent); background: var(--surface-2); }
+  .lrow .avatar { width: 36px; height: 36px; font-size: 14px; }
+  .lrow .name { font-weight: 600; font-size: 14px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .lrow .l-tags { display: flex; gap: 5px; overflow: hidden; }
+  .lrow .bounty { font-size: 13px; text-align: right; white-space: nowrap; }
+  .lrow .ago { font-family: var(--mono); font-size: 11px; color: var(--ink-faint); white-space: nowrap; }
+  @media (max-width: 860px) {
+    .lrow { grid-template-columns: 40px minmax(0, 1fr) auto; }
+    .lrow .l-tags, .lrow .bounty { display: none; }
+  }
+
+  /* ---------- pagination ---------- */
+  .pager {
+    max-width: 1240px; margin: 24px auto 40px; padding: 0 24px;
+    display: flex; justify-content: center; align-items: center; gap: 8px;
+  }
+  .pager .btn { font-family: var(--mono); padding: 8px 14px; }
+  .pager .btn:disabled { opacity: 0.35; cursor: not-allowed; border-color: var(--border); }
+  .pager .page-ind { font-family: var(--mono); font-size: 13px; color: var(--ink-dim); padding: 0 8px; }
+  .pager .btn.cur { background: var(--accent-dim); border-color: var(--accent); color: var(--accent); }
+
+  /* ---------- modal ---------- */
+  .overlay {
+    position: fixed; inset: 0; z-index: 100;
+    background: rgba(4, 7, 12, 0.72); backdrop-filter: blur(4px);
+    display: none; align-items: flex-start; justify-content: center;
+    padding: 40px 16px; overflow-y: auto;
+  }
+  .overlay.open { display: flex; }
+  .modal {
+    background: var(--surface); border: 1px solid var(--border-strong);
+    border-radius: 16px; max-width: 680px; width: 100%;
+    box-shadow: 0 24px 80px rgba(0, 0, 0, 0.6);
+    animation: pop 0.18s ease-out;
+  }
+  @keyframes pop { from { opacity: 0; transform: translateY(10px) scale(0.98); } to { opacity: 1; transform: none; } }
+  .modal-head {
+    display: flex; gap: 14px; padding: 20px 22px 14px; align-items: flex-start;
+    border-bottom: 1px solid var(--border);
+  }
+  .modal-head .avatar { width: 52px; height: 52px; font-size: 21px; }
+  .modal-head .m-title { flex: 1; min-width: 0; }
+  .modal-head .m-name { font-size: 18px; font-weight: 700; line-height: 1.25; }
+  .modal-head .m-sub { font-family: var(--mono); font-size: 12px; color: var(--ink-faint); margin-top: 3px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .modal-close {
+    background: none; border: none; color: var(--ink-dim); font-size: 22px; cursor: pointer;
+    line-height: 1; padding: 4px 8px; border-radius: 6px;
+  }
+  .modal-close:hover { color: var(--ink); background: var(--surface-2); }
+  .modal-body { padding: 16px 22px 22px; display: flex; flex-direction: column; gap: 14px; }
+  .m-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 10px; }
+  .m-stat { background: var(--surface-2); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 10px 14px; }
+  .m-stat .k { font-size: 11px; color: var(--ink-faint); text-transform: uppercase; letter-spacing: 0.7px; }
+  .m-stat .v { font-family: var(--mono); font-size: 16px; font-weight: 700; margin-top: 2px; }
+  .m-stat .v.green { color: var(--accent); }
+  .m-about { font-size: 14px; color: var(--ink-dim); line-height: 1.6; }
+  .m-policy {
+    font-family: var(--mono); font-size: 12px; color: var(--ink-dim); line-height: 1.65;
+    background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--radius-sm);
+    padding: 14px; max-height: 220px; overflow-y: auto; white-space: pre-wrap;
+  }
+  .m-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+  .btn-primary {
+    background: var(--accent); color: #06281c; font-weight: 700;
+    border: none; border-radius: var(--radius-sm); padding: 10px 18px; cursor: pointer;
+    font-family: var(--sans); font-size: 14px; transition: filter 0.15s;
+  }
+  .btn-primary:hover { filter: brightness(1.1); }
+
+  /* ---------- footer ---------- */
+  footer {
+    max-width: 1240px; margin: 0 auto; padding: 28px 24px 44px;
+    border-top: 1px solid var(--border);
+    display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between;
+    font-size: 12.5px; color: var(--ink-faint);
+  }
+  footer .mono { font-family: var(--mono); }
+  footer b { color: var(--ink-dim); font-weight: 600; }
+
+  .loading, .error-state {
+    max-width: 1240px; margin: 60px auto; padding: 0 24px; text-align: center;
+    color: var(--ink-dim); font-size: 15px;
+  }
+  .error-state .err-box {
+    background: var(--surface); border: 1px solid var(--border-strong);
+    border-radius: var(--radius); padding: 28px; max-width: 520px; margin: 0 auto;
+    font-family: var(--mono); font-size: 13px; text-align: left; line-height: 1.7;
+  }
+  .spinner {
+    width: 34px; height: 34px; margin: 0 auto 14px; border-radius: 50%;
+    border: 3px solid var(--surface-3); border-top-color: var(--accent);
+    animation: spin 0.9s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="brand">
+      <div class="radar-logo" aria-hidden="true">
+        <div class="sweep"></div>
+        <div class="ring r1"></div>
+        <div class="ring r2"></div>
+        <div class="dot d1"></div>
+        <div class="dot d2"></div>
+      </div>
+      <div>
+        <h1>Bug <span class="accent">Radar</span></h1>
+        <div class="tagline">public bug bounty programs · live</div>
+      </div>
+    </div>
+    <div class="live-badge"><span class="pulse"></span><span id="liveLabel">syncing…</span></div>
+  </div>
+</header>
+
+<div class="stats" id="stats"></div>
+
+<div class="ticker-wrap">
+  <div class="ticker">
+    <div class="ticker-head"><span class="spark">●</span> New targets since last sweep</div>
+    <div class="ticker-body" id="tickerBody"><div class="ticker-empty">scanning…</div></div>
+  </div>
+</div>
+
+<div class="controls">
+  <div class="controls-row1">
+    <div class="search-box">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+      <input id="searchInput" type="text" placeholder="Search programs, companies, assets…" autocomplete="off">
+    </div>
+    <select id="sortSelect" title="Sort">
+      <option value="newest">Sort · Newest</option>
+      <option value="bounty_desc">Bounty · high → low</option>
+      <option value="bounty_asc">Bounty · low → high</option>
+      <option value="name">Name · A → Z</option>
+    </select>
+    <div class="btn-row">
+      <button class="btn active" id="gridBtn" title="Grid view">▦</button>
+      <button class="btn" id="listBtn" title="List view">☰</button>
+    </div>
+    <label class="toggle" title="Only show programs that pay bounties">
+      <input type="checkbox" id="vdpToggle" checked>
+      <span class="track"></span> hide VDP
+    </label>
+    <label class="toggle" title="Only programs added since the last sweep">
+      <input type="checkbox" id="newToggle">
+      <span class="track"></span> new only
+    </label>
+  </div>
+  <div class="controls-row2" id="platformChips"></div>
+  <div class="controls-row2" id="tagChips"></div>
+</div>
+
+<div class="results-meta">
+  <div class="count" id="resultCount">—</div>
+  <div class="count" id="resultMeta"></div>
+</div>
+
+<div class="grid" id="results"></div>
+
+<div class="pager" id="pager"></div>
+
+<footer>
+  <div>Data collected from <b>HackerOne</b>, <b>Bugcrowd</b>, <b>YesWeHack</b> public APIs. Updated by <span class="mono">collect.py</span>.</div>
+  <div class="mono" id="footerTime"></div>
+</footer>
+
+<div class="overlay" id="overlay">
+  <div class="modal" id="modal"></div>
+</div>
+
+<script>
+"use strict";
+const $ = (s) => document.querySelector(s);
+
+const state = {
+  programs: [],
+  targets: [],
+  meta: null,
+  newIds: new Set(),
+  view: "grid",
+  sort: "newest",
+  search: "",
+  platforms: new Set(),
+  tags: new Set(),
+  hideVdp: true,
+  newOnly: false,
+  page: 1,
+  perPage: 25,
+  tagCounts: {},
+  platCounts: {},
+};
+
+/* ---------------- helpers ---------------- */
+
+function fmtMoney(n) {
+  if (n == null) return null;
+  if (n >= 1_000_000) return "$" + (n / 1_000_000).toFixed(n % 1_000_000 === 0 ? 0 : 1) + "M";
+  if (n >= 1_000) return "$" + (n / 1_000).toFixed(n % 1_000 === 0 ? 0 : 1) + "k";
+  return "$" + n;
+}
+
+function tierOf(max) {
+  if (max == null) return null;
+  if (max >= 100_000) return "Elite";
+  if (max >= 25_000) return "Hot";
+  if (max >= 5_000) return "Strong";
+  if (max >= 500) return "Potential";
+  return null;
+}
+
+function ago(iso) {
+  if (!iso) return "—";
+  const t = new Date(iso).getTime();
+  const s = Math.max(1, Math.floor((Date.now() - t) / 1000));
+  if (s < 60) return s + "s ago";
+  const m = Math.floor(s / 60);
+  if (m < 60) return m + "m ago";
+  const h = Math.floor(m / 60);
+  if (h < 24) return h + "h ago";
+  const d = Math.floor(h / 24);
+  if (d < 30) return d + "d ago";
+  return new Date(iso).toLocaleDateString();
+}
+
+function initials(name) {
+  const parts = (name || "?").replace(/[®™©]/g, "").trim().split(/\s+/);
+  if (parts.length === 1) return parts[0].slice(0, 2).toUpperCase();
+  return (parts[0][0] + parts[parts.length - 1][0]).toUpperCase();
+}
+
+function platClass(platform) {
+  if (platform === "Bugcrowd") return "bc";
+  if (platform === "YesWeHack") return "yw";
+  return "";
+}
+
+function avatarHtml(p, size) {
+  if (p.logo) {
+    return `<div class="avatar"><img src="${escAttr(p.logo)}" alt="" loading="lazy" onerror="this.parentElement.innerHTML='${esc(initials(p.name))}'"></div>`;
+  }
+  return `<div class="avatar">${esc(initials(p.name))}</div>`;
+}
+
+function esc(s) {
+  return String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+function escAttr(s) { return esc(s); }
+
+/* ---------------- rendering ---------------- */
+
+function renderStats() {
+  const m = state.meta;
+  if (!m) return;
+  const p = m.platform_counts || {};
+  const stats = [
+    { num: m.programs_total, lbl: "Programs tracked", sub: Object.entries(p).map(([k, v]) => k + " " + v).join(" · ") },
+    { num: Object.keys(p).length, lbl: "Platforms", sub: Object.keys(p).join(" · ") },
+    { num: m.programs_with_bounty, lbl: "With bounty", sub: "paid programs" },
+    { num: m.new_targets, lbl: "New · last sweep", sub: "since previous run", hot: true },
+  ];
+  $("#stats").innerHTML = stats.map((s) => `
+    <div class="stat${s.hot ? " hot" : ""}">
+      <div class="num">${s.num}<small>${s.sub ? "" : ""}</small></div>
+      <div class="lbl">${s.lbl}</div>
+      ${s.sub ? `<div class="sub">${esc(s.sub)}</div>` : ""}
+    </div>`).join("");
+}
+
+function renderTicker() {
+  const body = $("#tickerBody");
+  if (!state.targets.length) {
+    body.innerHTML = `<div class="ticker-empty">no new programs since the last sweep — check back after the next run of collect.py</div>`;
+    return;
+  }
+  body.innerHTML = state.targets.slice(0, 40).map((t) => `
+    <a class="tick-chip" href="${escAttr(t.url)}" target="_blank" rel="noopener" title="${esc(t.name)}">
+      <span class="plat">${esc(t.platform)}</span>
+      <span>${esc(t.name)}</span>
+      <span class="ago">${esc(ago(t.first_seen))}</span>
+    </a>`).join("");
+}
+
+function renderChips() {
+  const platOrder = ["HackerOne", "Bugcrowd", "YesWeHack"];
+  const plats = platOrder.filter((pl) => state.platCounts[pl]);
+  $("#platformChips").innerHTML =
+    `<span class="chips-label">Platform</span>` +
+    plats.map((pl) => {
+      const on = state.platforms.has(pl) ? " on" : "";
+      return `<button class="chip${on}" data-plat="${escAttr(pl)}">${esc(pl)}<span class="n">${state.platCounts[pl]}</span></button>`;
+    }).join("");
+
+  const ordered = Object.entries(state.tagCounts).sort((a, b) => b[1] - a[1]).slice(0, 24);
+  $("#tagChips").innerHTML =
+    `<span class="chips-label">Tags</span>` +
+    ordered.map(([tag, n]) => {
+      const on = state.tags.has(tag) ? " on" : "";
+      return `<button class="chip${on}" data-tag="${escAttr(tag)}">${esc(tag)}<span class="n">${n}</span></button>`;
+    }).join("");
+}
+
+function filtered() {
+  let out = state.programs.filter((p) => {
+    if (state.hideVdp && !p.bounty_max) return false;
+    if (state.newOnly && !state.newIds.has(p.id)) return false;
+    if (state.platforms.size && !state.platforms.has(p.platform)) return false;
+    if (state.tags.size && !p.tags.some((t) => state.tags.has(t))) return false;
+    if (state.search) {
+      const q = state.search.toLowerCase();
+      const hay = (p.name + " " + (p.about || "") + " " + (p.handle || "") + " " + p.tags.join(" ")).toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  });
+  const sorters = {
+    newest: (a, b) => (b.first_seen || "").localeCompare(a.first_seen || "") || a.seq - b.seq,
+    bounty_desc: (a, b) => (b.bounty_max ?? -1) - (a.bounty_max ?? -1),
+    bounty_asc: (a, b) => (a.bounty_max ?? 1e12) - (b.bounty_max ?? 1e12),
+    name: (a, b) => a.name.localeCompare(b.name),
+  };
+  out.sort(sorters[state.sort] || sorters.newest);
+  return out;
+}
+
+function bountyHtml(p) {
+  if (p.bounty_max == null) return `<div class="bounty none">no public bounty</div>`;
+  if (p.bounty_min == null) return `<div class="bounty"><span class="cur">up to ${fmtMoney(p.bounty_max)}</span></div>`;
+  return `<div class="bounty"><span class="cur">${fmtMoney(p.bounty_min)}</span> – <span class="cur">${fmtMoney(p.bounty_max)}</span></div>`;
+}
+
+function cardHtml(p) {
+  const tier = tierOf(p.bounty_max);
+  const isNew = state.newIds.has(p.id);
+  return `
+  <div class="card" data-id="${escAttr(p.id)}" tabindex="0" role="button" aria-label="${esc(p.name)}">
+    <div class="top">
+      ${avatarHtml(p)}
+      <div style="min-width:0">
+        <div class="name">${esc(p.name)}</div>
+        <div class="meta-row">
+          <span class="plat-badge ${platClass(p.platform)}">${esc(p.platform)}</span>
+          ${isNew ? `<span class="new-flag">NEW</span>` : ""}
+          <span>${esc(ago(p.first_seen))}</span>
+        </div>
+      </div>
+    </div>
+    <div class="tags">${p.tags.slice(0, 5).map((t) => `<span class="tag">${esc(t)}</span>`).join("")}</div>
+    <div class="bottom">
+      ${bountyHtml(p)}
+      ${tier ? `<span class="tier ${tier}">${tier}</span>` : ""}
+    </div>
+  </div>`;
+}
+
+function rowHtml(p) {
+  const isNew = state.newIds.has(p.id);
+  return `
+  <div class="lrow" data-id="${escAttr(p.id)}" tabindex="0" role="button" aria-label="${esc(p.name)}">
+    ${avatarHtml(p)}
+    <div style="min-width:0">
+      <div class="name">${esc(p.name)} ${isNew ? `<span class="new-flag">NEW</span>` : ""}</div>
+      <div style="font-family:var(--mono);font-size:11px;color:var(--ink-faint)">${esc(p.platform)}${p.handle ? " · " + esc(p.handle) : ""}</div>
+    </div>
+    <div class="l-tags">${p.tags.slice(0, 4).map((t) => `<span class="tag">${esc(t)}</span>`).join("")}</div>
+    ${bountyHtml(p)}
+    <div class="ago">${esc(ago(p.first_seen))}</div>
+  </div>`;
+}
+
+function renderResults() {
+  const all = filtered();
+  const pages = Math.max(1, Math.ceil(all.length / state.perPage));
+  if (state.page > pages) state.page = pages;
+  const slice = all.slice((state.page - 1) * state.perPage, state.page * state.perPage);
+
+  $("#resultCount").innerHTML = `<b>${all.length}</b> program${all.length === 1 ? "" : "s"} shown`;
+  const shown = state.newOnly ? "new" : state.platforms.size ? [...state.platforms].join(" + ") : "all platforms";
+  $("#resultMeta").textContent = `page ${state.page}/${pages} · ${shown} · ${state.hideVdp ? "bounty only" : "incl. VDP"}`;
+
+  const wrap = $("#results");
+  wrap.className = state.view;
+  if (!slice.length) {
+    wrap.innerHTML = `<div class="ticker-empty" style="grid-column:1/-1;padding:40px;text-align:center">No programs match — try clearing filters.</div>`;
+  } else {
+    wrap.innerHTML = slice.map(state.view === "grid" ? cardHtml : rowHtml).join("");
+  }
+
+  const pager = $("#pager");
+  pager.innerHTML = `
+    <button class="btn" id="pgPrev" ${state.page <= 1 ? "disabled" : ""}>‹ prev</button>
+    <span class="page-ind">${state.page} / ${pages}</span>
+    <button class="btn" id="pgNext" ${state.page >= pages ? "disabled" : ""}>next ›</button>`;
+  $("#pgPrev").onclick = () => { if (state.page > 1) { state.page--; renderResults(); window.scrollTo({ top: 0 }); } };
+  $("#pgNext").onclick = () => { if (state.page < pages) { state.page++; renderResults(); window.scrollTo({ top: 0 }); } };
+}
+
+/* ---------------- modal ---------------- */
+
+function openModal(id) {
+  const p = state.programs.find((x) => x.id === id);
+  if (!p) return;
+  const tier = tierOf(p.bounty_max);
+  const b = p.bounty_max != null
+    ? (p.bounty_min != null ? `${fmtMoney(p.bounty_min)} – ${fmtMoney(p.bounty_max)}` : `up to ${fmtMoney(p.bounty_max)}`)
+    : "No public bounty";
+  const policy = p.policy || p.about || "No public policy snippet available for this program.";
+  const about = p.about || "No description available.";
+  $("#modal").innerHTML = `
+    <div class="modal-head">
+      ${avatarHtml(p)}
+      <div class="m-title">
+        <div class="m-name">${esc(p.name)}</div>
+        <div class="m-sub">${esc(p.platform)}${p.handle ? " · " + esc(p.handle) : ""} · first seen ${esc(ago(p.first_seen))}</div>
+      </div>
+      <button class="modal-close" id="modalClose" aria-label="Close">✕</button>
+    </div>
+    <div class="modal-body">
+      <div class="m-stats">
+        <div class="m-stat"><div class="k">Bounty</div><div class="v green">${esc(b)}</div></div>
+        ${tier ? `<div class="m-stat"><div class="k">Opportunity</div><div class="v">${tier}</div></div>` : ""}
+        ${p.reports_count != null ? `<div class="m-stat"><div class="k">Reports</div><div class="v">${p.reports_count}</div></div>` : ""}
+        <div class="m-stat"><div class="k">Status</div><div class="v">${esc(p.status)}</div></div>
+      </div>
+      <div class="m-about">${esc(about)}</div>
+      <div style="font-size:11px;color:var(--ink-faint);text-transform:uppercase;letter-spacing:.7px">Tags</div>
+      <div class="tags">${(p.tags.length ? p.tags : ["untagged"]).map((t) => `<span class="tag">${esc(t)}</span>`).join("")}</div>
+      <div class="m-actions">
+        <a class="btn-primary" href="${escAttr(p.url)}" target="_blank" rel="noopener">Open program ↗</a>
+        <button class="btn" id="modalClose2">Close</button>
+      </div>
+      <div class="m-policy">${esc(policy)}</div>
+    </div>`;
+  $("#overlay").classList.add("open");
+  $("#modalClose").onclick = closeModal;
+  $("#modalClose2").onclick = closeModal;
+  $("#overlay").onclick = (e) => { if (e.target === $("#overlay")) closeModal(); };
+  document.addEventListener("keydown", function escKey(ev) { if (ev.key === "Escape") { closeModal(); document.removeEventListener("keydown", escKey); } });
+}
+function closeModal() { $("#overlay").classList.remove("open"); }
+
+/* ---------------- events ---------------- */
+
+function bindEvents() {
+  $("#searchInput").addEventListener("input", (e) => { state.search = e.target.value.trim(); state.page = 1; renderResults(); });
+
+  $("#sortSelect").addEventListener("change", (e) => { state.sort = e.target.value; state.page = 1; renderResults(); });
+
+  $("#gridBtn").onclick = () => { state.view = "grid"; $("#gridBtn").classList.add("active"); $("#listBtn").classList.remove("active"); state.page = 1; renderResults(); };
+  $("#listBtn").onclick = () => { state.view = "list"; $("#listBtn").classList.add("active"); $("#gridBtn").classList.remove("active"); state.page = 1; renderResults(); };
+
+  $("#vdpToggle").addEventListener("change", (e) => { state.hideVdp = e.target.checked; state.page = 1; renderResults(); });
+  $("#newToggle").addEventListener("change", (e) => { state.newOnly = e.target.checked; state.page = 1; renderResults(); });
+
+  $("#platformChips").addEventListener("click", (e) => {
+    const btn = e.target.closest("[data-plat]");
+    if (!btn) return;
+    const pl = btn.dataset.plat;
+    state.platforms.has(pl) ? state.platforms.delete(pl) : state.platforms.add(pl);
+    state.page = 1; renderChips(); renderResults();
+  });
+
+  $("#tagChips").addEventListener("click", (e) => {
+    const btn = e.target.closest("[data-tag]");
+    if (!btn) return;
+    const tag = btn.dataset.tag;
+    state.tags.has(tag) ? state.tags.delete(tag) : state.tags.add(tag);
+    state.page = 1; renderChips(); renderResults();
+  });
+
+  $("#results").addEventListener("click", (e) => {
+    const card = e.target.closest("[data-id]");
+    if (card) openModal(card.dataset.id);
+  });
+  $("#results").addEventListener("keydown", (e) => {
+    if (e.key === "Enter" && e.target.closest("[data-id]")) openModal(e.target.closest("[data-id]").dataset.id);
+  });
+}
+
+/* ---------------- boot ---------------- */
+
+async function load() {
+  try {
+    const [progs, targets, meta] = await Promise.all([
+      fetch("data/programs.json").then((r) => r.json()),
+      fetch("data/latest-targets.json").then((r) => r.json()),
+      fetch("data/meta.json").then((r) => r.json()),
+    ]);
+    state.programs = progs;
+    state.targets = targets;
+    state.meta = meta;
+    state.newIds = new Set(targets.map((t) => t.id));
+
+    const tagCounts = {};
+    const platCounts = {};
+    for (const p of progs) {
+      platCounts[p.platform] = (platCounts[p.platform] || 0) + 1;
+      for (const t of p.tags) tagCounts[t] = (tagCounts[t] || 0) + 1;
+    }
+    state.tagCounts = tagCounts;
+    state.platCounts = platCounts;
+
+    const col = meta.collected_at ? new Date(meta.collected_at) : null;
+    $("#liveLabel").textContent = col
+      ? "LIVE · " + col.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })
+      : "LIVE";
+    $("#footerTime").textContent = col ? "last sweep: " + col.toLocaleString() : "";
+
+    bindEvents();
+    renderStats();
+    renderTicker();
+    renderChips();
+    renderResults();
+  } catch (err) {
+    $("#liveLabel").textContent = "OFFLINE";
+    $("#stats").innerHTML = "";
+    const wrap = $("#results");
+    wrap.className = "grid";
+    wrap.innerHTML = `
+      <div class="error-state" style="grid-column:1/-1">
+        <div class="spinner" style="display:none"></div>
+        <h2 style="color:var(--ink);margin-bottom:10px;font-size:18px">Could not load data</h2>
+        <div class="err-box">${esc(String(err))}
+
+Make sure data/ has been generated:
+
+  python collect.py
+
+then serve this folder over HTTP:
+
+  python -m http.server 8000
+  → http://localhost:8000</div>
+      </div>`;
+  }
+}
+
+load();
+</script>
+</body>
+</html>

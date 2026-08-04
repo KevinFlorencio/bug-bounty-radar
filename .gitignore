@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Local dev artifacts
+verify_cdp.py
+verify2_cdp.py
+chrome-*
+dom.html
+chrome_err.log
+
+# OS
+Thumbs.db
+.DS_Store

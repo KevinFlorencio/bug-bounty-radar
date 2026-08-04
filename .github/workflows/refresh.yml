@@ -1,0 +1,31 @@
+name: Refresh radar data
+
+on:
+  schedule:
+    # every 6 hours
+    - cron: "0 */6 * * *"
+  workflow_dispatch: {}  # allow manual trigger from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Collect data
+        run: python collect.py --quiet
+
+      - name: Commit fresh data
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet && echo "no changes" || \
+            (git commit -m "chore: refresh radar data $(date -u +%Y-%m-%dT%H:%M:%SZ)" && git push)

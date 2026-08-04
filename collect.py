@@ -262,6 +262,9 @@ def fetch_yeswehack(quiet: bool) -> list[dict]:
                 continue
             lo = it.get("bounty_reward_min")
             hi = it.get("bounty_reward_max")
+            thumb = it.get("thumbnail")
+            if isinstance(thumb, dict):
+                thumb = thumb.get("url")
             tags = classify_tags(it.get("title"), it.get("activity_area"))
             area = it.get("activity_area")
             if area and area.lower() != "tech - other" and "tech" not in area.lower():
@@ -275,7 +278,7 @@ def fetch_yeswehack(quiet: bool) -> list[dict]:
                     "url": f"https://yeswehack.com/programs/{it.get('slug')}",
                     "about": "",
                     "policy": "",
-                    "logo": it.get("thumbnail"),
+                    "logo": thumb,
                     "tags": tags,
                     "bounty_min": lo,
                     "bounty_max": hi,

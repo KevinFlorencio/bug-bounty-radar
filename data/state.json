@@ -2640,6 +2640,11 @@
    "name": "Demo-EU-admin-Test",
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   },
+  "yeswehack:withings-public-program": {
+   "platform": "YesWeHack",
+   "name": "Withings",
+   "first_seen": "2026-08-04T04:12:22.124027+00:00"
+  },
   "yeswehack:infomaniak-bug-bounty-program": {
    "platform": "YesWeHack",
    "name": "Infomaniak Bug Bounty program",
@@ -2940,16 +2945,11 @@
    "name": "Sogexia",
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   },
-  "yeswehack:withings-public-program": {
-   "platform": "YesWeHack",
-   "name": "Withings",
-   "first_seen": "2026-08-04T04:12:22.124027+00:00"
-  },
   "yeswehack:salt-mobile-sa-bug-bounty-program": {
    "platform": "YesWeHack",
    "name": "Salt Mobile SA - Bug Bounty Program",
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   }
  },
- "last_run": "2026-08-05T08:38:54.054460+00:00"
+ "last_run": "2026-08-05T14:12:48.420353+00:00"
 }

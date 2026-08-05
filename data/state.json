@@ -2055,11 +2055,6 @@
    "name": "Canva",
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   },
-  "bugcrowd:agile-pulse": {
-   "platform": "Bugcrowd",
-   "name": "AgilePulse Marketplace Bug Bounty Program",
-   "first_seen": "2026-08-04T04:12:22.124027+00:00"
-  },
   "bugcrowd:hpe-networking-product-public": {
    "platform": "Bugcrowd",
    "name": "HPE Networking Product Public Program",
@@ -2093,6 +2088,11 @@
   "bugcrowd:cisconetworking": {
    "platform": "Bugcrowd",
    "name": "Cisco Networking",
+   "first_seen": "2026-08-04T04:12:22.124027+00:00"
+  },
+  "bugcrowd:agile-pulse": {
+   "platform": "Bugcrowd",
+   "name": "AgilePulse Marketplace Bug Bounty Program",
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   },
   "bugcrowd:tamedia": {
@@ -2640,15 +2640,20 @@
    "name": "Demo-EU-admin-Test",
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   },
+  "yeswehack:infomaniak-bug-bounty-program": {
+   "platform": "YesWeHack",
+   "name": "Infomaniak Bug Bounty program",
+   "first_seen": "2026-08-04T04:12:22.124027+00:00"
+  },
   "yeswehack:withings-public-program": {
    "platform": "YesWeHack",
    "name": "Withings",
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   },
-  "yeswehack:infomaniak-bug-bounty-program": {
+  "yeswehack:deezer-bug-bounty-program-2019": {
    "platform": "YesWeHack",
-   "name": "Infomaniak Bug Bounty program",
-   "first_seen": "2026-08-04T04:12:22.124027+00:00"
+   "name": "Deezer Bug Bounty Program",
+   "first_seen": "2026-08-05T19:37:22.734505+00:00"
   },
   "yeswehack:goto-financial-public-bounty-program": {
    "platform": "YesWeHack",
@@ -2951,5 +2956,5 @@
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   }
  },
- "last_run": "2026-08-05T14:12:48.420353+00:00"
+ "last_run": "2026-08-05T19:37:22.734505+00:00"
 }

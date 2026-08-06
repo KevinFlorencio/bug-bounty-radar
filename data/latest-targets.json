@@ -1,13 +1,1 @@
-[
- {
-  "id": "yeswehack:deezer-bug-bounty-program-2019",
-  "platform": "YesWeHack",
-  "name": "Deezer Bug Bounty Program",
-  "url": "https://yeswehack.com/programs/deezer-bug-bounty-program-2019",
-  "tags": [
-   "cybersec"
-  ],
-  "bounty_max": 2500,
-  "first_seen": "2026-08-05T19:37:22.734505+00:00"
- }
-]
+[]

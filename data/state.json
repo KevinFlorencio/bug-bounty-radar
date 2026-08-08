@@ -1170,11 +1170,6 @@
    "name": "Mux",
    "first_seen": "2026-08-04T04:20:18.153141+00:00"
   },
-  "hackerone:brave": {
-   "platform": "HackerOne",
-   "name": "Brave Software",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
   "hackerone:coalition": {
    "platform": "HackerOne",
    "name": "Coalition, Inc.",
@@ -1925,14 +1920,14 @@
    "name": "BOJA Consulting Bug Bounty",
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   },
-  "bugcrowd:spacex": {
-   "platform": "Bugcrowd",
-   "name": "SpaceX/Starlink",
-   "first_seen": "2026-08-04T04:12:22.124027+00:00"
-  },
   "bugcrowd:eu-public-1": {
    "platform": "Bugcrowd",
    "name": "Demo-EU-admin-PublicMBB-1",
+   "first_seen": "2026-08-04T04:12:22.124027+00:00"
+  },
+  "bugcrowd:spacex": {
+   "platform": "Bugcrowd",
+   "name": "SpaceX/Starlink",
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   },
   "bugcrowd:twentyminuten": {
@@ -2961,5 +2956,5 @@
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   }
  },
- "last_run": "2026-08-07T18:59:49.116023+00:00"
+ "last_run": "2026-08-08T01:46:34.322849+00:00"
 }

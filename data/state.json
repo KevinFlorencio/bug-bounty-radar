@@ -2645,11 +2645,6 @@
    "name": "Infomaniak Bug Bounty program",
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   },
-  "yeswehack:withings-public-program": {
-   "platform": "YesWeHack",
-   "name": "Withings",
-   "first_seen": "2026-08-04T04:12:22.124027+00:00"
-  },
   "yeswehack:deezer-bug-bounty-program-2019": {
    "platform": "YesWeHack",
    "name": "Deezer Bug Bounty Program",
@@ -2956,5 +2951,5 @@
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   }
  },
- "last_run": "2026-08-08T06:56:38.912360+00:00"
+ "last_run": "2026-08-08T12:52:00.917985+00:00"
 }

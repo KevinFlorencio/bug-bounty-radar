@@ -505,11 +505,6 @@
    "name": "CLEAR",
    "first_seen": "2026-08-04T04:20:18.153141+00:00"
   },
-  "hackerone:kiavi": {
-   "platform": "HackerOne",
-   "name": "Kiavi",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
   "hackerone:vectra_ai_vdp": {
    "platform": "HackerOne",
    "name": "Vectra AI, Inc. (Response)",
@@ -2951,5 +2946,5 @@
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   }
  },
- "last_run": "2026-08-10T13:12:36.248291+00:00"
+ "last_run": "2026-08-10T18:59:43.394811+00:00"
 }

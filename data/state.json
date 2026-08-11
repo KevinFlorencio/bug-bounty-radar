@@ -1165,6 +1165,11 @@
    "name": "Mux",
    "first_seen": "2026-08-04T04:20:18.153141+00:00"
   },
+  "hackerone:brave": {
+   "platform": "HackerOne",
+   "name": "Brave Software",
+   "first_seen": "2026-08-11T19:04:03.742147+00:00"
+  },
   "hackerone:coalition": {
    "platform": "HackerOne",
    "name": "Coalition, Inc.",
@@ -1623,16 +1628,6 @@
   "bugcrowd:motorolamobility-iot": {
    "platform": "Bugcrowd",
    "name": "Motorola Mobility Hardware Engagement",
-   "first_seen": "2026-08-04T04:12:22.124027+00:00"
-  },
-  "bugcrowd:lafourchette": {
-   "platform": "Bugcrowd",
-   "name": "TheFork - B2B - TFM3",
-   "first_seen": "2026-08-04T04:12:22.124027+00:00"
-  },
-  "bugcrowd:thefork-b2c-wng": {
-   "platform": "Bugcrowd",
-   "name": "TheFork - B2C - WNG",
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   },
   "bugcrowd:mgmmacau-mbb-og": {
@@ -2630,6 +2625,11 @@
    "name": "Demo-EU-admin-Test",
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   },
+  "yeswehack:programmes-de-primes-aux-bogues-du-gouvernement-du-quebec-cgcd": {
+   "platform": "YesWeHack",
+   "name": "Programme de prime aux bogues du Gouvernement du Qu\u00e9bec",
+   "first_seen": "2026-08-04T04:12:22.124027+00:00"
+  },
   "yeswehack:toom-baumarkt-gmbh-bug-bounty-program": {
    "platform": "YesWeHack",
    "name": "toom Baumarkt GmbH - Webshop",
@@ -2753,11 +2753,6 @@
   "yeswehack:komoju-public-bug-bounty-program": {
    "platform": "YesWeHack",
    "name": "KOMOJU - Public Bug Bounty Program",
-   "first_seen": "2026-08-04T04:12:22.124027+00:00"
-  },
-  "yeswehack:programmes-de-primes-aux-bogues-du-gouvernement-du-quebec-cgcd": {
-   "platform": "YesWeHack",
-   "name": "Programme de prime aux bogues du Gouvernement du Qu\u00e9bec",
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   },
   "yeswehack:cybermalveillance-gouv-fr-sensibilization-prevention-and-support-in-terms-of-cybersecurity": {
@@ -2946,5 +2941,5 @@
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   }
  },
- "last_run": "2026-08-11T13:09:25.974396+00:00"
+ "last_run": "2026-08-11T19:04:03.742147+00:00"
 }

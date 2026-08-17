@@ -1,8 +1,8 @@
 {
- "collected_at": "2026-08-17T12:47:29.858993+00:00",
+ "collected_at": "2026-08-17T18:41:01.593523+00:00",
  "programs_total": 596,
  "programs_with_bounty": 376,
- "new_targets": 0,
+ "new_targets": 1,
  "platforms": [
   "Bugcrowd",
   "HackerOne",

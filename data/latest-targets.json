@@ -1,1 +1,14 @@
-[]
+[
+ {
+  "id": "bugcrowd:JaangaInc-mbb-market",
+  "platform": "Bugcrowd",
+  "name": "Jaanga Marketplace Bug Bounty",
+  "url": "/engagements/JaangaInc-mbb-market",
+  "tags": [
+   "infrastructure",
+   "cloud"
+  ],
+  "bounty_max": 1500,
+  "first_seen": "2026-08-18T12:50:17.281810+00:00"
+ }
+]

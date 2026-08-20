@@ -1,1 +1,103 @@
-[]
+[
+ {
+  "id": "bugcrowd:litew8",
+  "platform": "Bugcrowd",
+  "name": "Litew8 GmbH - Marketplace Bug Bounty ",
+  "url": "/engagements/litew8",
+  "tags": [
+   "computer software"
+  ],
+  "bounty_max": 1500,
+  "first_seen": "2026-08-20T01:19:55.719233+00:00"
+ },
+ {
+  "id": "bugcrowd:browserstack-market",
+  "platform": "Bugcrowd",
+  "name": "BrowserStack Inc. Marketplace Managed Bug Bounty Engagement",
+  "url": "/engagements/browserstack-market",
+  "tags": [
+   "web",
+   "ai/ml",
+   "computer software"
+  ],
+  "bounty_max": 1500,
+  "first_seen": "2026-08-20T01:19:55.719233+00:00"
+ },
+ {
+  "id": "bugcrowd:devsamurai",
+  "platform": "Bugcrowd",
+  "name": "DevSamurai",
+  "url": "/engagements/devsamurai",
+  "tags": [
+   "ai/ml",
+   "computer software"
+  ],
+  "bounty_max": 1500,
+  "first_seen": "2026-08-20T01:19:55.719233+00:00"
+ },
+ {
+  "id": "bugcrowd:ost-consulting-market",
+  "platform": "Bugcrowd",
+  "name": "OST Consulting SRL Marketplace Managed Bug Bounty Engagement ",
+  "url": "/engagements/ost-consulting-market",
+  "tags": [
+   "computer software"
+  ],
+  "bounty_max": 1500,
+  "first_seen": "2026-08-20T01:19:55.719233+00:00"
+ },
+ {
+  "id": "bugcrowd:accxia-gmbh",
+  "platform": "Bugcrowd",
+  "name": "Accxia Marketplace Bug Bounty ",
+  "url": "/engagements/accxia-gmbh",
+  "tags": [
+   "infrastructure"
+  ],
+  "bounty_max": 1500,
+  "first_seen": "2026-08-20T01:19:55.719233+00:00"
+ },
+ {
+  "id": "bugcrowd:moveworkforward",
+  "platform": "Bugcrowd",
+  "name": "Move Work Forward",
+  "url": "/engagements/moveworkforward",
+  "tags": [],
+  "bounty_max": 1500,
+  "first_seen": "2026-08-20T01:19:55.719233+00:00"
+ },
+ {
+  "id": "bugcrowd:resolutionde",
+  "platform": "Bugcrowd",
+  "name": "Resolution",
+  "url": "/engagements/resolutionde",
+  "tags": [
+   "finance"
+  ],
+  "bounty_max": 1500,
+  "first_seen": "2026-08-20T01:19:55.719233+00:00"
+ },
+ {
+  "id": "bugcrowd:radbee",
+  "platform": "Bugcrowd",
+  "name": "RadBee Ltd.",
+  "url": "/engagements/radbee",
+  "tags": [
+   "corporate services"
+  ],
+  "bounty_max": 1500,
+  "first_seen": "2026-08-20T01:19:55.719233+00:00"
+ },
+ {
+  "id": "bugcrowd:toolsplus",
+  "platform": "Bugcrowd",
+  "name": "ToolsPlus",
+  "url": "/engagements/toolsplus",
+  "tags": [
+   "ai/ml",
+   "retail"
+  ],
+  "bounty_max": 1500,
+  "first_seen": "2026-08-20T01:19:55.719233+00:00"
+ }
+]

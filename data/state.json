@@ -1,1405 +1,5 @@
 {
  "previous": {
-  "hackerone:zoom-private": {
-   "platform": "HackerOne",
-   "name": "Zoom Private Program",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:uipath": {
-   "platform": "HackerOne",
-   "name": "UiPath Bug Bounty Program",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:tinder": {
-   "platform": "HackerOne",
-   "name": "Tinder",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:match": {
-   "platform": "HackerOne",
-   "name": "Match.com",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:hinge": {
-   "platform": "HackerOne",
-   "name": "Hinge",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:whoop_bug_bounty": {
-   "platform": "HackerOne",
-   "name": "Whoop Bug Bounty",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:eureka_jp": {
-   "platform": "HackerOne",
-   "name": "Eureka",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:capital-one-bounty": {
-   "platform": "HackerOne",
-   "name": "Capital One Bug Bounty",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:hostinger": {
-   "platform": "HackerOne",
-   "name": "hostinger ",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:paypal": {
-   "platform": "HackerOne",
-   "name": "PayPal",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:nba-public": {
-   "platform": "HackerOne",
-   "name": "NBA Public Bug Bounty",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:expediagroup_bbp": {
-   "platform": "HackerOne",
-   "name": "Expedia Group Bug Bounty",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:snapchat": {
-   "platform": "HackerOne",
-   "name": "Snapchat",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:marriott": {
-   "platform": "HackerOne",
-   "name": "Marriott Bug Bounty Program",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:23andme_bbp": {
-   "platform": "HackerOne",
-   "name": "23andMe Bug Bounty",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:gocardless_bbp": {
-   "platform": "HackerOne",
-   "name": "GoCardless Bug Bounty Program",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:tarsnap": {
-   "platform": "HackerOne",
-   "name": "Tarsnap",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:abercrombie_fitch_bbp": {
-   "platform": "HackerOne",
-   "name": "Abercrombie & Fitch Bug Bounty",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:att": {
-   "platform": "HackerOne",
-   "name": "AT&T",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:lyft": {
-   "platform": "HackerOne",
-   "name": "Lyft",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:slack": {
-   "platform": "HackerOne",
-   "name": "Slack",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:deutschetelekom": {
-   "platform": "HackerOne",
-   "name": "Deutsche Telekom",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:uber": {
-   "platform": "HackerOne",
-   "name": "Uber",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:giesecke_devrient": {
-   "platform": "HackerOne",
-   "name": "Giesecke+Devrient",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:shopify": {
-   "platform": "HackerOne",
-   "name": "Shopify",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:robinhood": {
-   "platform": "HackerOne",
-   "name": "Robinhood Markets Bounty",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:goldmansachs": {
-   "platform": "HackerOne",
-   "name": "Goldman Sachs",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:fastmail": {
-   "platform": "HackerOne",
-   "name": "FastMail",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:united": {
-   "platform": "HackerOne",
-   "name": "United",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:varonis": {
-   "platform": "HackerOne",
-   "name": "Varonis",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:linkedin": {
-   "platform": "HackerOne",
-   "name": "LinkedIn",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:dyson": {
-   "platform": "HackerOne",
-   "name": "Dyson",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:avast": {
-   "platform": "HackerOne",
-   "name": "Avast!",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:grab": {
-   "platform": "HackerOne",
-   "name": "Grab",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:lufthansa": {
-   "platform": "HackerOne",
-   "name": "Lufthansa",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:riot": {
-   "platform": "HackerOne",
-   "name": "Riot Games",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:chess_com": {
-   "platform": "HackerOne",
-   "name": "Chess.com",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:matomo": {
-   "platform": "HackerOne",
-   "name": "Matomo",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:launchkey": {
-   "platform": "HackerOne",
-   "name": "LaunchKey",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:security": {
-   "platform": "HackerOne",
-   "name": "HackerOne",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:truist_financial": {
-   "platform": "HackerOne",
-   "name": "Truist Financial",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:mahara": {
-   "platform": "HackerOne",
-   "name": "Mahara",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:wamba": {
-   "platform": "HackerOne",
-   "name": "Wamba",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:twilio": {
-   "platform": "HackerOne",
-   "name": "Twilio",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:amazonvrp-devices": {
-   "platform": "HackerOne",
-   "name": "Amazon Vulnerability Research Program - Devices",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:gitlab": {
-   "platform": "HackerOne",
-   "name": "GitLab",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:linode": {
-   "platform": "HackerOne",
-   "name": "Linode",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:elisa": {
-   "platform": "HackerOne",
-   "name": "Elisa",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:zoominfo": {
-   "platform": "HackerOne",
-   "name": "Zoominfo",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:hotmartvdp": {
-   "platform": "HackerOne",
-   "name": "Hotmart (VDP)",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:zebra_vdp": {
-   "platform": "HackerOne",
-   "name": "Zebra VDP",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:fifth_third_bank_vdp": {
-   "platform": "HackerOne",
-   "name": "Fifth Third Bank VDP",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:fanduel": {
-   "platform": "HackerOne",
-   "name": "FanDuel",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:indrive": {
-   "platform": "HackerOne",
-   "name": "inDrive",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:hilton": {
-   "platform": "HackerOne",
-   "name": "Hilton",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:artsy": {
-   "platform": "HackerOne",
-   "name": "Artsy",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:freshworks": {
-   "platform": "HackerOne",
-   "name": "Freshworks ",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:wellsfargo-bbp": {
-   "platform": "HackerOne",
-   "name": "Wells Fargo Bounty",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:braze_inc": {
-   "platform": "HackerOne",
-   "name": "Braze, Inc.",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:doordash": {
-   "platform": "HackerOne",
-   "name": "DoorDash",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:superhuman": {
-   "platform": "HackerOne",
-   "name": "Superhuman (formerly Grammarly)",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:stellar": {
-   "platform": "HackerOne",
-   "name": "Stellar.org",
-   "first_seen": "2026-08-21T12:51:19.673119+00:00"
-  },
-  "hackerone:sofi-1": {
-   "platform": "HackerOne",
-   "name": "Sofi",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:etsy": {
-   "platform": "HackerOne",
-   "name": "Etsy",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:airlock": {
-   "platform": "HackerOne",
-   "name": "Airlock Secure Access Hub",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:starbucks": {
-   "platform": "HackerOne",
-   "name": "Starbucks",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:visa": {
-   "platform": "HackerOne",
-   "name": "Visa",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:releasewire": {
-   "platform": "HackerOne",
-   "name": "ReleaseWire",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:sorare": {
-   "platform": "HackerOne",
-   "name": "Sorare",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:torproject": {
-   "platform": "HackerOne",
-   "name": "Tor",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:floqast": {
-   "platform": "HackerOne",
-   "name": "FloQast",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:bitdefender": {
-   "platform": "HackerOne",
-   "name": "Bitdefender",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:web_de_gmbh": {
-   "platform": "HackerOne",
-   "name": "WEB.DE GmbH",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:mail-com": {
-   "platform": "HackerOne",
-   "name": "Mail.com",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:gmx_gmbh": {
-   "platform": "HackerOne",
-   "name": "GMX GmbH",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:remind": {
-   "platform": "HackerOne",
-   "name": "Remind",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:csg-public": {
-   "platform": "HackerOne",
-   "name": "Cloud Software Group",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:vimeo": {
-   "platform": "HackerOne",
-   "name": "Vimeo",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:stripchat": {
-   "platform": "HackerOne",
-   "name": "Stripchat",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:klarna_vdp": {
-   "platform": "HackerOne",
-   "name": "Klarna VDP",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:stripe": {
-   "platform": "HackerOne",
-   "name": "Stripe",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:bumba_bbp": {
-   "platform": "HackerOne",
-   "name": "Bumba",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:lark_technologies": {
-   "platform": "HackerOne",
-   "name": "Lark Technologies",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:polygon-technology": {
-   "platform": "HackerOne",
-   "name": "Polygon Technology",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:hex": {
-   "platform": "HackerOne",
-   "name": "Hex",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:barracuda": {
-   "platform": "HackerOne",
-   "name": "Barracuda Networks",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:atlassian": {
-   "platform": "HackerOne",
-   "name": "Atlassian",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:epicgames-vdp": {
-   "platform": "HackerOne",
-   "name": "Epic Games VDP",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:reddit": {
-   "platform": "HackerOne",
-   "name": "Reddit",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:samsungsmarttv": {
-   "platform": "HackerOne",
-   "name": "Samsung SmartTV",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:bookingcom": {
-   "platform": "HackerOne",
-   "name": "Booking.com",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:roche": {
-   "platform": "HackerOne",
-   "name": "F. Hoffmann-La Roche Ltd.",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:elastic": {
-   "platform": "HackerOne",
-   "name": "Elastic",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:compass-bbp": {
-   "platform": "HackerOne",
-   "name": "Compass",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:deriv": {
-   "platform": "HackerOne",
-   "name": "Deriv.com",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:eufy_security": {
-   "platform": "HackerOne",
-   "name": "eufy Security",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:zte": {
-   "platform": "HackerOne",
-   "name": "ZTE",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:attack-secure": {
-   "platform": "HackerOne",
-   "name": "Attack Secure",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:1win_com": {
-   "platform": "HackerOne",
-   "name": "1win",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:clear": {
-   "platform": "HackerOne",
-   "name": "CLEAR",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:vectra_ai_vdp": {
-   "platform": "HackerOne",
-   "name": "Vectra AI, Inc. (Response)",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:workday": {
-   "platform": "HackerOne",
-   "name": "Workday",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:mufg-vdp": {
-   "platform": "HackerOne",
-   "name": "MUFG VDP",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:threatbutt": {
-   "platform": "HackerOne",
-   "name": "Threatbutt",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:s-pankki": {
-   "platform": "HackerOne",
-   "name": "S-Pankki",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:neon_bbp": {
-   "platform": "HackerOne",
-   "name": "Neon",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:klarna": {
-   "platform": "HackerOne",
-   "name": "Klarna",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:highrise_hq": {
-   "platform": "HackerOne",
-   "name": "Highrise HQ",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:instacart": {
-   "platform": "HackerOne",
-   "name": "Instacart",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:koho": {
-   "platform": "HackerOne",
-   "name": "KOHO",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:ttusds_jv": {
-   "platform": "HackerOne",
-   "name": "TTUSDS JV",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:yammer": {
-   "platform": "HackerOne",
-   "name": "Yammer",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:eero": {
-   "platform": "HackerOne",
-   "name": "eero",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:playtika": {
-   "platform": "HackerOne",
-   "name": "Playtika",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:toolsforhumanity": {
-   "platform": "HackerOne",
-   "name": "Tools for Humanity",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:anthropic": {
-   "platform": "HackerOne",
-   "name": "Anthropic",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:instructure": {
-   "platform": "HackerOne",
-   "name": "Instructure",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:yelp": {
-   "platform": "HackerOne",
-   "name": "Yelp",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:ribose": {
-   "platform": "HackerOne",
-   "name": "Ribose",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:mozilla": {
-   "platform": "HackerOne",
-   "name": "Mozilla",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:coinjar": {
-   "platform": "HackerOne",
-   "name": "CoinJar",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:early_warning": {
-   "platform": "HackerOne",
-   "name": "Early Warning",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:uwaterloo": {
-   "platform": "HackerOne",
-   "name": "University of Waterloo",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:nodejs": {
-   "platform": "HackerOne",
-   "name": "Node.js",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:naver_whale": {
-   "platform": "HackerOne",
-   "name": "Naver Whale",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:alsco": {
-   "platform": "HackerOne",
-   "name": "ALSCO",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:quora": {
-   "platform": "HackerOne",
-   "name": "Quora",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:wisdomtree": {
-   "platform": "HackerOne",
-   "name": "WisdomTree, Inc.",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:urbancompany": {
-   "platform": "HackerOne",
-   "name": "Urban Company",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:trellix": {
-   "platform": "HackerOne",
-   "name": "Trellix",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:knowbe4": {
-   "platform": "HackerOne",
-   "name": "KnowBe4",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:inditex": {
-   "platform": "HackerOne",
-   "name": "Inditex",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:modern_treasury": {
-   "platform": "HackerOne",
-   "name": "Modern Treasury",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:netflix": {
-   "platform": "HackerOne",
-   "name": "Netflix",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:rockstargames": {
-   "platform": "HackerOne",
-   "name": "Rockstar Games",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:mercadolibre": {
-   "platform": "HackerOne",
-   "name": "MercadoLibre",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:liverpool_victoria": {
-   "platform": "HackerOne",
-   "name": "Liverpool Victoria",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:hrblock-bbp": {
-   "platform": "HackerOne",
-   "name": "H&R Block Tax Group, Inc. BBP",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:roblox": {
-   "platform": "HackerOne",
-   "name": "Roblox",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:kayak": {
-   "platform": "HackerOne",
-   "name": "KAYAK",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:arkadiyt-projects": {
-   "platform": "HackerOne",
-   "name": "arkadiyt-projects",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:yuga_labs": {
-   "platform": "HackerOne",
-   "name": "Yuga Labs",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:ring": {
-   "platform": "HackerOne",
-   "name": "Ring",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:eternal": {
-   "platform": "HackerOne",
-   "name": "Eternal",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:sage": {
-   "platform": "HackerOne",
-   "name": "Sage",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:moonpay": {
-   "platform": "HackerOne",
-   "name": "MoonPay ",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:coinbase": {
-   "platform": "HackerOne",
-   "name": "Coinbase",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:priceline": {
-   "platform": "HackerOne",
-   "name": "Priceline",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:unico_idtech": {
-   "platform": "HackerOne",
-   "name": "Unico IDtech",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:remitly": {
-   "platform": "HackerOne",
-   "name": "Remitly",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:kiwicom": {
-   "platform": "HackerOne",
-   "name": "Kiwi.com",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:mediatek": {
-   "platform": "HackerOne",
-   "name": "MediaTek",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:valve": {
-   "platform": "HackerOne",
-   "name": "Valve",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:box_private": {
-   "platform": "HackerOne",
-   "name": "Box BB",
-   "first_seen": "2026-08-04T19:39:50.950574+00:00"
-  },
-  "hackerone:semrush": {
-   "platform": "HackerOne",
-   "name": "Semrush",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:synology": {
-   "platform": "HackerOne",
-   "name": "Synology",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:mit": {
-   "platform": "HackerOne",
-   "name": "Massachusetts Institute of Technology",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:plaid": {
-   "platform": "HackerOne",
-   "name": "Plaid",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:fronthq": {
-   "platform": "HackerOne",
-   "name": "Front",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:bugcrowd": {
-   "platform": "HackerOne",
-   "name": "Bugcrowd",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:starbucks_china": {
-   "platform": "HackerOne",
-   "name": "Starbucks China",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:starbucks_japan": {
-   "platform": "HackerOne",
-   "name": "Starbucks Japan",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:kaneva": {
-   "platform": "HackerOne",
-   "name": "Kaneva",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:pastecoin": {
-   "platform": "HackerOne",
-   "name": "PasteCoin",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:bitcoin_de": {
-   "platform": "HackerOne",
-   "name": "Bitcoin.de",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:razorpay": {
-   "platform": "HackerOne",
-   "name": "Razorpay",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:hyland_software": {
-   "platform": "HackerOne",
-   "name": "Hyland Software",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:epicgames": {
-   "platform": "HackerOne",
-   "name": "Epic Games",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:sendsafely": {
-   "platform": "HackerOne",
-   "name": "SendSafely",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:simplybuilt": {
-   "platform": "HackerOne",
-   "name": "SimplyBuilt",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:rakutenglobal": {
-   "platform": "HackerOne",
-   "name": "Rakuten",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:publitas": {
-   "platform": "HackerOne",
-   "name": "Publitas",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:fertitta_entertainment": {
-   "platform": "HackerOne",
-   "name": "Fertitta Entertainment",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:audible": {
-   "platform": "HackerOne",
-   "name": "Audible",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:factorial": {
-   "platform": "HackerOne",
-   "name": "Factorial",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:magic-eden": {
-   "platform": "HackerOne",
-   "name": "Magic Eden",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:websecurify": {
-   "platform": "HackerOne",
-   "name": "Websecurify",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:trendyol": {
-   "platform": "HackerOne",
-   "name": "Trendyol",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:dynatrace": {
-   "platform": "HackerOne",
-   "name": "Dynatrace",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:helpscout": {
-   "platform": "HackerOne",
-   "name": "Helpscout",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:wso2telco": {
-   "platform": "HackerOne",
-   "name": "WSO2.Telco",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:monaco_card": {
-   "platform": "HackerOne",
-   "name": "Monaco Card",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:lemlist": {
-   "platform": "HackerOne",
-   "name": "lemlist",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:newwork": {
-   "platform": "HackerOne",
-   "name": "New Work",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:hyatt": {
-   "platform": "HackerOne",
-   "name": "Hyatt Hotels",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:intuit_rdp": {
-   "platform": "HackerOne",
-   "name": "Intuit",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:xiaomi": {
-   "platform": "HackerOne",
-   "name": "Xiaomi",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:khealth": {
-   "platform": "HackerOne",
-   "name": "KHealth",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:whmcs": {
-   "platform": "HackerOne",
-   "name": "WHMCS",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:cpanel": {
-   "platform": "HackerOne",
-   "name": "cPanel",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:wealthsimple": {
-   "platform": "HackerOne",
-   "name": "Wealthsimple",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:greenhouse": {
-   "platform": "HackerOne",
-   "name": "Greenhouse.io",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:udemy": {
-   "platform": "HackerOne",
-   "name": "Udemy",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:typo3": {
-   "platform": "HackerOne",
-   "name": "TYPO3",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:yandex": {
-   "platform": "HackerOne",
-   "name": "Yandex",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:akamai": {
-   "platform": "HackerOne",
-   "name": "Akamai",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:midas": {
-   "platform": "HackerOne",
-   "name": "MIDAS",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:files": {
-   "platform": "HackerOne",
-   "name": "Files.com",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:enjin": {
-   "platform": "HackerOne",
-   "name": "Enjin",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:crypto": {
-   "platform": "HackerOne",
-   "name": "Crypto.com",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:tiktok": {
-   "platform": "HackerOne",
-   "name": "TikTok",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:particleb": {
-   "platform": "HackerOne",
-   "name": "Particle B",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:whatnot": {
-   "platform": "HackerOne",
-   "name": "Whatnot",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:3cx": {
-   "platform": "HackerOne",
-   "name": "3CX",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:dailypay_vdp": {
-   "platform": "HackerOne",
-   "name": "DailyPay VDP",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:mbedtls": {
-   "platform": "HackerOne",
-   "name": "ARM mbed TLS",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:rei_bbp": {
-   "platform": "HackerOne",
-   "name": "REI BBP",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:sea": {
-   "platform": "HackerOne",
-   "name": "Sea",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:rails": {
-   "platform": "HackerOne",
-   "name": "Ruby on Rails",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:adobe": {
-   "platform": "HackerOne",
-   "name": "Adobe",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:exness": {
-   "platform": "HackerOne",
-   "name": "EXNESS",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:hubspot": {
-   "platform": "HackerOne",
-   "name": "HubSpot",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:airbnb": {
-   "platform": "HackerOne",
-   "name": "Airbnb",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:flickr": {
-   "platform": "HackerOne",
-   "name": "Flickr",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:basecamp": {
-   "platform": "HackerOne",
-   "name": "Basecamp",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:supabase": {
-   "platform": "HackerOne",
-   "name": "Supabase",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:groupon": {
-   "platform": "HackerOne",
-   "name": "Groupon",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:spotify": {
-   "platform": "HackerOne",
-   "name": "Spotify",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:judgeme": {
-   "platform": "HackerOne",
-   "name": "Judge.me ",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:moodle": {
-   "platform": "HackerOne",
-   "name": "Moodle",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:picsart": {
-   "platform": "HackerOne",
-   "name": "Picsart",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:who-covid-19-mobile-app": {
-   "platform": "HackerOne",
-   "name": "WHO COVID-19 Mobile App",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:taxwell-vdp": {
-   "platform": "HackerOne",
-   "name": "Taxwell VDP",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:planet-labs": {
-   "platform": "HackerOne",
-   "name": "Planet Labs",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:robinhood_markets": {
-   "platform": "HackerOne",
-   "name": "Robinhood Markets",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:ridewithvia": {
-   "platform": "HackerOne",
-   "name": "Via",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:affirm": {
-   "platform": "HackerOne",
-   "name": "Affirm",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:1password": {
-   "platform": "HackerOne",
-   "name": "1Password - Enterprise Password Manager",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:mux": {
-   "platform": "HackerOne",
-   "name": "Mux",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:coalition": {
-   "platform": "HackerOne",
-   "name": "Coalition, Inc.",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:circle-bbp": {
-   "platform": "HackerOne",
-   "name": "Circle BBP",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:yoti": {
-   "platform": "HackerOne",
-   "name": "Yoti",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:bykea": {
-   "platform": "HackerOne",
-   "name": "Bykea",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:wordpress": {
-   "platform": "HackerOne",
-   "name": "WordPress",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:hootsuite": {
-   "platform": "HackerOne",
-   "name": "Hootsuite",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:soundcloud": {
-   "platform": "HackerOne",
-   "name": "Soundcloud",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:ibm": {
-   "platform": "HackerOne",
-   "name": "IBM",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:rabobank": {
-   "platform": "HackerOne",
-   "name": "Rabobank",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:airbus": {
-   "platform": "HackerOne",
-   "name": "Airbus",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:staples": {
-   "platform": "HackerOne",
-   "name": "Staples",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:bt": {
-   "platform": "HackerOne",
-   "name": "BT",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:apache": {
-   "platform": "HackerOne",
-   "name": "Apache",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:caltech": {
-   "platform": "HackerOne",
-   "name": "California Institute of Technology",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:tweakers": {
-   "platform": "HackerOne",
-   "name": "Tweakers",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:accorhotels": {
-   "platform": "HackerOne",
-   "name": "AccorHotels",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:edx": {
-   "platform": "HackerOne",
-   "name": "edX",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:acronis": {
-   "platform": "HackerOne",
-   "name": "Acronis",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:oportun_vdp": {
-   "platform": "HackerOne",
-   "name": "Oportun",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:nisc": {
-   "platform": "HackerOne",
-   "name": "NISC-VDP",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:logitech": {
-   "platform": "HackerOne",
-   "name": "Logitech",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:keybank": {
-   "platform": "HackerOne",
-   "name": "KeyBank",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:hcl_software": {
-   "platform": "HackerOne",
-   "name": "HCL Software Inc.",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:td-bank": {
-   "platform": "HackerOne",
-   "name": "TD Bank Group",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:cognizant": {
-   "platform": "HackerOne",
-   "name": "Cognizant",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:intermedia": {
-   "platform": "HackerOne",
-   "name": "Intermedia",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:john-deere": {
-   "platform": "HackerOne",
-   "name": "John Deere",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:8x8-bounty": {
-   "platform": "HackerOne",
-   "name": "8x8",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:cbre": {
-   "platform": "HackerOne",
-   "name": "CBRE",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:hypr-corp": {
-   "platform": "HackerOne",
-   "name": "HYPR",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:smtp2go": {
-   "platform": "HackerOne",
-   "name": "SMTP2GO BBP",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:newegg": {
-   "platform": "HackerOne",
-   "name": "Newegg",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:blend-labs": {
-   "platform": "HackerOne",
-   "name": "Blend Labs",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:palantir_public": {
-   "platform": "HackerOne",
-   "name": "Palantir Public",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:ro": {
-   "platform": "HackerOne",
-   "name": "Ro",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:avalara": {
-   "platform": "HackerOne",
-   "name": "Avalara",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:superbet": {
-   "platform": "HackerOne",
-   "name": "Superbet",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:wallet_on_telegram": {
-   "platform": "HackerOne",
-   "name": "Wallet on Telegram",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:mintel": {
-   "platform": "HackerOne",
-   "name": "Mintel",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:aws_vdp": {
-   "platform": "HackerOne",
-   "name": "AWS VDP",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:itau_unibanco": {
-   "platform": "HackerOne",
-   "name": "Ita\u00fa Unibanco",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:kong": {
-   "platform": "HackerOne",
-   "name": "Kong",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:vercel-open-source": {
-   "platform": "HackerOne",
-   "name": "Vercel Open Source",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:phonepe_vdp": {
-   "platform": "HackerOne",
-   "name": "PhonePe",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:github": {
-   "platform": "HackerOne",
-   "name": "GitHub",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:ethereum": {
-   "platform": "HackerOne",
-   "name": "Ethereum",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:tron_dao": {
-   "platform": "HackerOne",
-   "name": "TRON DAO",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:cloudflare": {
-   "platform": "HackerOne",
-   "name": "Cloudflare Public Bug Bounty",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:snowflake": {
-   "platform": "HackerOne",
-   "name": "Snowflake",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:amazonvrp": {
-   "platform": "HackerOne",
-   "name": "Amazon Vulnerability Research Program",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
-  "hackerone:ovh-group": {
-   "platform": "HackerOne",
-   "name": "OVH",
-   "first_seen": "2026-08-04T04:20:18.153141+00:00"
-  },
   "bugcrowd:nubank": {
    "platform": "Bugcrowd",
    "name": "Nubank Brasil Managed Bug Bounty Program",
@@ -1820,11 +420,6 @@
    "name": "Navan",
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   },
-  "bugcrowd:originenergy-og1": {
-   "platform": "Bugcrowd",
-   "name": "Origin Energy",
-   "first_seen": "2026-08-04T04:12:22.124027+00:00"
-  },
   "bugcrowd:blofin-crypto-mbb-og": {
    "platform": "Bugcrowd",
    "name": "Blofin Crypto Managed Bug Bounty Engagement",
@@ -1870,11 +465,6 @@
    "name": "Litew8 GmbH - Marketplace Bug Bounty ",
    "first_seen": "2026-08-20T01:19:55.719233+00:00"
   },
-  "bugcrowd:linktree-mbb-og": {
-   "platform": "Bugcrowd",
-   "name": "Linktree",
-   "first_seen": "2026-08-04T04:12:22.124027+00:00"
-  },
   "bugcrowd:kiteworks-public": {
    "platform": "Bugcrowd",
    "name": "Kiteworks",
@@ -1885,14 +475,14 @@
    "name": "SimpliSafe Managed Bug Bounty Engagement",
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   },
-  "bugcrowd:t-mobile": {
-   "platform": "Bugcrowd",
-   "name": "T-Mobile",
-   "first_seen": "2026-08-04T04:12:22.124027+00:00"
-  },
   "bugcrowd:skyscanner": {
    "platform": "Bugcrowd",
    "name": "Skyscanner",
+   "first_seen": "2026-08-04T04:12:22.124027+00:00"
+  },
+  "bugcrowd:linktree-mbb-og": {
+   "platform": "Bugcrowd",
+   "name": "Linktree",
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   },
   "bugcrowd:pinterest": {
@@ -1903,6 +493,16 @@
   "bugcrowd:openai": {
    "platform": "Bugcrowd",
    "name": "OpenAI",
+   "first_seen": "2026-08-04T04:12:22.124027+00:00"
+  },
+  "bugcrowd:originenergy-og1": {
+   "platform": "Bugcrowd",
+   "name": "Origin Energy",
+   "first_seen": "2026-08-04T04:12:22.124027+00:00"
+  },
+  "bugcrowd:t-mobile": {
+   "platform": "Bugcrowd",
+   "name": "T-Mobile",
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   },
   "bugcrowd:xfinity-home": {
@@ -1980,19 +580,9 @@
    "name": "Bitdefender",
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   },
-  "bugcrowd:square": {
-   "platform": "Bugcrowd",
-   "name": "Square",
-   "first_seen": "2026-08-04T04:12:22.124027+00:00"
-  },
   "bugcrowd:fis": {
    "platform": "Bugcrowd",
    "name": "FIS",
-   "first_seen": "2026-08-04T04:12:22.124027+00:00"
-  },
-  "bugcrowd:asana": {
-   "platform": "Bugcrowd",
-   "name": "Asana",
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   },
   "bugcrowd:hpe-networking-product-public": {
@@ -2060,19 +650,9 @@
    "name": "BrowserStack Inc. Marketplace Managed Bug Bounty Engagement",
    "first_seen": "2026-08-20T01:19:55.719233+00:00"
   },
-  "bugcrowd:clickhouse": {
-   "platform": "Bugcrowd",
-   "name": "ClickHouse",
-   "first_seen": "2026-08-04T04:12:22.124027+00:00"
-  },
   "bugcrowd:neohrms": {
    "platform": "Bugcrowd",
    "name": "NEOGOV Public Assets",
-   "first_seen": "2026-08-04T04:12:22.124027+00:00"
-  },
-  "bugcrowd:atlassian": {
-   "platform": "Bugcrowd",
-   "name": "Atlassian",
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   },
   "bugcrowd:thousandeyes-og": {
@@ -2080,15 +660,35 @@
    "name": "Cisco ThousandEyes Vulnerability Hunting aka Bug Bounty ",
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   },
+  "bugcrowd:devsamurai": {
+   "platform": "Bugcrowd",
+   "name": "DevSamurai",
+   "first_seen": "2026-08-20T01:19:55.719233+00:00"
+  },
+  "bugcrowd:asana": {
+   "platform": "Bugcrowd",
+   "name": "Asana",
+   "first_seen": "2026-08-04T04:12:22.124027+00:00"
+  },
   "bugcrowd:aiven-mbb-og": {
    "platform": "Bugcrowd",
    "name": "Aiven Managed Bug Bounty",
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   },
-  "bugcrowd:devsamurai": {
+  "bugcrowd:clickhouse": {
    "platform": "Bugcrowd",
-   "name": "DevSamurai",
-   "first_seen": "2026-08-20T01:19:55.719233+00:00"
+   "name": "ClickHouse",
+   "first_seen": "2026-08-04T04:12:22.124027+00:00"
+  },
+  "bugcrowd:atlassian": {
+   "platform": "Bugcrowd",
+   "name": "Atlassian",
+   "first_seen": "2026-08-04T04:12:22.124027+00:00"
+  },
+  "bugcrowd:square": {
+   "platform": "Bugcrowd",
+   "name": "Square",
+   "first_seen": "2026-08-04T04:12:22.124027+00:00"
   },
   "bugcrowd:elements": {
    "platform": "Bugcrowd",
@@ -2215,39 +815,19 @@
    "name": "Majid Al Futtaim Customer Solutions",
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   },
-  "bugcrowd:hypixel-studios-mbb-og": {
-   "platform": "Bugcrowd",
-   "name": "Hypixel Studios Managed Bug Bounty Engagement",
-   "first_seen": "2026-08-04T04:12:22.124027+00:00"
-  },
   "bugcrowd:mobilitystream": {
    "platform": "Bugcrowd",
    "name": "MobilityStream Bug Bounty",
    "first_seen": "2026-08-13T07:37:32.371025+00:00"
-  },
-  "bugcrowd:accxia-gmbh": {
-   "platform": "Bugcrowd",
-   "name": "Accxia Marketplace Bug Bounty ",
-   "first_seen": "2026-08-20T01:19:55.719233+00:00"
   },
   "bugcrowd:canva": {
    "platform": "Bugcrowd",
    "name": "Canva",
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   },
-  "bugcrowd:rea-mbb-og": {
-   "platform": "Bugcrowd",
-   "name": "REA Group | realestate.com.au, realcommercial.com.au, property.com.au",
-   "first_seen": "2026-08-04T04:12:22.124027+00:00"
-  },
   "bugcrowd:volkswagen-vwfs-mbb-og": {
    "platform": "Bugcrowd",
    "name": "New Blue Website (NBW) - VWFS Bug Bounty Program",
-   "first_seen": "2026-08-04T04:12:22.124027+00:00"
-  },
-  "bugcrowd:indeed": {
-   "platform": "Bugcrowd",
-   "name": "Indeed",
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   },
   "bugcrowd:monash-mbb": {
@@ -2263,6 +843,26 @@
   "bugcrowd:tyler-tech-data-insights": {
    "platform": "Bugcrowd",
    "name": "Tyler Technologies Data & Insights \u2013 Tyler Data Platform, powered by Socrata",
+   "first_seen": "2026-08-04T04:12:22.124027+00:00"
+  },
+  "bugcrowd:hypixel-studios-mbb-og": {
+   "platform": "Bugcrowd",
+   "name": "Hypixel Studios Managed Bug Bounty Engagement",
+   "first_seen": "2026-08-04T04:12:22.124027+00:00"
+  },
+  "bugcrowd:rea-mbb-og": {
+   "platform": "Bugcrowd",
+   "name": "REA Group | realestate.com.au, realcommercial.com.au, property.com.au",
+   "first_seen": "2026-08-04T04:12:22.124027+00:00"
+  },
+  "bugcrowd:accxia-gmbh": {
+   "platform": "Bugcrowd",
+   "name": "Accxia Marketplace Bug Bounty ",
+   "first_seen": "2026-08-20T01:19:55.719233+00:00"
+  },
+  "bugcrowd:indeed": {
+   "platform": "Bugcrowd",
+   "name": "Indeed",
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   },
   "bugcrowd:shipwire": {
@@ -2298,16 +898,6 @@
   "bugcrowd:nemetschek": {
    "platform": "Bugcrowd",
    "name": "Nemetschek",
-   "first_seen": "2026-08-04T04:12:22.124027+00:00"
-  },
-  "bugcrowd:easyagile": {
-   "platform": "Bugcrowd",
-   "name": "Easy Agile",
-   "first_seen": "2026-08-04T04:12:22.124027+00:00"
-  },
-  "bugcrowd:entain-public-mbb-og": {
-   "platform": "Bugcrowd",
-   "name": "Entain Public Managed Bug Bounty Engagement 2024",
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   },
   "bugcrowd:redmoon": {
@@ -2365,11 +955,6 @@
    "name": "Ultra Mobile Public Bug Bounty Engagement",
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   },
-  "bugcrowd:moneytreekkog": {
-   "platform": "Bugcrowd",
-   "name": "Moneytree KK",
-   "first_seen": "2026-08-04T04:12:22.124027+00:00"
-  },
   "bugcrowd:pantheon": {
    "platform": "Bugcrowd",
    "name": "Pantheon",
@@ -2398,11 +983,6 @@
   "bugcrowd:bullish": {
    "platform": "Bugcrowd",
    "name": "Bullish.com",
-   "first_seen": "2026-08-04T04:12:22.124027+00:00"
-  },
-  "bugcrowd:freedomofpress": {
-   "platform": "Bugcrowd",
-   "name": "SecureDrop",
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   },
   "bugcrowd:refined2": {
@@ -2463,6 +1043,26 @@
   "bugcrowd:felix-health-mbb-og": {
    "platform": "Bugcrowd",
    "name": "Felix Health Managed Bug Bounty Engagement",
+   "first_seen": "2026-08-04T04:12:22.124027+00:00"
+  },
+  "bugcrowd:moneytreekkog": {
+   "platform": "Bugcrowd",
+   "name": "Moneytree KK",
+   "first_seen": "2026-08-04T04:12:22.124027+00:00"
+  },
+  "bugcrowd:freedomofpress": {
+   "platform": "Bugcrowd",
+   "name": "SecureDrop",
+   "first_seen": "2026-08-04T04:12:22.124027+00:00"
+  },
+  "bugcrowd:entain-public-mbb-og": {
+   "platform": "Bugcrowd",
+   "name": "Entain Public Managed Bug Bounty Engagement 2024",
+   "first_seen": "2026-08-04T04:12:22.124027+00:00"
+  },
+  "bugcrowd:easyagile": {
+   "platform": "Bugcrowd",
+   "name": "Easy Agile",
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   },
   "bugcrowd:nextupai": {
@@ -2555,11 +1155,6 @@
    "name": "55 Degrees",
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   },
-  "bugcrowd:prosus-og": {
-   "platform": "Bugcrowd",
-   "name": "Prosus",
-   "first_seen": "2026-08-04T04:12:22.124027+00:00"
-  },
   "bugcrowd:stonikbyte": {
    "platform": "Bugcrowd",
    "name": "StonikByte",
@@ -2580,11 +1175,6 @@
    "name": "Unity Technologies",
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   },
-  "bugcrowd:elementor": {
-   "platform": "Bugcrowd",
-   "name": "Elementor: Bug Bounty Program",
-   "first_seen": "2026-08-04T04:12:22.124027+00:00"
-  },
   "bugcrowd:tesla": {
    "platform": "Bugcrowd",
    "name": "Tesla",
@@ -2598,16 +1188,6 @@
   "bugcrowd:trello": {
    "platform": "Bugcrowd",
    "name": "Trello",
-   "first_seen": "2026-08-04T04:12:22.124027+00:00"
-  },
-  "bugcrowd:dell-com": {
-   "platform": "Bugcrowd",
-   "name": "Dell Technologies Application Bug Bounty",
-   "first_seen": "2026-08-04T04:12:22.124027+00:00"
-  },
-  "bugcrowd:octopus-og": {
-   "platform": "Bugcrowd",
-   "name": "Octopus",
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   },
   "bugcrowd:pexels": {
@@ -2675,9 +1255,14 @@
    "name": "Electroneum Legacy Blockchain: EOL",
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   },
-  "bugcrowd:CCData-mbb-og": {
+  "bugcrowd:cisconetworking": {
    "platform": "Bugcrowd",
-   "name": "CoinDesk Data - Data API ",
+   "name": "Cisco Networking",
+   "first_seen": "2026-08-04T04:12:22.124027+00:00"
+  },
+  "bugcrowd:bitgo-mbb-og-public": {
+   "platform": "Bugcrowd",
+   "name": "BitGo Managed Public Bug Bounty Engagement ",
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   },
   "bugcrowd:smartchain-mbb-og": {
@@ -2685,9 +1270,24 @@
    "name": "Electroneum Smart Chain (ETN-SC) \u2014 EVM-Compatible Blockchain",
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   },
-  "bugcrowd:cisconetworking": {
+  "bugcrowd:CCData-mbb-og": {
    "platform": "Bugcrowd",
-   "name": "Cisco Networking",
+   "name": "CoinDesk Data - Data API ",
+   "first_seen": "2026-08-04T04:12:22.124027+00:00"
+  },
+  "bugcrowd:dell-com": {
+   "platform": "Bugcrowd",
+   "name": "Dell Technologies Application Bug Bounty",
+   "first_seen": "2026-08-04T04:12:22.124027+00:00"
+  },
+  "bugcrowd:octopus-og": {
+   "platform": "Bugcrowd",
+   "name": "Octopus",
+   "first_seen": "2026-08-04T04:12:22.124027+00:00"
+  },
+  "bugcrowd:elementor": {
+   "platform": "Bugcrowd",
+   "name": "Elementor: Bug Bounty Program",
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   },
   "bugcrowd:fireblocks-mbb-og2": {
@@ -2695,9 +1295,9 @@
    "name": "Fireblocks MPC Managed Bug Bounty Engagement",
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   },
-  "bugcrowd:bitgo-mbb-og-public": {
+  "bugcrowd:prosus-og": {
    "platform": "Bugcrowd",
-   "name": "BitGo Managed Public Bug Bounty Engagement ",
+   "name": "Prosus",
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   },
   "yeswehack:toom-baumarkt-gmbh-bug-bounty-program": {
@@ -3011,5 +1611,5 @@
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   }
  },
- "last_run": "2026-08-24T01:23:56.367145+00:00"
+ "last_run": "2026-08-24T07:01:36.829464+00:00"
 }

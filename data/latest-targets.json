@@ -1,1 +1,4164 @@
-[]
+[
+ {
+  "id": "hackerone:zoom-private",
+  "platform": "HackerOne",
+  "name": "Zoom Private Program",
+  "url": "https://hackerone.com/zoom-private",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "smart contract",
+   "blockchain",
+   "infrastructure",
+   "hardware",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:uipath",
+  "platform": "HackerOne",
+  "name": "UiPath Bug Bounty Program",
+  "url": "https://hackerone.com/uipath",
+  "tags": [
+   "web",
+   "blockchain",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:tinder",
+  "platform": "HackerOne",
+  "name": "Tinder",
+  "url": "https://hackerone.com/tinder",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "infrastructure",
+   "hardware",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:match",
+  "platform": "HackerOne",
+  "name": "Match.com",
+  "url": "https://hackerone.com/match",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "smart contract",
+   "infrastructure",
+   "hardware",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:hinge",
+  "platform": "HackerOne",
+  "name": "Hinge",
+  "url": "https://hackerone.com/hinge",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "infrastructure",
+   "hardware",
+   "ai/ml"
+  ],
+  "bounty_max": 10000,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:whoop_bug_bounty",
+  "platform": "HackerOne",
+  "name": "Whoop Bug Bounty",
+  "url": "https://hackerone.com/whoop_bug_bounty",
+  "tags": [
+   "web",
+   "api",
+   "blockchain",
+   "source code",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:eureka_jp",
+  "platform": "HackerOne",
+  "name": "Eureka",
+  "url": "https://hackerone.com/eureka_jp",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "infrastructure",
+   "hardware",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:capital-one-bounty",
+  "platform": "HackerOne",
+  "name": "Capital One Bug Bounty",
+  "url": "https://hackerone.com/capital-one-bounty",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": 50,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:hostinger",
+  "platform": "HackerOne",
+  "name": "hostinger ",
+  "url": "https://hackerone.com/hostinger",
+  "tags": [
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": 25000,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:paypal",
+  "platform": "HackerOne",
+  "name": "PayPal",
+  "url": "https://hackerone.com/paypal",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "smart contract",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": 30000,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:nba-public",
+  "platform": "HackerOne",
+  "name": "NBA Public Bug Bounty",
+  "url": "https://hackerone.com/nba-public",
+  "tags": [
+   "web",
+   "api",
+   "smart contract",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:expediagroup_bbp",
+  "platform": "HackerOne",
+  "name": "Expedia Group Bug Bounty",
+  "url": "https://hackerone.com/expediagroup_bbp",
+  "tags": [
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:snapchat",
+  "platform": "HackerOne",
+  "name": "Snapchat",
+  "url": "https://hackerone.com/snapchat",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "smart contract",
+   "blockchain",
+   "infrastructure",
+   "hardware",
+   "desktop",
+   "ai/ml"
+  ],
+  "bounty_max": 35000,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:marriott",
+  "platform": "HackerOne",
+  "name": "Marriott Bug Bounty Program",
+  "url": "https://hackerone.com/marriott",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "smart contract",
+   "blockchain",
+   "infrastructure",
+   "hardware",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:23andme_bbp",
+  "platform": "HackerOne",
+  "name": "23andMe Bug Bounty",
+  "url": "https://hackerone.com/23andme_bbp",
+  "tags": [
+   "web",
+   "api",
+   "smart contract",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:gocardless_bbp",
+  "platform": "HackerOne",
+  "name": "GoCardless Bug Bounty Program",
+  "url": "https://hackerone.com/gocardless_bbp",
+  "tags": [
+   "web",
+   "api",
+   "smart contract",
+   "blockchain",
+   "source code",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:tarsnap",
+  "platform": "HackerOne",
+  "name": "Tarsnap",
+  "url": "https://hackerone.com/tarsnap",
+  "tags": [
+   "web",
+   "source code",
+   "ai/ml"
+  ],
+  "bounty_max": 2000,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:abercrombie_fitch_bbp",
+  "platform": "HackerOne",
+  "name": "Abercrombie & Fitch Bug Bounty",
+  "url": "https://hackerone.com/abercrombie_fitch_bbp",
+  "tags": [
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:att",
+  "platform": "HackerOne",
+  "name": "AT&T",
+  "url": "https://hackerone.com/att",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "source code",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": 3000,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:lyft",
+  "platform": "HackerOne",
+  "name": "Lyft",
+  "url": "https://hackerone.com/lyft",
+  "tags": [
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:slack",
+  "platform": "HackerOne",
+  "name": "Slack",
+  "url": "https://hackerone.com/slack",
+  "tags": [
+   "web",
+   "api",
+   "smart contract",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "hardware",
+   "ai/ml"
+  ],
+  "bounty_max": 12,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:deutschetelekom",
+  "platform": "HackerOne",
+  "name": "Deutsche Telekom",
+  "url": "https://hackerone.com/deutschetelekom",
+  "tags": [
+   "web",
+   "api",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:uber",
+  "platform": "HackerOne",
+  "name": "Uber",
+  "url": "https://hackerone.com/uber",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "smart contract",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": 10000,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:giesecke_devrient",
+  "platform": "HackerOne",
+  "name": "Giesecke+Devrient",
+  "url": "https://hackerone.com/giesecke_devrient",
+  "tags": [
+   "api",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:shopify",
+  "platform": "HackerOne",
+  "name": "Shopify",
+  "url": "https://hackerone.com/shopify",
+  "tags": [
+   "api",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": 200000,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:robinhood",
+  "platform": "HackerOne",
+  "name": "Robinhood Markets Bounty",
+  "url": "https://hackerone.com/robinhood",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": 1000,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:goldmansachs",
+  "platform": "HackerOne",
+  "name": "Goldman Sachs",
+  "url": "https://hackerone.com/goldmansachs",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": 2000,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:fastmail",
+  "platform": "HackerOne",
+  "name": "FastMail",
+  "url": "https://hackerone.com/fastmail",
+  "tags": [
+   "web",
+   "api",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": 5000,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:united",
+  "platform": "HackerOne",
+  "name": "United",
+  "url": "https://hackerone.com/united",
+  "tags": [
+   "mobile",
+   "web",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:varonis",
+  "platform": "HackerOne",
+  "name": "Varonis",
+  "url": "https://hackerone.com/varonis",
+  "tags": [
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": 7000,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:linkedin",
+  "platform": "HackerOne",
+  "name": "LinkedIn",
+  "url": "https://hackerone.com/linkedin",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": 100,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:dyson",
+  "platform": "HackerOne",
+  "name": "Dyson",
+  "url": "https://hackerone.com/dyson",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "source code",
+   "hardware",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:avast",
+  "platform": "HackerOne",
+  "name": "Avast!",
+  "url": "https://hackerone.com/avast",
+  "tags": [
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:grab",
+  "platform": "HackerOne",
+  "name": "Grab",
+  "url": "https://hackerone.com/grab",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": 5000,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:lufthansa",
+  "platform": "HackerOne",
+  "name": "Lufthansa",
+  "url": "https://hackerone.com/lufthansa",
+  "tags": [],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:riot",
+  "platform": "HackerOne",
+  "name": "Riot Games",
+  "url": "https://hackerone.com/riot",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "smart contract",
+   "blockchain",
+   "infrastructure",
+   "hardware",
+   "desktop",
+   "ai/ml"
+  ],
+  "bounty_max": 7500,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:chess_com",
+  "platform": "HackerOne",
+  "name": "Chess.com",
+  "url": "https://hackerone.com/chess_com",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": 1000,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:matomo",
+  "platform": "HackerOne",
+  "name": "Matomo",
+  "url": "https://hackerone.com/matomo",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:launchkey",
+  "platform": "HackerOne",
+  "name": "LaunchKey",
+  "url": "https://hackerone.com/launchkey",
+  "tags": [
+   "web",
+   "api",
+   "infrastructure",
+   "hardware",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:security",
+  "platform": "HackerOne",
+  "name": "HackerOne",
+  "url": "https://hackerone.com/security",
+  "tags": [
+   "api",
+   "smart contract",
+   "infrastructure",
+   "hardware",
+   "ai/ml"
+  ],
+  "bounty_max": 1500,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:truist_financial",
+  "platform": "HackerOne",
+  "name": "Truist Financial",
+  "url": "https://hackerone.com/truist_financial",
+  "tags": [
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:mahara",
+  "platform": "HackerOne",
+  "name": "Mahara",
+  "url": "https://hackerone.com/mahara",
+  "tags": [
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:wamba",
+  "platform": "HackerOne",
+  "name": "Wamba",
+  "url": "https://hackerone.com/wamba",
+  "tags": [
+   "mobile",
+   "web",
+   "ai/ml"
+  ],
+  "bounty_max": 3000,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:twilio",
+  "platform": "HackerOne",
+  "name": "Twilio",
+  "url": "https://hackerone.com/twilio",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "source code",
+   "infrastructure",
+   "desktop",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:amazonvrp-devices",
+  "platform": "HackerOne",
+  "name": "Amazon Vulnerability Research Program - Devices",
+  "url": "https://hackerone.com/amazonvrp-devices",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "smart contract",
+   "blockchain",
+   "infrastructure",
+   "desktop",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:gitlab",
+  "platform": "HackerOne",
+  "name": "GitLab",
+  "url": "https://hackerone.com/gitlab",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "smart contract",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": 1000,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:linode",
+  "platform": "HackerOne",
+  "name": "Linode",
+  "url": "https://hackerone.com/linode",
+  "tags": [
+   "api",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:elisa",
+  "platform": "HackerOne",
+  "name": "Elisa",
+  "url": "https://hackerone.com/elisa",
+  "tags": [
+   "web",
+   "api",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:zoominfo",
+  "platform": "HackerOne",
+  "name": "Zoominfo",
+  "url": "https://hackerone.com/zoominfo",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:hotmartvdp",
+  "platform": "HackerOne",
+  "name": "Hotmart (VDP)",
+  "url": "https://hackerone.com/hotmartvdp",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "smart contract",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:zebra_vdp",
+  "platform": "HackerOne",
+  "name": "Zebra VDP",
+  "url": "https://hackerone.com/zebra_vdp",
+  "tags": [
+   "web",
+   "api",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:fifth_third_bank_vdp",
+  "platform": "HackerOne",
+  "name": "Fifth Third Bank VDP",
+  "url": "https://hackerone.com/fifth_third_bank_vdp",
+  "tags": [
+   "web",
+   "api",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:fanduel",
+  "platform": "HackerOne",
+  "name": "FanDuel",
+  "url": "https://hackerone.com/fanduel",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "hardware",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:indrive",
+  "platform": "HackerOne",
+  "name": "inDrive",
+  "url": "https://hackerone.com/indrive",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:hilton",
+  "platform": "HackerOne",
+  "name": "Hilton",
+  "url": "https://hackerone.com/hilton",
+  "tags": [
+   "web",
+   "api",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:artsy",
+  "platform": "HackerOne",
+  "name": "Artsy",
+  "url": "https://hackerone.com/artsy",
+  "tags": [
+   "web",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": 250,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:freshworks",
+  "platform": "HackerOne",
+  "name": "Freshworks ",
+  "url": "https://hackerone.com/freshworks",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:wellsfargo-bbp",
+  "platform": "HackerOne",
+  "name": "Wells Fargo Bounty",
+  "url": "https://hackerone.com/wellsfargo-bbp",
+  "tags": [
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:braze_inc",
+  "platform": "HackerOne",
+  "name": "Braze, Inc.",
+  "url": "https://hackerone.com/braze_inc",
+  "tags": [
+   "web",
+   "api",
+   "blockchain",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:doordash",
+  "platform": "HackerOne",
+  "name": "DoorDash",
+  "url": "https://hackerone.com/doordash",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:superhuman",
+  "platform": "HackerOne",
+  "name": "Superhuman (formerly Grammarly)",
+  "url": "https://hackerone.com/superhuman",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "desktop",
+   "ai/ml"
+  ],
+  "bounty_max": 100000,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:stellar",
+  "platform": "HackerOne",
+  "name": "Stellar.org",
+  "url": "https://hackerone.com/stellar",
+  "tags": [
+   "web",
+   "api",
+   "smart contract",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "hardware",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:sofi-1",
+  "platform": "HackerOne",
+  "name": "Sofi",
+  "url": "https://hackerone.com/sofi-1",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:etsy",
+  "platform": "HackerOne",
+  "name": "Etsy",
+  "url": "https://hackerone.com/etsy",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:airlock",
+  "platform": "HackerOne",
+  "name": "Airlock Secure Access Hub",
+  "url": "https://hackerone.com/airlock",
+  "tags": [
+   "web",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:starbucks",
+  "platform": "HackerOne",
+  "name": "Starbucks",
+  "url": "https://hackerone.com/starbucks",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "smart contract",
+   "source code",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:visa",
+  "platform": "HackerOne",
+  "name": "Visa",
+  "url": "https://hackerone.com/visa",
+  "tags": [
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": 400,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:releasewire",
+  "platform": "HackerOne",
+  "name": "ReleaseWire",
+  "url": "https://hackerone.com/releasewire",
+  "tags": [
+   "web",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": 25,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:sorare",
+  "platform": "HackerOne",
+  "name": "Sorare",
+  "url": "https://hackerone.com/sorare",
+  "tags": [
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:torproject",
+  "platform": "HackerOne",
+  "name": "Tor",
+  "url": "https://hackerone.com/torproject",
+  "tags": [
+   "web",
+   "api",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:floqast",
+  "platform": "HackerOne",
+  "name": "FloQast",
+  "url": "https://hackerone.com/floqast",
+  "tags": [
+   "web",
+   "api",
+   "smart contract",
+   "blockchain",
+   "ai/ml"
+  ],
+  "bounty_max": 100,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:snowflake",
+  "platform": "HackerOne",
+  "name": "Snowflake",
+  "url": "https://hackerone.com/snowflake",
+  "tags": [
+   "web",
+   "api",
+   "infrastructure",
+   "hardware",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:bitdefender",
+  "platform": "HackerOne",
+  "name": "Bitdefender",
+  "url": "https://hackerone.com/bitdefender",
+  "tags": [
+   "web",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:web_de_gmbh",
+  "platform": "HackerOne",
+  "name": "WEB.DE GmbH",
+  "url": "https://hackerone.com/web_de_gmbh",
+  "tags": [
+   "web",
+   "api",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:mail-com",
+  "platform": "HackerOne",
+  "name": "Mail.com",
+  "url": "https://hackerone.com/mail-com",
+  "tags": [
+   "web",
+   "api",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:gmx_gmbh",
+  "platform": "HackerOne",
+  "name": "GMX GmbH",
+  "url": "https://hackerone.com/gmx_gmbh",
+  "tags": [
+   "web",
+   "api",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:remind",
+  "platform": "HackerOne",
+  "name": "Remind",
+  "url": "https://hackerone.com/remind",
+  "tags": [
+   "web",
+   "api",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:csg-public",
+  "platform": "HackerOne",
+  "name": "Cloud Software Group",
+  "url": "https://hackerone.com/csg-public",
+  "tags": [
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:vimeo",
+  "platform": "HackerOne",
+  "name": "Vimeo",
+  "url": "https://hackerone.com/vimeo",
+  "tags": [
+   "web",
+   "api",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "hardware",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:stripchat",
+  "platform": "HackerOne",
+  "name": "Stripchat",
+  "url": "https://hackerone.com/stripchat",
+  "tags": [
+   "web",
+   "api",
+   "smart contract",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:klarna_vdp",
+  "platform": "HackerOne",
+  "name": "Klarna VDP",
+  "url": "https://hackerone.com/klarna_vdp",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:stripe",
+  "platform": "HackerOne",
+  "name": "Stripe",
+  "url": "https://hackerone.com/stripe",
+  "tags": [
+   "web",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:bumba_bbp",
+  "platform": "HackerOne",
+  "name": "Bumba",
+  "url": "https://hackerone.com/bumba_bbp",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "smart contract",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:lark_technologies",
+  "platform": "HackerOne",
+  "name": "Lark Technologies",
+  "url": "https://hackerone.com/lark_technologies",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "smart contract",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": 5000,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:polygon-technology",
+  "platform": "HackerOne",
+  "name": "Polygon Technology",
+  "url": "https://hackerone.com/polygon-technology",
+  "tags": [
+   "api",
+   "blockchain",
+   "source code",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:hex",
+  "platform": "HackerOne",
+  "name": "Hex",
+  "url": "https://hackerone.com/hex",
+  "tags": [
+   "web",
+   "api",
+   "blockchain",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:barracuda",
+  "platform": "HackerOne",
+  "name": "Barracuda Networks",
+  "url": "https://hackerone.com/barracuda",
+  "tags": [],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:atlassian",
+  "platform": "HackerOne",
+  "name": "Atlassian",
+  "url": "https://hackerone.com/atlassian",
+  "tags": [
+   "mobile",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:epicgames-vdp",
+  "platform": "HackerOne",
+  "name": "Epic Games VDP",
+  "url": "https://hackerone.com/epicgames-vdp",
+  "tags": [
+   "web",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:reddit",
+  "platform": "HackerOne",
+  "name": "Reddit",
+  "url": "https://hackerone.com/reddit",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:samsungsmarttv",
+  "platform": "HackerOne",
+  "name": "Samsung SmartTV",
+  "url": "https://hackerone.com/samsungsmarttv",
+  "tags": [
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:bookingcom",
+  "platform": "HackerOne",
+  "name": "Booking.com",
+  "url": "https://hackerone.com/bookingcom",
+  "tags": [
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "hardware",
+   "ai/ml"
+  ],
+  "bounty_max": 150,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:roche",
+  "platform": "HackerOne",
+  "name": "F. Hoffmann-La Roche Ltd.",
+  "url": "https://hackerone.com/roche",
+  "tags": [
+   "mobile",
+   "web",
+   "smart contract",
+   "source code",
+   "infrastructure",
+   "hardware",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:elastic",
+  "platform": "HackerOne",
+  "name": "Elastic",
+  "url": "https://hackerone.com/elastic",
+  "tags": [
+   "web",
+   "api",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:compass-bbp",
+  "platform": "HackerOne",
+  "name": "Compass",
+  "url": "https://hackerone.com/compass-bbp",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "source code",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:deriv",
+  "platform": "HackerOne",
+  "name": "Deriv.com",
+  "url": "https://hackerone.com/deriv",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "source code",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": 5000,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:eufy_security",
+  "platform": "HackerOne",
+  "name": "eufy Security",
+  "url": "https://hackerone.com/eufy_security",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "hardware",
+   "ai/ml"
+  ],
+  "bounty_max": 100,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:zte",
+  "platform": "HackerOne",
+  "name": "ZTE",
+  "url": "https://hackerone.com/zte",
+  "tags": [
+   "web",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:attack-secure",
+  "platform": "HackerOne",
+  "name": "Attack Secure",
+  "url": "https://hackerone.com/attack-secure",
+  "tags": [],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:1win_com",
+  "platform": "HackerOne",
+  "name": "1win",
+  "url": "https://hackerone.com/1win_com",
+  "tags": [
+   "mobile",
+   "web",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:clear",
+  "platform": "HackerOne",
+  "name": "CLEAR",
+  "url": "https://hackerone.com/clear",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:vectra_ai_vdp",
+  "platform": "HackerOne",
+  "name": "Vectra AI, Inc. (Response)",
+  "url": "https://hackerone.com/vectra_ai_vdp",
+  "tags": [
+   "mobile",
+   "web",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:workday",
+  "platform": "HackerOne",
+  "name": "Workday",
+  "url": "https://hackerone.com/workday",
+  "tags": [
+   "infrastructure"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:mufg-vdp",
+  "platform": "HackerOne",
+  "name": "MUFG VDP",
+  "url": "https://hackerone.com/mufg-vdp",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": 7500,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:threatbutt",
+  "platform": "HackerOne",
+  "name": "Threatbutt",
+  "url": "https://hackerone.com/threatbutt",
+  "tags": [
+   "web",
+   "blockchain",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:s-pankki",
+  "platform": "HackerOne",
+  "name": "S-Pankki",
+  "url": "https://hackerone.com/s-pankki",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:neon_bbp",
+  "platform": "HackerOne",
+  "name": "Neon",
+  "url": "https://hackerone.com/neon_bbp",
+  "tags": [
+   "web",
+   "api",
+   "source code",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:klarna",
+  "platform": "HackerOne",
+  "name": "Klarna",
+  "url": "https://hackerone.com/klarna",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": 150,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:highrise_hq",
+  "platform": "HackerOne",
+  "name": "Highrise HQ",
+  "url": "https://hackerone.com/highrise_hq",
+  "tags": [
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:instacart",
+  "platform": "HackerOne",
+  "name": "Instacart",
+  "url": "https://hackerone.com/instacart",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "smart contract",
+   "infrastructure",
+   "hardware",
+   "ai/ml"
+  ],
+  "bounty_max": 15000,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:koho",
+  "platform": "HackerOne",
+  "name": "KOHO",
+  "url": "https://hackerone.com/koho",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:ttusds_jv",
+  "platform": "HackerOne",
+  "name": "TTUSDS JV",
+  "url": "https://hackerone.com/ttusds_jv",
+  "tags": [],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:yammer",
+  "platform": "HackerOne",
+  "name": "Yammer",
+  "url": "https://hackerone.com/yammer",
+  "tags": [],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:eero",
+  "platform": "HackerOne",
+  "name": "eero",
+  "url": "https://hackerone.com/eero",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "smart contract",
+   "blockchain",
+   "infrastructure",
+   "desktop",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:playtika",
+  "platform": "HackerOne",
+  "name": "Playtika",
+  "url": "https://hackerone.com/playtika",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:toolsforhumanity",
+  "platform": "HackerOne",
+  "name": "Tools for Humanity",
+  "url": "https://hackerone.com/toolsforhumanity",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "smart contract",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "hardware",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:anthropic",
+  "platform": "HackerOne",
+  "name": "Anthropic",
+  "url": "https://hackerone.com/anthropic",
+  "tags": [
+   "api",
+   "smart contract",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": 100,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:instructure",
+  "platform": "HackerOne",
+  "name": "Instructure",
+  "url": "https://hackerone.com/instructure",
+  "tags": [
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:yelp",
+  "platform": "HackerOne",
+  "name": "Yelp",
+  "url": "https://hackerone.com/yelp",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": 10000,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:ribose",
+  "platform": "HackerOne",
+  "name": "Ribose",
+  "url": "https://hackerone.com/ribose",
+  "tags": [
+   "web",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:mozilla",
+  "platform": "HackerOne",
+  "name": "Mozilla",
+  "url": "https://hackerone.com/mozilla",
+  "tags": [
+   "web",
+   "smart contract",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": 6000,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:coinjar",
+  "platform": "HackerOne",
+  "name": "CoinJar",
+  "url": "https://hackerone.com/coinjar",
+  "tags": [
+   "hardware",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:early_warning",
+  "platform": "HackerOne",
+  "name": "Early Warning",
+  "url": "https://hackerone.com/early_warning",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:uwaterloo",
+  "platform": "HackerOne",
+  "name": "University of Waterloo",
+  "url": "https://hackerone.com/uwaterloo",
+  "tags": [
+   "web",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:nodejs",
+  "platform": "HackerOne",
+  "name": "Node.js",
+  "url": "https://hackerone.com/nodejs",
+  "tags": [
+   "web",
+   "api",
+   "smart contract",
+   "source code",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:wickr",
+  "platform": "HackerOne",
+  "name": "Wickr",
+  "url": "https://hackerone.com/wickr",
+  "tags": [
+   "web",
+   "api",
+   "smart contract",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": 100000,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:naver_whale",
+  "platform": "HackerOne",
+  "name": "Naver Whale",
+  "url": "https://hackerone.com/naver_whale",
+  "tags": [
+   "web",
+   "api",
+   "infrastructure",
+   "hardware",
+   "ai/ml"
+  ],
+  "bounty_max": 7500,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:alsco",
+  "platform": "HackerOne",
+  "name": "ALSCO",
+  "url": "https://hackerone.com/alsco",
+  "tags": [
+   "web",
+   "api",
+   "smart contract",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:quora",
+  "platform": "HackerOne",
+  "name": "Quora",
+  "url": "https://hackerone.com/quora",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "infrastructure",
+   "desktop",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:wisdomtree",
+  "platform": "HackerOne",
+  "name": "WisdomTree, Inc.",
+  "url": "https://hackerone.com/wisdomtree",
+  "tags": [
+   "mobile",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:urbancompany",
+  "platform": "HackerOne",
+  "name": "Urban Company",
+  "url": "https://hackerone.com/urbancompany",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:trellix",
+  "platform": "HackerOne",
+  "name": "Trellix",
+  "url": "https://hackerone.com/trellix",
+  "tags": [
+   "web",
+   "blockchain",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:knowbe4",
+  "platform": "HackerOne",
+  "name": "KnowBe4",
+  "url": "https://hackerone.com/knowbe4",
+  "tags": [
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:inditex",
+  "platform": "HackerOne",
+  "name": "Inditex",
+  "url": "https://hackerone.com/inditex",
+  "tags": [
+   "web",
+   "api",
+   "smart contract",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:modern_treasury",
+  "platform": "HackerOne",
+  "name": "Modern Treasury",
+  "url": "https://hackerone.com/modern_treasury",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "smart contract",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:netflix",
+  "platform": "HackerOne",
+  "name": "Netflix",
+  "url": "https://hackerone.com/netflix",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "hardware",
+   "ai/ml"
+  ],
+  "bounty_max": 10000,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:rockstargames",
+  "platform": "HackerOne",
+  "name": "Rockstar Games",
+  "url": "https://hackerone.com/rockstargames",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "desktop",
+   "ai/ml"
+  ],
+  "bounty_max": 500,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:mercadolibre",
+  "platform": "HackerOne",
+  "name": "MercadoLibre",
+  "url": "https://hackerone.com/mercadolibre",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": 9460,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:liverpool_victoria",
+  "platform": "HackerOne",
+  "name": "Liverpool Victoria",
+  "url": "https://hackerone.com/liverpool_victoria",
+  "tags": [
+   "web",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:hrblock-bbp",
+  "platform": "HackerOne",
+  "name": "H&R Block Tax Group, Inc. BBP",
+  "url": "https://hackerone.com/hrblock-bbp",
+  "tags": [
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:roblox",
+  "platform": "HackerOne",
+  "name": "Roblox",
+  "url": "https://hackerone.com/roblox",
+  "tags": [
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:kayak",
+  "platform": "HackerOne",
+  "name": "KAYAK",
+  "url": "https://hackerone.com/kayak",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:arkadiyt-projects",
+  "platform": "HackerOne",
+  "name": "arkadiyt-projects",
+  "url": "https://hackerone.com/arkadiyt-projects",
+  "tags": [
+   "source code",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:yuga_labs",
+  "platform": "HackerOne",
+  "name": "Yuga Labs",
+  "url": "https://hackerone.com/yuga_labs",
+  "tags": [
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:ring",
+  "platform": "HackerOne",
+  "name": "Ring",
+  "url": "https://hackerone.com/ring",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "smart contract",
+   "blockchain",
+   "infrastructure",
+   "desktop",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:eternal",
+  "platform": "HackerOne",
+  "name": "Eternal",
+  "url": "https://hackerone.com/eternal",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": 150,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:sage",
+  "platform": "HackerOne",
+  "name": "Sage",
+  "url": "https://hackerone.com/sage",
+  "tags": [
+   "web",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:moonpay",
+  "platform": "HackerOne",
+  "name": "MoonPay ",
+  "url": "https://hackerone.com/moonpay",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "smart contract",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:coinbase",
+  "platform": "HackerOne",
+  "name": "Coinbase",
+  "url": "https://hackerone.com/coinbase",
+  "tags": [
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": 1000000,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:priceline",
+  "platform": "HackerOne",
+  "name": "Priceline",
+  "url": "https://hackerone.com/priceline",
+  "tags": [
+   "web",
+   "api",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:unico_idtech",
+  "platform": "HackerOne",
+  "name": "Unico IDtech",
+  "url": "https://hackerone.com/unico_idtech",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:remitly",
+  "platform": "HackerOne",
+  "name": "Remitly",
+  "url": "https://hackerone.com/remitly",
+  "tags": [
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:kiwicom",
+  "platform": "HackerOne",
+  "name": "Kiwi.com",
+  "url": "https://hackerone.com/kiwicom",
+  "tags": [
+   "web",
+   "api",
+   "source code",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:mediatek",
+  "platform": "HackerOne",
+  "name": "MediaTek",
+  "url": "https://hackerone.com/mediatek",
+  "tags": [
+   "api",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:valve",
+  "platform": "HackerOne",
+  "name": "Valve",
+  "url": "https://hackerone.com/valve",
+  "tags": [
+   "mobile",
+   "web",
+   "smart contract",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:box_private",
+  "platform": "HackerOne",
+  "name": "Box BB",
+  "url": "https://hackerone.com/box_private",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:semrush",
+  "platform": "HackerOne",
+  "name": "Semrush",
+  "url": "https://hackerone.com/semrush",
+  "tags": [
+   "web",
+   "api",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:synology",
+  "platform": "HackerOne",
+  "name": "Synology",
+  "url": "https://hackerone.com/synology",
+  "tags": [
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:mit",
+  "platform": "HackerOne",
+  "name": "Massachusetts Institute of Technology",
+  "url": "https://hackerone.com/mit",
+  "tags": [],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:plaid",
+  "platform": "HackerOne",
+  "name": "Plaid",
+  "url": "https://hackerone.com/plaid",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": 15000,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:fronthq",
+  "platform": "HackerOne",
+  "name": "Front",
+  "url": "https://hackerone.com/fronthq",
+  "tags": [
+   "web",
+   "api",
+   "smart contract",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:bugcrowd",
+  "platform": "HackerOne",
+  "name": "Bugcrowd",
+  "url": "https://hackerone.com/bugcrowd",
+  "tags": [],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:starbucks_china",
+  "platform": "HackerOne",
+  "name": "Starbucks China",
+  "url": "https://hackerone.com/starbucks_china",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "smart contract",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:starbucks_japan",
+  "platform": "HackerOne",
+  "name": "Starbucks Japan",
+  "url": "https://hackerone.com/starbucks_japan",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "smart contract",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:kaneva",
+  "platform": "HackerOne",
+  "name": "Kaneva",
+  "url": "https://hackerone.com/kaneva",
+  "tags": [
+   "web",
+   "api",
+   "smart contract",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:pastecoin",
+  "platform": "HackerOne",
+  "name": "PasteCoin",
+  "url": "https://hackerone.com/pastecoin",
+  "tags": [
+   "web",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:bitcoin_de",
+  "platform": "HackerOne",
+  "name": "Bitcoin.de",
+  "url": "https://hackerone.com/bitcoin_de",
+  "tags": [
+   "smart contract",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:razorpay",
+  "platform": "HackerOne",
+  "name": "Razorpay",
+  "url": "https://hackerone.com/razorpay",
+  "tags": [
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:hyland_software",
+  "platform": "HackerOne",
+  "name": "Hyland Software",
+  "url": "https://hackerone.com/hyland_software",
+  "tags": [
+   "smart contract",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:epicgames",
+  "platform": "HackerOne",
+  "name": "Epic Games",
+  "url": "https://hackerone.com/epicgames",
+  "tags": [
+   "web",
+   "api",
+   "smart contract",
+   "infrastructure",
+   "hardware",
+   "ai/ml"
+  ],
+  "bounty_max": 25000,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:sendsafely",
+  "platform": "HackerOne",
+  "name": "SendSafely",
+  "url": "https://hackerone.com/sendsafely",
+  "tags": [
+   "web",
+   "source code",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:simplybuilt",
+  "platform": "HackerOne",
+  "name": "SimplyBuilt",
+  "url": "https://hackerone.com/simplybuilt",
+  "tags": [
+   "web",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:rakutenglobal",
+  "platform": "HackerOne",
+  "name": "Rakuten",
+  "url": "https://hackerone.com/rakutenglobal",
+  "tags": [
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:publitas",
+  "platform": "HackerOne",
+  "name": "Publitas",
+  "url": "https://hackerone.com/publitas",
+  "tags": [
+   "web",
+   "api",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:fertitta_entertainment",
+  "platform": "HackerOne",
+  "name": "Fertitta Entertainment",
+  "url": "https://hackerone.com/fertitta_entertainment",
+  "tags": [
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:audible",
+  "platform": "HackerOne",
+  "name": "Audible",
+  "url": "https://hackerone.com/audible",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:factorial",
+  "platform": "HackerOne",
+  "name": "Factorial",
+  "url": "https://hackerone.com/factorial",
+  "tags": [
+   "web",
+   "api",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:magic-eden",
+  "platform": "HackerOne",
+  "name": "Magic Eden",
+  "url": "https://hackerone.com/magic-eden",
+  "tags": [
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:websecurify",
+  "platform": "HackerOne",
+  "name": "Websecurify",
+  "url": "https://hackerone.com/websecurify",
+  "tags": [
+   "web"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:trendyol",
+  "platform": "HackerOne",
+  "name": "Trendyol",
+  "url": "https://hackerone.com/trendyol",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "smart contract",
+   "blockchain",
+   "infrastructure",
+   "desktop",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:dynatrace",
+  "platform": "HackerOne",
+  "name": "Dynatrace",
+  "url": "https://hackerone.com/dynatrace",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": 10000,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:helpscout",
+  "platform": "HackerOne",
+  "name": "Helpscout",
+  "url": "https://hackerone.com/helpscout",
+  "tags": [
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:wso2telco",
+  "platform": "HackerOne",
+  "name": "WSO2.Telco",
+  "url": "https://hackerone.com/wso2telco",
+  "tags": [
+   "api",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:monaco_card",
+  "platform": "HackerOne",
+  "name": "Monaco Card",
+  "url": "https://hackerone.com/monaco_card",
+  "tags": [
+   "blockchain",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:lemlist",
+  "platform": "HackerOne",
+  "name": "lemlist",
+  "url": "https://hackerone.com/lemlist",
+  "tags": [
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:newwork",
+  "platform": "HackerOne",
+  "name": "New Work",
+  "url": "https://hackerone.com/newwork",
+  "tags": [
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:hyatt",
+  "platform": "HackerOne",
+  "name": "Hyatt Hotels",
+  "url": "https://hackerone.com/hyatt",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:intuit_rdp",
+  "platform": "HackerOne",
+  "name": "Intuit",
+  "url": "https://hackerone.com/intuit_rdp",
+  "tags": [
+   "mobile",
+   "web",
+   "blockchain",
+   "infrastructure",
+   "hardware",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:xiaomi",
+  "platform": "HackerOne",
+  "name": "Xiaomi",
+  "url": "https://hackerone.com/xiaomi",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "source code",
+   "infrastructure",
+   "hardware",
+   "ai/ml"
+  ],
+  "bounty_max": 15000,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:khealth",
+  "platform": "HackerOne",
+  "name": "KHealth",
+  "url": "https://hackerone.com/khealth",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:whmcs",
+  "platform": "HackerOne",
+  "name": "WHMCS",
+  "url": "https://hackerone.com/whmcs",
+  "tags": [
+   "web",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:cpanel",
+  "platform": "HackerOne",
+  "name": "cPanel",
+  "url": "https://hackerone.com/cpanel",
+  "tags": [
+   "web",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:wealthsimple",
+  "platform": "HackerOne",
+  "name": "Wealthsimple",
+  "url": "https://hackerone.com/wealthsimple",
+  "tags": [
+   "web",
+   "api",
+   "smart contract",
+   "blockchain",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:greenhouse",
+  "platform": "HackerOne",
+  "name": "Greenhouse.io",
+  "url": "https://hackerone.com/greenhouse",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "smart contract",
+   "ai/ml"
+  ],
+  "bounty_max": 500,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:udemy",
+  "platform": "HackerOne",
+  "name": "Udemy",
+  "url": "https://hackerone.com/udemy",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "hardware",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:typo3",
+  "platform": "HackerOne",
+  "name": "TYPO3",
+  "url": "https://hackerone.com/typo3",
+  "tags": [
+   "web",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:yandex",
+  "platform": "HackerOne",
+  "name": "Yandex",
+  "url": "https://hackerone.com/yandex",
+  "tags": [
+   "mobile",
+   "web",
+   "infrastructure"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:akamai",
+  "platform": "HackerOne",
+  "name": "Akamai",
+  "url": "https://hackerone.com/akamai",
+  "tags": [
+   "api",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:midas",
+  "platform": "HackerOne",
+  "name": "MIDAS",
+  "url": "https://hackerone.com/midas",
+  "tags": [
+   "web",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:files",
+  "platform": "HackerOne",
+  "name": "Files.com",
+  "url": "https://hackerone.com/files",
+  "tags": [
+   "web",
+   "api",
+   "smart contract",
+   "infrastructure",
+   "desktop",
+   "ai/ml"
+  ],
+  "bounty_max": 10000,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:enjin",
+  "platform": "HackerOne",
+  "name": "Enjin",
+  "url": "https://hackerone.com/enjin",
+  "tags": [
+   "web",
+   "api",
+   "smart contract",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": 1500,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:crypto",
+  "platform": "HackerOne",
+  "name": "Crypto.com",
+  "url": "https://hackerone.com/crypto",
+  "tags": [
+   "web",
+   "smart contract",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:tiktok",
+  "platform": "HackerOne",
+  "name": "TikTok",
+  "url": "https://hackerone.com/tiktok",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "smart contract",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:particleb",
+  "platform": "HackerOne",
+  "name": "Particle B",
+  "url": "https://hackerone.com/particleb",
+  "tags": [
+   "blockchain",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:whatnot",
+  "platform": "HackerOne",
+  "name": "Whatnot",
+  "url": "https://hackerone.com/whatnot",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": 10000,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:3cx",
+  "platform": "HackerOne",
+  "name": "3CX",
+  "url": "https://hackerone.com/3cx",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": 3500,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:dailypay_vdp",
+  "platform": "HackerOne",
+  "name": "DailyPay VDP",
+  "url": "https://hackerone.com/dailypay_vdp",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:mbedtls",
+  "platform": "HackerOne",
+  "name": "ARM mbed TLS",
+  "url": "https://hackerone.com/mbedtls",
+  "tags": [
+   "web",
+   "api",
+   "blockchain",
+   "hardware",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:rei_bbp",
+  "platform": "HackerOne",
+  "name": "REI BBP",
+  "url": "https://hackerone.com/rei_bbp",
+  "tags": [
+   "web",
+   "api",
+   "smart contract",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:sea",
+  "platform": "HackerOne",
+  "name": "Sea",
+  "url": "https://hackerone.com/sea",
+  "tags": [
+   "ai/ml"
+  ],
+  "bounty_max": 50,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:rails",
+  "platform": "HackerOne",
+  "name": "Ruby on Rails",
+  "url": "https://hackerone.com/rails",
+  "tags": [
+   "web",
+   "source code",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:adobe",
+  "platform": "HackerOne",
+  "name": "Adobe",
+  "url": "https://hackerone.com/adobe",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "smart contract",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "hardware",
+   "desktop",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:exness",
+  "platform": "HackerOne",
+  "name": "EXNESS",
+  "url": "https://hackerone.com/exness",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "smart contract",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:hubspot",
+  "platform": "HackerOne",
+  "name": "HubSpot",
+  "url": "https://hackerone.com/hubspot",
+  "tags": [
+   "web",
+   "api",
+   "smart contract",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": 10000,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:airbnb",
+  "platform": "HackerOne",
+  "name": "Airbnb",
+  "url": "https://hackerone.com/airbnb",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "desktop",
+   "ai/ml"
+  ],
+  "bounty_max": 25000,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:flickr",
+  "platform": "HackerOne",
+  "name": "Flickr",
+  "url": "https://hackerone.com/flickr",
+  "tags": [
+   "web",
+   "api",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:basecamp",
+  "platform": "HackerOne",
+  "name": "Basecamp",
+  "url": "https://hackerone.com/basecamp",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "source code",
+   "ai/ml"
+  ],
+  "bounty_max": 10000,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:supabase",
+  "platform": "HackerOne",
+  "name": "Supabase",
+  "url": "https://hackerone.com/supabase",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:groupon",
+  "platform": "HackerOne",
+  "name": "Groupon",
+  "url": "https://hackerone.com/groupon",
+  "tags": [],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:spotify",
+  "platform": "HackerOne",
+  "name": "Spotify",
+  "url": "https://hackerone.com/spotify",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "smart contract",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": 100,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:judgeme",
+  "platform": "HackerOne",
+  "name": "Judge.me ",
+  "url": "https://hackerone.com/judgeme",
+  "tags": [
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:moodle",
+  "platform": "HackerOne",
+  "name": "Moodle",
+  "url": "https://hackerone.com/moodle",
+  "tags": [
+   "api",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:picsart",
+  "platform": "HackerOne",
+  "name": "Picsart",
+  "url": "https://hackerone.com/picsart",
+  "tags": [
+   "mobile",
+   "web",
+   "blockchain",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:who-covid-19-mobile-app",
+  "platform": "HackerOne",
+  "name": "WHO COVID-19 Mobile App",
+  "url": "https://hackerone.com/who-covid-19-mobile-app",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "source code",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:taxwell-vdp",
+  "platform": "HackerOne",
+  "name": "Taxwell VDP",
+  "url": "https://hackerone.com/taxwell-vdp",
+  "tags": [
+   "mobile",
+   "web",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:planet-labs",
+  "platform": "HackerOne",
+  "name": "Planet Labs",
+  "url": "https://hackerone.com/planet-labs",
+  "tags": [
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:robinhood_markets",
+  "platform": "HackerOne",
+  "name": "Robinhood Markets",
+  "url": "https://hackerone.com/robinhood_markets",
+  "tags": [
+   "web",
+   "ai/ml"
+  ],
+  "bounty_max": 1000,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:ridewithvia",
+  "platform": "HackerOne",
+  "name": "Via",
+  "url": "https://hackerone.com/ridewithvia",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:affirm",
+  "platform": "HackerOne",
+  "name": "Affirm",
+  "url": "https://hackerone.com/affirm",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "smart contract",
+   "blockchain",
+   "ai/ml"
+  ],
+  "bounty_max": 10000,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:1password",
+  "platform": "HackerOne",
+  "name": "1Password - Enterprise Password Manager",
+  "url": "https://hackerone.com/1password",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "smart contract",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": 30000,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:mux",
+  "platform": "HackerOne",
+  "name": "Mux",
+  "url": "https://hackerone.com/mux",
+  "tags": [
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:brave",
+  "platform": "HackerOne",
+  "name": "Brave Software",
+  "url": "https://hackerone.com/brave",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "smart contract",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "desktop",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:coalition",
+  "platform": "HackerOne",
+  "name": "Coalition, Inc.",
+  "url": "https://hackerone.com/coalition",
+  "tags": [
+   "web",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:circle-bbp",
+  "platform": "HackerOne",
+  "name": "Circle BBP",
+  "url": "https://hackerone.com/circle-bbp",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:yoti",
+  "platform": "HackerOne",
+  "name": "Yoti",
+  "url": "https://hackerone.com/yoti",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "infrastructure",
+   "hardware",
+   "ai/ml"
+  ],
+  "bounty_max": 1000,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:bykea",
+  "platform": "HackerOne",
+  "name": "Bykea",
+  "url": "https://hackerone.com/bykea",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": 5000,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:wordpress",
+  "platform": "HackerOne",
+  "name": "WordPress",
+  "url": "https://hackerone.com/wordpress",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:hootsuite",
+  "platform": "HackerOne",
+  "name": "Hootsuite",
+  "url": "https://hackerone.com/hootsuite",
+  "tags": [
+   "api",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:soundcloud",
+  "platform": "HackerOne",
+  "name": "Soundcloud",
+  "url": "https://hackerone.com/soundcloud",
+  "tags": [
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:ibm",
+  "platform": "HackerOne",
+  "name": "IBM",
+  "url": "https://hackerone.com/ibm",
+  "tags": [
+   "web",
+   "api",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:rabobank",
+  "platform": "HackerOne",
+  "name": "Rabobank",
+  "url": "https://hackerone.com/rabobank",
+  "tags": [],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:airbus",
+  "platform": "HackerOne",
+  "name": "Airbus",
+  "url": "https://hackerone.com/airbus",
+  "tags": [
+   "mobile",
+   "api",
+   "smart contract",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:staples",
+  "platform": "HackerOne",
+  "name": "Staples",
+  "url": "https://hackerone.com/staples",
+  "tags": [
+   "web",
+   "api",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:bt",
+  "platform": "HackerOne",
+  "name": "BT",
+  "url": "https://hackerone.com/bt",
+  "tags": [],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:apache",
+  "platform": "HackerOne",
+  "name": "Apache",
+  "url": "https://hackerone.com/apache",
+  "tags": [
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:caltech",
+  "platform": "HackerOne",
+  "name": "California Institute of Technology",
+  "url": "https://hackerone.com/caltech",
+  "tags": [
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:tweakers",
+  "platform": "HackerOne",
+  "name": "Tweakers",
+  "url": "https://hackerone.com/tweakers",
+  "tags": [
+   "web",
+   "hardware",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:accorhotels",
+  "platform": "HackerOne",
+  "name": "AccorHotels",
+  "url": "https://hackerone.com/accorhotels",
+  "tags": [
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:edx",
+  "platform": "HackerOne",
+  "name": "edX",
+  "url": "https://hackerone.com/edx",
+  "tags": [
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:acronis",
+  "platform": "HackerOne",
+  "name": "Acronis",
+  "url": "https://hackerone.com/acronis",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:oportun_vdp",
+  "platform": "HackerOne",
+  "name": "Oportun",
+  "url": "https://hackerone.com/oportun_vdp",
+  "tags": [
+   "infrastructure",
+   "hardware",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:nisc",
+  "platform": "HackerOne",
+  "name": "NISC-VDP",
+  "url": "https://hackerone.com/nisc",
+  "tags": [
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "hardware",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:logitech",
+  "platform": "HackerOne",
+  "name": "Logitech",
+  "url": "https://hackerone.com/logitech",
+  "tags": [
+   "web",
+   "smart contract",
+   "blockchain",
+   "infrastructure",
+   "hardware",
+   "desktop",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:keybank",
+  "platform": "HackerOne",
+  "name": "KeyBank",
+  "url": "https://hackerone.com/keybank",
+  "tags": [
+   "web",
+   "api",
+   "smart contract",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:hcl_software",
+  "platform": "HackerOne",
+  "name": "HCL Software Inc.",
+  "url": "https://hackerone.com/hcl_software",
+  "tags": [
+   "web",
+   "blockchain",
+   "hardware",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:td-bank",
+  "platform": "HackerOne",
+  "name": "TD Bank Group",
+  "url": "https://hackerone.com/td-bank",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "smart contract",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:cognizant",
+  "platform": "HackerOne",
+  "name": "Cognizant",
+  "url": "https://hackerone.com/cognizant",
+  "tags": [
+   "web",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:intermedia",
+  "platform": "HackerOne",
+  "name": "Intermedia",
+  "url": "https://hackerone.com/intermedia",
+  "tags": [],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:john-deere",
+  "platform": "HackerOne",
+  "name": "John Deere",
+  "url": "https://hackerone.com/john-deere",
+  "tags": [
+   "web",
+   "api",
+   "infrastructure",
+   "hardware",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:8x8-bounty",
+  "platform": "HackerOne",
+  "name": "8x8",
+  "url": "https://hackerone.com/8x8-bounty",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "source code",
+   "infrastructure",
+   "desktop",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:cbre",
+  "platform": "HackerOne",
+  "name": "CBRE",
+  "url": "https://hackerone.com/cbre",
+  "tags": [
+   "web",
+   "api",
+   "infrastructure",
+   "hardware",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:hypr-corp",
+  "platform": "HackerOne",
+  "name": "HYPR",
+  "url": "https://hackerone.com/hypr-corp",
+  "tags": [
+   "mobile",
+   "web",
+   "blockchain",
+   "infrastructure",
+   "desktop",
+   "ai/ml"
+  ],
+  "bounty_max": 250,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:smtp2go",
+  "platform": "HackerOne",
+  "name": "SMTP2GO BBP",
+  "url": "https://hackerone.com/smtp2go",
+  "tags": [
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:newegg",
+  "platform": "HackerOne",
+  "name": "Newegg",
+  "url": "https://hackerone.com/newegg",
+  "tags": [
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "hardware",
+   "desktop",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:blend-labs",
+  "platform": "HackerOne",
+  "name": "Blend Labs",
+  "url": "https://hackerone.com/blend-labs",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "desktop",
+   "ai/ml"
+  ],
+  "bounty_max": 7500,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:palantir_public",
+  "platform": "HackerOne",
+  "name": "Palantir Public",
+  "url": "https://hackerone.com/palantir_public",
+  "tags": [
+   "web",
+   "api",
+   "smart contract",
+   "infrastructure",
+   "desktop",
+   "ai/ml"
+  ],
+  "bounty_max": 250,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:ro",
+  "platform": "HackerOne",
+  "name": "Ro",
+  "url": "https://hackerone.com/ro",
+  "tags": [
+   "web",
+   "smart contract",
+   "blockchain",
+   "infrastructure",
+   "hardware",
+   "desktop",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:avalara",
+  "platform": "HackerOne",
+  "name": "Avalara",
+  "url": "https://hackerone.com/avalara",
+  "tags": [
+   "web",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:superbet",
+  "platform": "HackerOne",
+  "name": "Superbet",
+  "url": "https://hackerone.com/superbet",
+  "tags": [
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": 500,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:wallet_on_telegram",
+  "platform": "HackerOne",
+  "name": "Wallet on Telegram",
+  "url": "https://hackerone.com/wallet_on_telegram",
+  "tags": [
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": 100000,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:mintel",
+  "platform": "HackerOne",
+  "name": "Mintel",
+  "url": "https://hackerone.com/mintel",
+  "tags": [
+   "web",
+   "blockchain",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:aws_vdp",
+  "platform": "HackerOne",
+  "name": "AWS VDP",
+  "url": "https://hackerone.com/aws_vdp",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "smart contract",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "hardware",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:itau_unibanco",
+  "platform": "HackerOne",
+  "name": "Itaú Unibanco",
+  "url": "https://hackerone.com/itau_unibanco",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:kong",
+  "platform": "HackerOne",
+  "name": "Kong",
+  "url": "https://hackerone.com/kong",
+  "tags": [
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:vercel-open-source",
+  "platform": "HackerOne",
+  "name": "Vercel Open Source",
+  "url": "https://hackerone.com/vercel-open-source",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "smart contract",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "hardware",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:phonepe_vdp",
+  "platform": "HackerOne",
+  "name": "PhonePe",
+  "url": "https://hackerone.com/phonepe_vdp",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:github",
+  "platform": "HackerOne",
+  "name": "GitHub",
+  "url": "https://hackerone.com/github",
+  "tags": [
+   "web",
+   "api",
+   "smart contract",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": 10000,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:ethereum",
+  "platform": "HackerOne",
+  "name": "Ethereum",
+  "url": "https://hackerone.com/ethereum",
+  "tags": [],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:tron_dao",
+  "platform": "HackerOne",
+  "name": "TRON DAO",
+  "url": "https://hackerone.com/tron_dao",
+  "tags": [
+   "web",
+   "api",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "desktop",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:cloudflare",
+  "platform": "HackerOne",
+  "name": "Cloudflare Public Bug Bounty",
+  "url": "https://hackerone.com/cloudflare",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "desktop",
+   "ai/ml"
+  ],
+  "bounty_max": 250,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:amazonvrp",
+  "platform": "HackerOne",
+  "name": "Amazon Vulnerability Research Program",
+  "url": "https://hackerone.com/amazonvrp",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ },
+ {
+  "id": "hackerone:ovh-group",
+  "platform": "HackerOne",
+  "name": "OVH",
+  "url": "https://hackerone.com/ovh-group",
+  "tags": [
+   "web",
+   "api",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-26T12:55:07.868032+00:00"
+ }
+]

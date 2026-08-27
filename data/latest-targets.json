@@ -1,1 +1,54 @@
-[]
+[
+ {
+  "id": "bugcrowd:FindOut-infovis",
+  "platform": "Bugcrowd",
+  "name": "FindOut InfoVis AB - Marketplace Bug Bounty Program",
+  "url": "/engagements/FindOut-infovis",
+  "tags": [
+   "computer software"
+  ],
+  "bounty_max": 1500,
+  "first_seen": "2026-08-27T08:08:01.089323+00:00"
+ },
+ {
+  "id": "bugcrowd:navarambh",
+  "platform": "Bugcrowd",
+  "name": "Navarambh",
+  "url": "/engagements/navarambh",
+  "tags": [],
+  "bounty_max": 1500,
+  "first_seen": "2026-08-27T08:08:01.089323+00:00"
+ },
+ {
+  "id": "bugcrowd:caelor-group-market",
+  "platform": "Bugcrowd",
+  "name": "Caelor Group",
+  "url": "/engagements/caelor-group-market",
+  "tags": [
+   "corporate services"
+  ],
+  "bounty_max": 1500,
+  "first_seen": "2026-08-27T08:08:01.089323+00:00"
+ },
+ {
+  "id": "bugcrowd:brizoit",
+  "platform": "Bugcrowd",
+  "name": "BrizoIT",
+  "url": "/engagements/brizoit",
+  "tags": [],
+  "bounty_max": 1500,
+  "first_seen": "2026-08-27T08:08:01.089323+00:00"
+ },
+ {
+  "id": "bugcrowd:metainfkft",
+  "platform": "Bugcrowd",
+  "name": "META-INF",
+  "url": "/engagements/metainfkft",
+  "tags": [
+   "infrastructure",
+   "computer software"
+  ],
+  "bounty_max": 1500,
+  "first_seen": "2026-08-27T08:08:01.089323+00:00"
+ }
+]

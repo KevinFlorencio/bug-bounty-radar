@@ -1,13 +1,1 @@
-[
- {
-  "id": "bugcrowd:monash-mbb",
-  "platform": "Bugcrowd",
-  "name": "Monash University Bug Bounty",
-  "url": "/engagements/monash-mbb",
-  "tags": [
-   "education"
-  ],
-  "bounty_max": 7500,
-  "first_seen": "2026-08-30T11:28:32.834825+00:00"
- }
-]
+[]

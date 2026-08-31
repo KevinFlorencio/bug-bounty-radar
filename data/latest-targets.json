@@ -1,1 +1,21 @@
-[]
+[
+ {
+  "id": "hackerone:brave",
+  "platform": "HackerOne",
+  "name": "Brave Software",
+  "url": "https://hackerone.com/brave",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "smart contract",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "desktop",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-08-31T22:36:35.359628+00:00"
+ }
+]

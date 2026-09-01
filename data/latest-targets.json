@@ -1,21 +1,14 @@
 [
  {
-  "id": "hackerone:brave",
-  "platform": "HackerOne",
-  "name": "Brave Software",
-  "url": "https://hackerone.com/brave",
+  "id": "bugcrowd:metainfkft",
+  "platform": "Bugcrowd",
+  "name": "META-INF",
+  "url": "/engagements/metainfkft",
   "tags": [
-   "mobile",
-   "web",
-   "api",
-   "smart contract",
-   "blockchain",
-   "source code",
    "infrastructure",
-   "desktop",
-   "ai/ml"
+   "computer software"
   ],
-  "bounty_max": null,
-  "first_seen": "2026-08-31T22:36:35.359628+00:00"
+  "bounty_max": 1500,
+  "first_seen": "2026-09-01T04:07:10.104956+00:00"
  }
 ]

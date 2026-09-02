@@ -1,1 +1,14 @@
-[]
+[
+ {
+  "id": "bugcrowd:hypixel-studios-mbb-og",
+  "platform": "Bugcrowd",
+  "name": "Hypixel Studios Managed Bug Bounty Engagement",
+  "url": "/engagements/hypixel-studios-mbb-og",
+  "tags": [
+   "mobile",
+   "games"
+  ],
+  "bounty_max": 25000,
+  "first_seen": "2026-09-02T20:41:40.465739+00:00"
+ }
+]

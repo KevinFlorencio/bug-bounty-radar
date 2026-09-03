@@ -1,14 +1,69 @@
 [
  {
-  "id": "bugcrowd:hypixel-studios-mbb-og",
+  "id": "bugcrowd:monash-mbb",
   "platform": "Bugcrowd",
-  "name": "Hypixel Studios Managed Bug Bounty Engagement",
-  "url": "/engagements/hypixel-studios-mbb-og",
+  "name": "Monash University Bug Bounty",
+  "url": "/engagements/monash-mbb",
   "tags": [
-   "mobile",
-   "games"
+   "education"
   ],
-  "bounty_max": 25000,
-  "first_seen": "2026-09-02T20:41:40.465739+00:00"
+  "bounty_max": 7500,
+  "first_seen": "2026-09-03T03:30:21.068501+00:00"
+ },
+ {
+  "id": "bugcrowd:shinetech-software-market",
+  "platform": "Bugcrowd",
+  "name": "Shinetech Software Inc Marketplace Managed Bug Bounty Engagement ",
+  "url": "/engagements/shinetech-software-market",
+  "tags": [
+   "computer software"
+  ],
+  "bounty_max": 1500,
+  "first_seen": "2026-09-03T03:30:21.068501+00:00"
+ },
+ {
+  "id": "bugcrowd:epicsumup",
+  "platform": "Bugcrowd",
+  "name": "APTIS",
+  "url": "/engagements/epicsumup",
+  "tags": [
+   "computer software"
+  ],
+  "bounty_max": 1500,
+  "first_seen": "2026-09-03T03:30:21.068501+00:00"
+ },
+ {
+  "id": "bugcrowd:xopero-software-marketplace",
+  "platform": "Bugcrowd",
+  "name": "Xopero Software S.A. Marketplace Managed Bug Bounty Engagement",
+  "url": "/engagements/xopero-software-marketplace",
+  "tags": [
+   "source code",
+   "computer software"
+  ],
+  "bounty_max": 1500,
+  "first_seen": "2026-09-03T03:30:21.068501+00:00"
+ },
+ {
+  "id": "bugcrowd:okapya",
+  "platform": "Bugcrowd",
+  "name": "Okapya",
+  "url": "/engagements/okapya",
+  "tags": [
+   "computer software"
+  ],
+  "bounty_max": 1500,
+  "first_seen": "2026-09-03T03:30:21.068501+00:00"
+ },
+ {
+  "id": "bugcrowd:akeles",
+  "platform": "Bugcrowd",
+  "name": "Akeles Marketplace Bug Bounty",
+  "url": "/engagements/akeles",
+  "tags": [
+   "computer software"
+  ],
+  "bounty_max": 1500,
+  "first_seen": "2026-09-03T03:30:21.068501+00:00"
  }
 ]

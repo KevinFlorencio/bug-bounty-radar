@@ -1760,16 +1760,6 @@
    "name": "Raley Apps",
    "first_seen": "2026-08-30T04:17:48.725986+00:00"
   },
-  "bugcrowd:maffashion": {
-   "platform": "Bugcrowd",
-   "name": "Majid Al Futtaim Lifestyle",
-   "first_seen": "2026-08-30T04:17:48.725986+00:00"
-  },
-  "bugcrowd:craftcoders": {
-   "platform": "Bugcrowd",
-   "name": "Craft Coders Marketplace Bug Bounty",
-   "first_seen": "2026-08-30T04:17:48.725986+00:00"
-  },
   "bugcrowd:agile-pulse": {
    "platform": "Bugcrowd",
    "name": "AgilePulse Marketplace Bug Bounty Program",
@@ -1785,11 +1775,6 @@
    "name": "eazyBI",
    "first_seen": "2026-08-30T04:17:48.725986+00:00"
   },
-  "bugcrowd:backblaze": {
-   "platform": "Bugcrowd",
-   "name": "Backblaze",
-   "first_seen": "2026-08-30T04:17:48.725986+00:00"
-  },
   "bugcrowd:marvelutionbv": {
    "platform": "Bugcrowd",
    "name": "Marvelution",
@@ -1798,11 +1783,6 @@
   "bugcrowd:lastpass": {
    "platform": "Bugcrowd",
    "name": "LastPass",
-   "first_seen": "2026-08-30T04:17:48.725986+00:00"
-  },
-  "bugcrowd:originenergy-og1": {
-   "platform": "Bugcrowd",
-   "name": "Origin Energy",
    "first_seen": "2026-08-30T04:17:48.725986+00:00"
   },
   "bugcrowd:litew8": {
@@ -1825,34 +1805,9 @@
    "name": "Izymes",
    "first_seen": "2026-08-30T04:17:48.725986+00:00"
   },
-  "bugcrowd:quizlet": {
-   "platform": "Bugcrowd",
-   "name": "Quizlet",
-   "first_seen": "2026-08-30T04:17:48.725986+00:00"
-  },
-  "bugcrowd:hutgroup-public": {
-   "platform": "Bugcrowd",
-   "name": "The Hut Group: Public Managed Bug Bounty Engagement",
-   "first_seen": "2026-08-30T04:17:48.725986+00:00"
-  },
-  "bugcrowd:linktree-mbb-og": {
-   "platform": "Bugcrowd",
-   "name": "Linktree",
-   "first_seen": "2026-08-30T04:17:48.725986+00:00"
-  },
   "bugcrowd:flourish": {
    "platform": "Bugcrowd",
    "name": "Flourish",
-   "first_seen": "2026-08-30T04:17:48.725986+00:00"
-  },
-  "bugcrowd:bullish-exchange": {
-   "platform": "Bugcrowd",
-   "name": "Bullish Exchange",
-   "first_seen": "2026-08-30T04:17:48.725986+00:00"
-  },
-  "bugcrowd:t-mobile": {
-   "platform": "Bugcrowd",
-   "name": "T-Mobile",
    "first_seen": "2026-08-30T04:17:48.725986+00:00"
   },
   "bugcrowd:coindesk-mbb-og": {
@@ -1870,6 +1825,31 @@
    "name": "SimpliSafe Managed Bug Bounty Engagement",
    "first_seen": "2026-08-30T04:17:48.725986+00:00"
   },
+  "bugcrowd:craftcoders": {
+   "platform": "Bugcrowd",
+   "name": "Craft Coders Marketplace Bug Bounty",
+   "first_seen": "2026-08-30T04:17:48.725986+00:00"
+  },
+  "bugcrowd:pinterest": {
+   "platform": "Bugcrowd",
+   "name": "Pinterest",
+   "first_seen": "2026-08-30T04:17:48.725986+00:00"
+  },
+  "bugcrowd:hutgroup-public": {
+   "platform": "Bugcrowd",
+   "name": "The Hut Group: Public Managed Bug Bounty Engagement",
+   "first_seen": "2026-08-30T04:17:48.725986+00:00"
+  },
+  "bugcrowd:bullish-exchange": {
+   "platform": "Bugcrowd",
+   "name": "Bullish Exchange",
+   "first_seen": "2026-08-30T04:17:48.725986+00:00"
+  },
+  "bugcrowd:maffashion": {
+   "platform": "Bugcrowd",
+   "name": "Majid Al Futtaim Lifestyle",
+   "first_seen": "2026-08-30T04:17:48.725986+00:00"
+  },
   "bugcrowd:blofin-crypto-mbb-og": {
    "platform": "Bugcrowd",
    "name": "Blofin Crypto Managed Bug Bounty Engagement",
@@ -1880,14 +1860,34 @@
    "name": "OpenAI",
    "first_seen": "2026-08-30T04:17:48.725986+00:00"
   },
-  "bugcrowd:pinterest": {
+  "bugcrowd:t-mobile": {
    "platform": "Bugcrowd",
-   "name": "Pinterest",
+   "name": "T-Mobile",
+   "first_seen": "2026-08-30T04:17:48.725986+00:00"
+  },
+  "bugcrowd:linktree-mbb-og": {
+   "platform": "Bugcrowd",
+   "name": "Linktree",
    "first_seen": "2026-08-30T04:17:48.725986+00:00"
   },
   "bugcrowd:soundcloud": {
    "platform": "Bugcrowd",
    "name": "SoundCloud",
+   "first_seen": "2026-08-30T04:17:48.725986+00:00"
+  },
+  "bugcrowd:backblaze": {
+   "platform": "Bugcrowd",
+   "name": "Backblaze",
+   "first_seen": "2026-08-30T04:17:48.725986+00:00"
+  },
+  "bugcrowd:quizlet": {
+   "platform": "Bugcrowd",
+   "name": "Quizlet",
+   "first_seen": "2026-08-30T04:17:48.725986+00:00"
+  },
+  "bugcrowd:originenergy-og1": {
+   "platform": "Bugcrowd",
+   "name": "Origin Energy",
    "first_seen": "2026-08-30T04:17:48.725986+00:00"
   },
   "bugcrowd:xfinity-home": {
@@ -2015,11 +2015,6 @@
    "name": "Asana",
    "first_seen": "2026-08-30T04:17:48.725986+00:00"
   },
-  "bugcrowd:classdojo": {
-   "platform": "Bugcrowd",
-   "name": "ClassDojo",
-   "first_seen": "2026-08-30T04:17:48.725986+00:00"
-  },
   "bugcrowd:keepersecurity": {
    "platform": "Bugcrowd",
    "name": "Keeper Security Public Bounty Program",
@@ -2035,29 +2030,9 @@
    "name": "Opsgenie",
    "first_seen": "2026-08-30T04:17:48.725986+00:00"
   },
-  "bugcrowd:bitdefender": {
-   "platform": "Bugcrowd",
-   "name": "Bitdefender",
-   "first_seen": "2026-08-30T04:17:48.725986+00:00"
-  },
   "bugcrowd:etsy": {
    "platform": "Bugcrowd",
    "name": "Etsy",
-   "first_seen": "2026-08-30T04:17:48.725986+00:00"
-  },
-  "bugcrowd:wise": {
-   "platform": "Bugcrowd",
-   "name": "Wise (ex-TransferWise)",
-   "first_seen": "2026-08-30T04:17:48.725986+00:00"
-  },
-  "bugcrowd:glassdoor-ogbb": {
-   "platform": "Bugcrowd",
-   "name": "Glassdoor Managed Bug Bounty Engagement",
-   "first_seen": "2026-08-30T04:17:48.725986+00:00"
-  },
-  "bugcrowd:auth0-okta": {
-   "platform": "Bugcrowd",
-   "name": "Auth0 by Okta",
    "first_seen": "2026-08-30T04:17:48.725986+00:00"
   },
   "bugcrowd:recorded-future-mbb-og": {
@@ -2068,6 +2043,21 @@
   "bugcrowd:atlassian": {
    "platform": "Bugcrowd",
    "name": "Atlassian",
+   "first_seen": "2026-08-30T04:17:48.725986+00:00"
+  },
+  "bugcrowd:bitdefender": {
+   "platform": "Bugcrowd",
+   "name": "Bitdefender",
+   "first_seen": "2026-08-30T04:17:48.725986+00:00"
+  },
+  "bugcrowd:wise": {
+   "platform": "Bugcrowd",
+   "name": "Wise (ex-TransferWise)",
+   "first_seen": "2026-08-30T04:17:48.725986+00:00"
+  },
+  "bugcrowd:classdojo": {
+   "platform": "Bugcrowd",
+   "name": "ClassDojo",
    "first_seen": "2026-08-30T04:17:48.725986+00:00"
   },
   "bugcrowd:aiven-mbb-og": {
@@ -2083,6 +2073,16 @@
   "bugcrowd:lightspeed-retail": {
    "platform": "Bugcrowd",
    "name": "Lightspeed Retail",
+   "first_seen": "2026-08-30T04:17:48.725986+00:00"
+  },
+  "bugcrowd:glassdoor-ogbb": {
+   "platform": "Bugcrowd",
+   "name": "Glassdoor Managed Bug Bounty Engagement",
+   "first_seen": "2026-08-30T04:17:48.725986+00:00"
+  },
+  "bugcrowd:auth0-okta": {
+   "platform": "Bugcrowd",
+   "name": "Auth0 by Okta",
    "first_seen": "2026-08-30T04:17:48.725986+00:00"
   },
   "bugcrowd:secureflag-mbb-market": {
@@ -2150,11 +2150,6 @@
    "name": "Elements",
    "first_seen": "2026-08-30T04:17:48.725986+00:00"
   },
-  "bugcrowd:afterpay": {
-   "platform": "Bugcrowd",
-   "name": "Afterpay Bug Bounty Program",
-   "first_seen": "2026-08-30T04:17:48.725986+00:00"
-  },
   "bugcrowd:mastercard": {
    "platform": "Bugcrowd",
    "name": "Mastercard Public Bug Bounty ",
@@ -2178,11 +2173,6 @@
   "bugcrowd:volkswagen-og": {
    "platform": "Bugcrowd",
    "name": "Volkswagen ",
-   "first_seen": "2026-08-30T04:17:48.725986+00:00"
-  },
-  "bugcrowd:moveworkforward": {
-   "platform": "Bugcrowd",
-   "name": "Move Work Forward",
    "first_seen": "2026-08-30T04:17:48.725986+00:00"
   },
   "bugcrowd:vox": {
@@ -2235,11 +2225,6 @@
    "name": "Hypixel Studios Managed Bug Bounty Engagement",
    "first_seen": "2026-09-02T20:41:40.465739+00:00"
   },
-  "bugcrowd:metainfkft": {
-   "platform": "Bugcrowd",
-   "name": "META-INF",
-   "first_seen": "2026-09-01T04:07:10.104956+00:00"
-  },
   "bugcrowd:canva": {
    "platform": "Bugcrowd",
    "name": "Canva",
@@ -2268,6 +2253,21 @@
   "bugcrowd:rea-mbb-og": {
    "platform": "Bugcrowd",
    "name": "REA Group | realestate.com.au, realcommercial.com.au, property.com.au",
+   "first_seen": "2026-08-30T04:17:48.725986+00:00"
+  },
+  "bugcrowd:afterpay": {
+   "platform": "Bugcrowd",
+   "name": "Afterpay Bug Bounty Program",
+   "first_seen": "2026-08-30T04:17:48.725986+00:00"
+  },
+  "bugcrowd:metainfkft": {
+   "platform": "Bugcrowd",
+   "name": "META-INF",
+   "first_seen": "2026-09-01T04:07:10.104956+00:00"
+  },
+  "bugcrowd:moveworkforward": {
+   "platform": "Bugcrowd",
+   "name": "Move Work Forward",
    "first_seen": "2026-08-30T04:17:48.725986+00:00"
   },
   "bugcrowd:shipwire": {
@@ -2318,11 +2318,6 @@
   "bugcrowd:easyagile": {
    "platform": "Bugcrowd",
    "name": "Easy Agile",
-   "first_seen": "2026-08-30T04:17:48.725986+00:00"
-  },
-  "bugcrowd:balsamiq": {
-   "platform": "Bugcrowd",
-   "name": "Balsamiq for Atlassian Products",
    "first_seen": "2026-08-30T04:17:48.725986+00:00"
   },
   "bugcrowd:ultramobile-public": {
@@ -2395,16 +2390,6 @@
    "name": "Latitude Financial Services Bug Bounty ",
    "first_seen": "2026-08-30T04:17:48.725986+00:00"
   },
-  "bugcrowd:optimizely": {
-   "platform": "Bugcrowd",
-   "name": "Optimizely",
-   "first_seen": "2026-08-30T04:17:48.725986+00:00"
-  },
-  "bugcrowd:kaleido": {
-   "platform": "Bugcrowd",
-   "name": "Kaleido",
-   "first_seen": "2026-08-30T04:17:48.725986+00:00"
-  },
   "bugcrowd:bullish": {
    "platform": "Bugcrowd",
    "name": "Bullish.com",
@@ -2413,11 +2398,6 @@
   "bugcrowd:wyze": {
    "platform": "Bugcrowd",
    "name": "Wyze Bug Bounty",
-   "first_seen": "2026-08-30T04:17:48.725986+00:00"
-  },
-  "bugcrowd:mallofemirates": {
-   "platform": "Bugcrowd",
-   "name": "Majid Al Futtaim Properties",
    "first_seen": "2026-08-30T04:17:48.725986+00:00"
   },
   "bugcrowd:kohls": {
@@ -2440,16 +2420,6 @@
    "name": "BOJA Consulting Bug Bounty",
    "first_seen": "2026-08-30T04:17:48.725986+00:00"
   },
-  "bugcrowd:opera": {
-   "platform": "Bugcrowd",
-   "name": "Opera Public Bug Bounty",
-   "first_seen": "2026-08-30T04:17:48.725986+00:00"
-  },
-  "bugcrowd:entain-public-mbb-og": {
-   "platform": "Bugcrowd",
-   "name": "Entain Public Managed Bug Bounty Engagement 2024",
-   "first_seen": "2026-08-30T04:17:48.725986+00:00"
-  },
   "bugcrowd:seek": {
    "platform": "Bugcrowd",
    "name": "SEEK ",
@@ -2470,19 +2440,44 @@
    "name": "SecureDrop",
    "first_seen": "2026-08-30T04:17:48.725986+00:00"
   },
-  "bugcrowd:xopero-software-marketplace": {
+  "bugcrowd:upwork": {
    "platform": "Bugcrowd",
-   "name": "Xopero Software S.A. Marketplace Managed Bug Bounty Engagement",
-   "first_seen": "2026-09-03T03:30:21.068501+00:00"
+   "name": "Upwork",
+   "first_seen": "2026-08-30T04:17:48.725986+00:00"
   },
   "bugcrowd:moneytreekkog": {
    "platform": "Bugcrowd",
    "name": "Moneytree KK",
    "first_seen": "2026-08-30T04:17:48.725986+00:00"
   },
-  "bugcrowd:upwork": {
+  "bugcrowd:xopero-software-marketplace": {
    "platform": "Bugcrowd",
-   "name": "Upwork",
+   "name": "Xopero Software S.A. Marketplace Managed Bug Bounty Engagement",
+   "first_seen": "2026-09-03T03:30:21.068501+00:00"
+  },
+  "bugcrowd:optimizely": {
+   "platform": "Bugcrowd",
+   "name": "Optimizely",
+   "first_seen": "2026-08-30T04:17:48.725986+00:00"
+  },
+  "bugcrowd:opera": {
+   "platform": "Bugcrowd",
+   "name": "Opera Public Bug Bounty",
+   "first_seen": "2026-08-30T04:17:48.725986+00:00"
+  },
+  "bugcrowd:entain-public-mbb-og": {
+   "platform": "Bugcrowd",
+   "name": "Entain Public Managed Bug Bounty Engagement 2024",
+   "first_seen": "2026-08-30T04:17:48.725986+00:00"
+  },
+  "bugcrowd:mallofemirates": {
+   "platform": "Bugcrowd",
+   "name": "Majid Al Futtaim Properties",
+   "first_seen": "2026-08-30T04:17:48.725986+00:00"
+  },
+  "bugcrowd:kaleido": {
+   "platform": "Bugcrowd",
+   "name": "Kaleido",
    "first_seen": "2026-08-30T04:17:48.725986+00:00"
   },
   "bugcrowd:nextupai": {
@@ -2590,11 +2585,6 @@
    "name": "Bugcrowd",
    "first_seen": "2026-08-30T04:17:48.725986+00:00"
   },
-  "bugcrowd:cashapp": {
-   "platform": "Bugcrowd",
-   "name": "Cash App",
-   "first_seen": "2026-08-30T04:17:48.725986+00:00"
-  },
   "bugcrowd:atlassianapps": {
    "platform": "Bugcrowd",
    "name": "Atlassian-Built Apps",
@@ -2610,19 +2600,9 @@
    "name": "Opus Guard Marketplace Managed Bug Bounty Engagement",
    "first_seen": "2026-08-30T04:17:48.725986+00:00"
   },
-  "bugcrowd:intercom": {
-   "platform": "Bugcrowd",
-   "name": "Intercom",
-   "first_seen": "2026-08-30T04:17:48.725986+00:00"
-  },
   "bugcrowd:sykora-it-market": {
    "platform": "Bugcrowd",
    "name": "Sykora IT Marketplace Managed Bug Bounty Engagement",
-   "first_seen": "2026-08-30T04:17:48.725986+00:00"
-  },
-  "bugcrowd:dell-com": {
-   "platform": "Bugcrowd",
-   "name": "Dell Technologies Application Bug Bounty",
    "first_seen": "2026-08-30T04:17:48.725986+00:00"
   },
   "bugcrowd:elementor": {
@@ -2645,11 +2625,6 @@
    "name": "TheFork Managed Bug Bounty Engagement",
    "first_seen": "2026-08-30T04:17:48.725986+00:00"
   },
-  "bugcrowd:jora": {
-   "platform": "Bugcrowd",
-   "name": "Jora",
-   "first_seen": "2026-08-30T04:17:48.725986+00:00"
-  },
   "bugcrowd:pexels": {
    "platform": "Bugcrowd",
    "name": "Pexels",
@@ -2660,11 +2635,6 @@
    "name": "Trello",
    "first_seen": "2026-08-30T04:17:48.725986+00:00"
   },
-  "bugcrowd:fireblocks-mbb-og2": {
-   "platform": "Bugcrowd",
-   "name": "Fireblocks MPC Managed Bug Bounty Engagement",
-   "first_seen": "2026-08-30T04:17:48.725986+00:00"
-  },
   "bugcrowd:soldevelo": {
    "platform": "Bugcrowd",
    "name": "SolDevelo",
@@ -2673,11 +2643,6 @@
   "bugcrowd:cisconetworking": {
    "platform": "Bugcrowd",
    "name": "Cisco Networking",
-   "first_seen": "2026-08-30T04:17:48.725986+00:00"
-  },
-  "bugcrowd:smartchain-mbb-og": {
-   "platform": "Bugcrowd",
-   "name": "Electroneum Smart Chain (ETN-SC) \u2014 EVM-Compatible Blockchain",
    "first_seen": "2026-08-30T04:17:48.725986+00:00"
   },
   "bugcrowd:bitgo-mbb-og-public": {
@@ -2710,14 +2675,24 @@
    "name": "OpenSea Managed Bug Bounty Program",
    "first_seen": "2026-08-30T04:17:48.725986+00:00"
   },
+  "bugcrowd:dell-com": {
+   "platform": "Bugcrowd",
+   "name": "Dell Technologies Application Bug Bounty",
+   "first_seen": "2026-08-30T04:17:48.725986+00:00"
+  },
+  "bugcrowd:intercom": {
+   "platform": "Bugcrowd",
+   "name": "Intercom",
+   "first_seen": "2026-08-30T04:17:48.725986+00:00"
+  },
   "bugcrowd:octopus-og": {
    "platform": "Bugcrowd",
    "name": "Octopus",
    "first_seen": "2026-08-30T04:17:48.725986+00:00"
   },
-  "bugcrowd:prosus-og": {
+  "bugcrowd:unity": {
    "platform": "Bugcrowd",
-   "name": "Prosus",
+   "name": "Unity Technologies",
    "first_seen": "2026-08-30T04:17:48.725986+00:00"
   },
   "bugcrowd:kucoin": {
@@ -2725,10 +2700,35 @@
    "name": "KuCoin Managed Bug Bounty Program",
    "first_seen": "2026-08-30T04:17:48.725986+00:00"
   },
-  "bugcrowd:unity": {
+  "bugcrowd:prosus-og": {
    "platform": "Bugcrowd",
-   "name": "Unity Technologies",
+   "name": "Prosus",
    "first_seen": "2026-08-30T04:17:48.725986+00:00"
+  },
+  "bugcrowd:jora": {
+   "platform": "Bugcrowd",
+   "name": "Jora",
+   "first_seen": "2026-08-30T04:17:48.725986+00:00"
+  },
+  "bugcrowd:fireblocks-mbb-og2": {
+   "platform": "Bugcrowd",
+   "name": "Fireblocks MPC Managed Bug Bounty Engagement",
+   "first_seen": "2026-08-30T04:17:48.725986+00:00"
+  },
+  "bugcrowd:smartchain-mbb-og": {
+   "platform": "Bugcrowd",
+   "name": "Electroneum Smart Chain (ETN-SC) \u2014 EVM-Compatible Blockchain",
+   "first_seen": "2026-08-30T04:17:48.725986+00:00"
+  },
+  "bugcrowd:cashapp": {
+   "platform": "Bugcrowd",
+   "name": "Cash App",
+   "first_seen": "2026-08-30T04:17:48.725986+00:00"
+  },
+  "yeswehack:infomaniak-bug-bounty-program": {
+   "platform": "YesWeHack",
+   "name": "Infomaniak Bug Bounty program",
+   "first_seen": "2026-08-04T04:12:22.124027+00:00"
   },
   "yeswehack:telenor-sweden-public-bug-bounty-program": {
    "platform": "YesWeHack",
@@ -2789,11 +2789,6 @@
    "platform": "YesWeHack",
    "name": "toom Baumarkt GmbH - Webshop",
    "first_seen": "2026-08-06T14:14:28.786530+00:00"
-  },
-  "yeswehack:infomaniak-bug-bounty-program": {
-   "platform": "YesWeHack",
-   "name": "Infomaniak Bug Bounty program",
-   "first_seen": "2026-08-04T04:12:22.124027+00:00"
   },
   "yeswehack:vincisa-public-program": {
    "platform": "YesWeHack",
@@ -3016,5 +3011,5 @@
    "first_seen": "2026-08-04T04:12:22.124027+00:00"
   }
  },
- "last_run": "2026-09-07T11:52:35.887301+00:00"
+ "last_run": "2026-09-07T17:28:56.068175+00:00"
 }

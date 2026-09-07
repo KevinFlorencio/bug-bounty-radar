@@ -1,1 +1,13 @@
-[]
+[
+ {
+  "id": "bugcrowd:balsamiq",
+  "platform": "Bugcrowd",
+  "name": "Balsamiq for Atlassian Products",
+  "url": "/engagements/balsamiq",
+  "tags": [
+   "computer software"
+  ],
+  "bounty_max": 1500,
+  "first_seen": "2026-09-07T21:14:32.445129+00:00"
+ }
+]

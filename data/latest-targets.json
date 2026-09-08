@@ -1,13 +1,13 @@
 [
  {
-  "id": "bugcrowd:balsamiq",
+  "id": "bugcrowd:optimizely",
   "platform": "Bugcrowd",
-  "name": "Balsamiq for Atlassian Products",
-  "url": "/engagements/balsamiq",
+  "name": "Optimizely",
+  "url": "/engagements/optimizely",
   "tags": [
-   "computer software"
+   "business management"
   ],
-  "bounty_max": 1500,
-  "first_seen": "2026-09-07T21:14:32.445129+00:00"
+  "bounty_max": 3500,
+  "first_seen": "2026-09-08T03:36:17.492672+00:00"
  }
 ]

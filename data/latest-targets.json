@@ -1,13 +1,21 @@
 [
  {
-  "id": "bugcrowd:linktree-mbb-og",
-  "platform": "Bugcrowd",
-  "name": "Linktree",
-  "url": "/engagements/linktree-mbb-og",
+  "id": "hackerone:brave",
+  "platform": "HackerOne",
+  "name": "Brave Software",
+  "url": "https://hackerone.com/brave",
   "tags": [
-   "technology"
+   "mobile",
+   "web",
+   "api",
+   "smart contract",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "desktop",
+   "ai/ml"
   ],
-  "bounty_max": 7500,
-  "first_seen": "2026-09-08T16:13:32.461321+00:00"
+  "bounty_max": null,
+  "first_seen": "2026-09-08T20:51:16.702578+00:00"
  }
 ]

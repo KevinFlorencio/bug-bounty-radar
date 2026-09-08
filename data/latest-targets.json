@@ -1,26 +1,13 @@
 [
  {
-  "id": "bugcrowd:soundcloud",
+  "id": "bugcrowd:linktree-mbb-og",
   "platform": "Bugcrowd",
-  "name": "SoundCloud",
-  "url": "/engagements/soundcloud",
+  "name": "Linktree",
+  "url": "/engagements/linktree-mbb-og",
   "tags": [
-   "infrastructure",
-   "ai/ml",
-   "entertainment"
+   "technology"
   ],
-  "bounty_max": 4500,
-  "first_seen": "2026-09-08T10:49:29.532252+00:00"
- },
- {
-  "id": "bugcrowd:quizlet",
-  "platform": "Bugcrowd",
-  "name": "Quizlet",
-  "url": "/engagements/quizlet",
-  "tags": [
-   "education"
-  ],
-  "bounty_max": 2000,
-  "first_seen": "2026-09-08T10:49:29.532252+00:00"
+  "bounty_max": 7500,
+  "first_seen": "2026-09-08T16:13:32.461321+00:00"
  }
 ]

@@ -1,13 +1,26 @@
 [
  {
-  "id": "bugcrowd:optimizely",
+  "id": "bugcrowd:soundcloud",
   "platform": "Bugcrowd",
-  "name": "Optimizely",
-  "url": "/engagements/optimizely",
+  "name": "SoundCloud",
+  "url": "/engagements/soundcloud",
   "tags": [
-   "business management"
+   "infrastructure",
+   "ai/ml",
+   "entertainment"
   ],
-  "bounty_max": 3500,
-  "first_seen": "2026-09-08T03:36:17.492672+00:00"
+  "bounty_max": 4500,
+  "first_seen": "2026-09-08T10:49:29.532252+00:00"
+ },
+ {
+  "id": "bugcrowd:quizlet",
+  "platform": "Bugcrowd",
+  "name": "Quizlet",
+  "url": "/engagements/quizlet",
+  "tags": [
+   "education"
+  ],
+  "bounty_max": 2000,
+  "first_seen": "2026-09-08T10:49:29.532252+00:00"
  }
 ]

@@ -1,13 +1,90 @@
 [
  {
-  "id": "yeswehack:kiteworks-public-bug-bounty-program-1",
-  "platform": "YesWeHack",
-  "name": "Kiteworks Public Bug Bounty Program",
-  "url": "https://yeswehack.com/programs/kiteworks-public-bug-bounty-program-1",
+  "id": "bugcrowd:cappsule-sarl",
+  "platform": "Bugcrowd",
+  "name": "Cappsule Sarl - Marketplace Bug Bounty Program",
+  "url": "/engagements/cappsule-sarl",
   "tags": [
-   "cybersec"
+   "computer software"
   ],
-  "bounty_max": 50000,
-  "first_seen": "2026-09-10T16:00:15.622864+00:00"
+  "bounty_max": 1500,
+  "first_seen": "2026-09-10T20:32:55.256138+00:00"
+ },
+ {
+  "id": "bugcrowd:vectors-marketplace",
+  "platform": "Bugcrowd",
+  "name": "Vectors Bug Bounty ",
+  "url": "/engagements/vectors-marketplace",
+  "tags": [
+   "infrastructure",
+   "computer software"
+  ],
+  "bounty_max": 1500,
+  "first_seen": "2026-09-10T20:32:55.256138+00:00"
+ },
+ {
+  "id": "bugcrowd:digitalrose",
+  "platform": "Bugcrowd",
+  "name": "Digital Rose's Marketplace Bug Bounty",
+  "url": "/engagements/digitalrose",
+  "tags": [
+   "computer software"
+  ],
+  "bounty_max": 1500,
+  "first_seen": "2026-09-10T20:32:55.256138+00:00"
+ },
+ {
+  "id": "bugcrowd:catapultlabs",
+  "platform": "Bugcrowd",
+  "name": "Catapult Labs Bug Bounty",
+  "url": "/engagements/catapultlabs",
+  "tags": [
+   "computer software"
+  ],
+  "bounty_max": 1500,
+  "first_seen": "2026-09-10T20:32:55.256138+00:00"
+ },
+ {
+  "id": "bugcrowd:railsware",
+  "platform": "Bugcrowd",
+  "name": "Railsware",
+  "url": "/engagements/railsware",
+  "tags": [
+   "ai/ml",
+   "technology"
+  ],
+  "bounty_max": 1500,
+  "first_seen": "2026-09-10T20:32:55.256138+00:00"
+ },
+ {
+  "id": "bugcrowd:creativas",
+  "platform": "Bugcrowd",
+  "name": "Creativas",
+  "url": "/engagements/creativas",
+  "tags": [],
+  "bounty_max": 1500,
+  "first_seen": "2026-09-10T20:32:55.256138+00:00"
+ },
+ {
+  "id": "bugcrowd:codecentric",
+  "platform": "Bugcrowd",
+  "name": "codecentric AG - Marketplace Bug Bounty Program",
+  "url": "/engagements/codecentric",
+  "tags": [
+   "computer software"
+  ],
+  "bounty_max": 1500,
+  "first_seen": "2026-09-10T20:32:55.256138+00:00"
+ },
+ {
+  "id": "bugcrowd:savignano",
+  "platform": "Bugcrowd",
+  "name": "Savignano Software Solutions Marketplace Bug Bounty Program",
+  "url": "/engagements/savignano",
+  "tags": [
+   "computer software"
+  ],
+  "bounty_max": 1500,
+  "first_seen": "2026-09-10T20:32:55.256138+00:00"
  }
 ]

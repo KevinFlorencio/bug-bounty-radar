@@ -1,13 +1,13 @@
 [
  {
-  "id": "bugcrowd:opera",
+  "id": "bugcrowd:boja",
   "platform": "Bugcrowd",
-  "name": "Opera Public Bug Bounty",
-  "url": "/engagements/opera",
+  "name": "BOJA Consulting Bug Bounty",
+  "url": "/engagements/boja",
   "tags": [
    "computer software"
   ],
-  "bounty_max": 5000,
-  "first_seen": "2026-09-12T10:17:18.751157+00:00"
+  "bounty_max": 1500,
+  "first_seen": "2026-09-12T15:12:03.112905+00:00"
  }
 ]

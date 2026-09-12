@@ -1,1 +1,13 @@
-[]
+[
+ {
+  "id": "bugcrowd:opera",
+  "platform": "Bugcrowd",
+  "name": "Opera Public Bug Bounty",
+  "url": "/engagements/opera",
+  "tags": [
+   "computer software"
+  ],
+  "bounty_max": 5000,
+  "first_seen": "2026-09-12T10:17:18.751157+00:00"
+ }
+]

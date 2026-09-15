@@ -1,1 +1,13 @@
-[]
+[
+ {
+  "id": "yeswehack:contentsquare-bug-bounty-program",
+  "platform": "YesWeHack",
+  "name": "Contentsquare Bug Bounty Program",
+  "url": "https://yeswehack.com/programs/contentsquare-bug-bounty-program",
+  "tags": [
+   "cybersec"
+  ],
+  "bounty_max": 2000,
+  "first_seen": "2026-09-15T11:19:14.191226+00:00"
+ }
+]

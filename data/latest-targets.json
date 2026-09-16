@@ -1,9 +1,9 @@
 [
  {
-  "id": "hackerone:arc-bbp",
+  "id": "hackerone:klarna",
   "platform": "HackerOne",
-  "name": "Arc BBP",
-  "url": "https://hackerone.com/arc-bbp",
+  "name": "Klarna",
+  "url": "https://hackerone.com/klarna",
   "tags": [
    "mobile",
    "web",
@@ -12,18 +12,43 @@
    "infrastructure",
    "ai/ml"
   ],
-  "bounty_max": null,
-  "first_seen": "2026-09-16T03:53:02.718731+00:00"
+  "bounty_max": 150,
+  "first_seen": "2026-09-16T11:02:21.456809+00:00"
  },
  {
-  "id": "bugcrowd:skyscanner",
-  "platform": "Bugcrowd",
-  "name": "Skyscanner",
-  "url": "/engagements/skyscanner",
+  "id": "hackerone:common_codes",
+  "platform": "HackerOne",
+  "name": "d-you App & German EUDI Wallet Ecosystem",
+  "url": "https://hackerone.com/common_codes",
   "tags": [
-   "consumer services"
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "hardware",
+   "desktop",
+   "ai/ml"
   ],
-  "bounty_max": 8000,
-  "first_seen": "2026-09-16T03:53:02.718731+00:00"
+  "bounty_max": 100,
+  "first_seen": "2026-09-16T11:02:21.456809+00:00"
+ },
+ {
+  "id": "hackerone:mariadb",
+  "platform": "HackerOne",
+  "name": "MariaDB",
+  "url": "https://hackerone.com/mariadb",
+  "tags": [
+   "web",
+   "api",
+   "smart contract",
+   "source code",
+   "infrastructure",
+   "hardware",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-09-16T11:02:21.456809+00:00"
  }
 ]

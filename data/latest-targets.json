@@ -1,1 +1,11 @@
-[]
+[
+ {
+  "id": "yeswehack:dovecot",
+  "platform": "YesWeHack",
+  "name": "Dovecot",
+  "url": "https://yeswehack.com/programs/dovecot",
+  "tags": [],
+  "bounty_max": 5000,
+  "first_seen": "2026-09-17T11:12:44.263168+00:00"
+ }
+]

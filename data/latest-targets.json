@@ -1,1 +1,13 @@
-[]
+[
+ {
+  "id": "bugcrowd:thefork-mbb-og",
+  "platform": "Bugcrowd",
+  "name": "TheFork Managed Bug Bounty Engagement",
+  "url": "/engagements/thefork-mbb-og",
+  "tags": [
+   "hospitality"
+  ],
+  "bounty_max": 3500,
+  "first_seen": "2026-09-18T20:34:43.482506+00:00"
+ }
+]

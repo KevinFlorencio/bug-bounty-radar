@@ -1,13 +1,24 @@
 [
  {
-  "id": "bugcrowd:thefork-mbb-og",
+  "id": "bugcrowd:codecentric",
   "platform": "Bugcrowd",
-  "name": "TheFork Managed Bug Bounty Engagement",
-  "url": "/engagements/thefork-mbb-og",
+  "name": "codecentric AG - Marketplace Bug Bounty Program",
+  "url": "/engagements/codecentric",
   "tags": [
-   "hospitality"
+   "computer software"
   ],
-  "bounty_max": 3500,
-  "first_seen": "2026-09-18T20:34:43.482506+00:00"
+  "bounty_max": 1500,
+  "first_seen": "2026-09-19T03:42:12.684422+00:00"
+ },
+ {
+  "id": "bugcrowd:aelbox",
+  "platform": "Bugcrowd",
+  "name": "Aelbox Marketplace Bug Bounty",
+  "url": "/engagements/aelbox",
+  "tags": [
+   "computer software"
+  ],
+  "bounty_max": 1500,
+  "first_seen": "2026-09-19T03:42:12.684422+00:00"
  }
 ]

@@ -1,14 +1,23 @@
 [
  {
-  "id": "bugcrowd:binance",
+  "id": "bugcrowd:tesla",
   "platform": "Bugcrowd",
-  "name": "Binance",
-  "url": "/engagements/binance",
+  "name": "Tesla",
+  "url": "/engagements/tesla",
   "tags": [
-   "blockchain",
-   "finance"
+   "ai/ml",
+   "automotive"
   ],
-  "bounty_max": 10000,
-  "first_seen": "2026-09-21T03:55:39.166663+00:00"
+  "bounty_max": 100000,
+  "first_seen": "2026-09-21T12:16:52.709383+00:00"
+ },
+ {
+  "id": "yeswehack:powerdns",
+  "platform": "YesWeHack",
+  "name": "PowerDNS",
+  "url": "https://yeswehack.com/programs/powerdns",
+  "tags": [],
+  "bounty_max": 8000,
+  "first_seen": "2026-09-21T12:16:52.709383+00:00"
  }
 ]

@@ -1,23 +1,33 @@
 [
  {
-  "id": "bugcrowd:tesla",
-  "platform": "Bugcrowd",
-  "name": "Tesla",
-  "url": "/engagements/tesla",
+  "id": "hackerone:brave",
+  "platform": "HackerOne",
+  "name": "Brave Software",
+  "url": "https://hackerone.com/brave",
   "tags": [
-   "ai/ml",
-   "automotive"
+   "mobile",
+   "web",
+   "api",
+   "smart contract",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "desktop",
+   "ai/ml"
   ],
-  "bounty_max": 100000,
-  "first_seen": "2026-09-21T12:16:52.709383+00:00"
+  "bounty_max": null,
+  "first_seen": "2026-09-21T21:47:28.153660+00:00"
  },
  {
-  "id": "yeswehack:powerdns",
-  "platform": "YesWeHack",
-  "name": "PowerDNS",
-  "url": "https://yeswehack.com/programs/powerdns",
-  "tags": [],
-  "bounty_max": 8000,
-  "first_seen": "2026-09-21T12:16:52.709383+00:00"
+  "id": "bugcrowd:unisys-mbb-og",
+  "platform": "Bugcrowd",
+  "name": "Unisys Managed Bug Bounty Engagement",
+  "url": "/engagements/unisys-mbb-og",
+  "tags": [
+   "infrastructure",
+   "computer software"
+  ],
+  "bounty_max": 4500,
+  "first_seen": "2026-09-21T21:47:28.153660+00:00"
  }
 ]

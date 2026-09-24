@@ -1,14 +1,13 @@
 [
  {
-  "id": "bugcrowd:tesla",
+  "id": "bugcrowd:prosus-og",
   "platform": "Bugcrowd",
-  "name": "Tesla",
-  "url": "/engagements/tesla",
+  "name": "Prosus",
+  "url": "/engagements/prosus-og",
   "tags": [
-   "ai/ml",
-   "automotive"
+   "technology"
   ],
-  "bounty_max": 100000,
-  "first_seen": "2026-09-24T03:42:52.441399+00:00"
+  "bounty_max": 1250,
+  "first_seen": "2026-09-24T11:18:45.188002+00:00"
  }
 ]

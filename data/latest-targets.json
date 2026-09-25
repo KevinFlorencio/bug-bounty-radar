@@ -1,1 +1,16 @@
-[]
+[
+ {
+  "id": "hackerone:kaltura",
+  "platform": "HackerOne",
+  "name": "Kaltura",
+  "url": "https://hackerone.com/kaltura",
+  "tags": [
+   "mobile",
+   "web",
+   "blockchain",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-09-25T16:47:52.471337+00:00"
+ }
+]

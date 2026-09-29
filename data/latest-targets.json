@@ -1,9 +1,24 @@
 [
  {
-  "id": "hackerone:walt_bbp",
+  "id": "hackerone:truecaller",
   "platform": "HackerOne",
-  "name": "Wallet on Telegram",
-  "url": "https://hackerone.com/walt_bbp",
+  "name": "Truecaller ",
+  "url": "https://hackerone.com/truecaller",
+  "tags": [
+   "web",
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-09-29T21:59:35.894169+00:00"
+ },
+ {
+  "id": "hackerone:walt_io",
+  "platform": "HackerOne",
+  "name": "Walt.io",
+  "url": "https://hackerone.com/walt_io",
   "tags": [
    "web",
    "api",
@@ -12,6 +27,6 @@
    "ai/ml"
   ],
   "bounty_max": 100000,
-  "first_seen": "2026-09-29T12:21:11.659075+00:00"
+  "first_seen": "2026-09-29T21:59:35.894169+00:00"
  }
 ]

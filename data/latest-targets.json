@@ -1,1 +1,36 @@
-[]
+[
+ {
+  "id": "bugcrowd:meetical",
+  "platform": "Bugcrowd",
+  "name": "Meetical",
+  "url": "/engagements/meetical",
+  "tags": [
+   "computer software"
+  ],
+  "bounty_max": 1500,
+  "first_seen": "2026-10-01T12:39:48.609373+00:00"
+ },
+ {
+  "id": "bugcrowd:apps-plus2",
+  "platform": "Bugcrowd",
+  "name": "AI | Apps+ Marketplace Bug Bounty Program ",
+  "url": "/engagements/apps-plus2",
+  "tags": [
+   "ai/ml",
+   "computer software"
+  ],
+  "bounty_max": 1500,
+  "first_seen": "2026-10-01T12:39:48.609373+00:00"
+ },
+ {
+  "id": "bugcrowd:bloompeak",
+  "platform": "Bugcrowd",
+  "name": "Bloompeak's Bug Bounty",
+  "url": "/engagements/bloompeak",
+  "tags": [
+   "computer software"
+  ],
+  "bounty_max": 1500,
+  "first_seen": "2026-10-01T12:39:48.609373+00:00"
+ }
+]

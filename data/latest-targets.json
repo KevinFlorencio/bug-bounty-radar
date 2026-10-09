@@ -1,1 +1,22 @@
-[]
+[
+ {
+  "id": "bugcrowd:elements",
+  "platform": "Bugcrowd",
+  "name": "Elements",
+  "url": "/engagements/elements",
+  "tags": [],
+  "bounty_max": 1500,
+  "first_seen": "2026-10-09T22:23:50.342681+00:00"
+ },
+ {
+  "id": "bugcrowd:decadisag",
+  "platform": "Bugcrowd",
+  "name": "Decadis AG",
+  "url": "/engagements/decadisag",
+  "tags": [
+   "corporate services"
+  ],
+  "bounty_max": 1500,
+  "first_seen": "2026-10-09T22:23:50.342681+00:00"
+ }
+]

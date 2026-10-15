@@ -1,1 +1,63 @@
-[]
+[
+ {
+  "id": "hackerone:mariadb",
+  "platform": "HackerOne",
+  "name": "MariaDB",
+  "url": "https://hackerone.com/mariadb",
+  "tags": [
+   "web",
+   "api",
+   "smart contract",
+   "source code",
+   "infrastructure",
+   "hardware",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-10-15T11:00:56.743856+00:00"
+ },
+ {
+  "id": "bugcrowd:envision-ehf",
+  "platform": "Bugcrowd",
+  "name": "Smart Guess ehf. - Marketplace Bug Bounty Program ",
+  "url": "/engagements/envision-ehf",
+  "tags": [
+   "computer software"
+  ],
+  "bounty_max": 1500,
+  "first_seen": "2026-10-15T11:00:56.743856+00:00"
+ },
+ {
+  "id": "bugcrowd:amoeboids",
+  "platform": "Bugcrowd",
+  "name": "Amoeboids",
+  "url": "/engagements/amoeboids",
+  "tags": [
+   "computer software"
+  ],
+  "bounty_max": 1500,
+  "first_seen": "2026-10-15T11:00:56.743856+00:00"
+ },
+ {
+  "id": "bugcrowd:lively-apps",
+  "platform": "Bugcrowd",
+  "name": "Lively Apps GmbH - marketplace Bug Bounty Program ",
+  "url": "/engagements/lively-apps",
+  "tags": [
+   "computer software"
+  ],
+  "bounty_max": 1500,
+  "first_seen": "2026-10-15T11:00:56.743856+00:00"
+ },
+ {
+  "id": "yeswehack:vfs-global-bug-bounty-program",
+  "platform": "YesWeHack",
+  "name": "VFS Global Bug Bounty Program",
+  "url": "https://yeswehack.com/programs/vfs-global-bug-bounty-program",
+  "tags": [
+   "other"
+  ],
+  "bounty_max": 1500,
+  "first_seen": "2026-10-15T11:00:56.743856+00:00"
+ }
+]

@@ -1,1 +1,20 @@
-[]
+[
+ {
+  "id": "hackerone:basecamp",
+  "platform": "HackerOne",
+  "name": "Basecamp",
+  "url": "https://hackerone.com/basecamp",
+  "tags": [
+   "mobile",
+   "web",
+   "api",
+   "blockchain",
+   "source code",
+   "infrastructure",
+   "hardware",
+   "ai/ml"
+  ],
+  "bounty_max": 10000,
+  "first_seen": "2026-10-20T11:05:11.239968+00:00"
+ }
+]

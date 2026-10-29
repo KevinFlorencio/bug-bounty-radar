@@ -1,1 +1,16 @@
-[]
+[
+ {
+  "id": "hackerone:smartsheet_vdp",
+  "platform": "HackerOne",
+  "name": "Smartsheet (VDP)",
+  "url": "https://hackerone.com/smartsheet_vdp",
+  "tags": [
+   "api",
+   "blockchain",
+   "infrastructure",
+   "ai/ml"
+  ],
+  "bounty_max": null,
+  "first_seen": "2026-10-29T22:32:13.638870+00:00"
+ }
+]

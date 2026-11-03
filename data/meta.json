@@ -1,16 +1,14 @@
 {
- "collected_at": "2026-11-02T15:01:11.306033+00:00",
- "programs_total": 632,
- "programs_with_bounty": 410,
+ "collected_at": "2026-11-03T00:41:46.013153+00:00",
+ "programs_total": 351,
+ "programs_with_bounty": 345,
  "new_targets": 0,
  "platforms": [
   "Bugcrowd",
-  "HackerOne",
   "YesWeHack"
  ],
  "platform_counts": {
   "Bugcrowd": 297,
-  "HackerOne": 281,
   "YesWeHack": 54
  }
 }

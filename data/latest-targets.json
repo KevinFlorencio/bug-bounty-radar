@@ -1,13 +1,1 @@
-[
- {
-  "id": "bugcrowd:bytera-market",
-  "platform": "Bugcrowd",
-  "name": "Bytera Marketplace Managed Bug Bounty Engagement",
-  "url": "/engagements/bytera-market",
-  "tags": [
-   "computer software"
-  ],
-  "bounty_max": 1500,
-  "first_seen": "2026-11-04T13:56:02.559646+00:00"
- }
-]
+[]

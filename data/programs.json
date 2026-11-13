@@ -15,7 +15,7 @@
   "bounty_max": null,
   "reports_count": null,
   "status": "active",
-  "seq": 266,
+  "seq": 265,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -34,7 +34,7 @@
   "bounty_max": 5000,
   "reports_count": null,
   "status": "active",
-  "seq": 289,
+  "seq": 286,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -165,7 +165,7 @@
   "bounty_max": 1500,
   "reports_count": null,
   "status": "active",
-  "seq": 269,
+  "seq": 267,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -224,7 +224,7 @@
   "bounty_max": 25000,
   "reports_count": null,
   "status": "active",
-  "seq": 139,
+  "seq": 143,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -262,7 +262,7 @@
   "bounty_max": 1500,
   "reports_count": null,
   "status": "active",
-  "seq": 182,
+  "seq": 180,
   "first_seen": "2026-10-08T23:03:17.714296+00:00"
  },
  {
@@ -281,7 +281,7 @@
   "bounty_max": 1500,
   "reports_count": null,
   "status": "active",
-  "seq": 243,
+  "seq": 242,
   "first_seen": "2026-10-15T11:00:56.743856+00:00"
  },
  {
@@ -338,7 +338,7 @@
   "bounty_max": 1500,
   "reports_count": null,
   "status": "active",
-  "seq": 247,
+  "seq": 245,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -433,7 +433,7 @@
   "bounty_max": 12000,
   "reports_count": null,
   "status": "active",
-  "seq": 145,
+  "seq": 142,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -493,7 +493,7 @@
   "bounty_max": 50000,
   "reports_count": null,
   "status": "active",
-  "seq": 146,
+  "seq": 128,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -551,7 +551,7 @@
   "bounty_max": 6500,
   "reports_count": null,
   "status": "active",
-  "seq": 283,
+  "seq": 281,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -570,7 +570,7 @@
   "bounty_max": 1500,
   "reports_count": null,
   "status": "active",
-  "seq": 185,
+  "seq": 182,
   "first_seen": "2026-09-07T21:14:32.445129+00:00"
  },
  {
@@ -650,7 +650,7 @@
   "bounty_max": 4500,
   "reports_count": null,
   "status": "active",
-  "seq": 238,
+  "seq": 253,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -771,7 +771,7 @@
   "bounty_max": 4000,
   "reports_count": null,
   "status": "active",
-  "seq": 276,
+  "seq": 274,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -809,7 +809,7 @@
   "bounty_max": 1500,
   "reports_count": null,
   "status": "active",
-  "seq": 179,
+  "seq": 177,
   "first_seen": "2026-09-12T15:12:03.112905+00:00"
  },
  {
@@ -865,7 +865,7 @@
   "bounty_max": 1500,
   "reports_count": null,
   "status": "active",
-  "seq": 265,
+  "seq": 264,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -886,7 +886,7 @@
   "bounty_max": 1500,
   "reports_count": null,
   "status": "active",
-  "seq": 137,
+  "seq": 135,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -905,7 +905,7 @@
   "bounty_max": 10000,
   "reports_count": null,
   "status": "active",
-  "seq": 245,
+  "seq": 243,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -924,7 +924,7 @@
   "bounty_max": 25000,
   "reports_count": null,
   "status": "active",
-  "seq": 277,
+  "seq": 275,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -943,7 +943,7 @@
   "bounty_max": 12000,
   "reports_count": null,
   "status": "active",
-  "seq": 181,
+  "seq": 179,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -962,7 +962,7 @@
   "bounty_max": 1500,
   "reports_count": null,
   "status": "active",
-  "seq": 200,
+  "seq": 195,
   "first_seen": "2026-11-04T13:56:02.559646+00:00"
  },
  {
@@ -998,7 +998,7 @@
   "bounty_max": 15000,
   "reports_count": null,
   "status": "active",
-  "seq": 98,
+  "seq": 106,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -1055,7 +1055,7 @@
   "bounty_max": 1500,
   "reports_count": null,
   "status": "active",
-  "seq": 184,
+  "seq": 197,
   "first_seen": "2026-09-10T20:32:55.256138+00:00"
  },
  {
@@ -1195,7 +1195,7 @@
   "bounty_max": 4500,
   "reports_count": null,
   "status": "active",
-  "seq": 147,
+  "seq": 129,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -1233,7 +1233,7 @@
   "bounty_max": 2500,
   "reports_count": null,
   "status": "active",
-  "seq": 138,
+  "seq": 139,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -1252,7 +1252,7 @@
   "bounty_max": 2500,
   "reports_count": null,
   "status": "active",
-  "seq": 141,
+  "seq": 145,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -1368,7 +1368,7 @@
   "bounty_max": 7500,
   "reports_count": null,
   "status": "active",
-  "seq": 242,
+  "seq": 241,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -1389,7 +1389,7 @@
   "bounty_max": 7500,
   "reports_count": null,
   "status": "active",
-  "seq": 136,
+  "seq": 134,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -1409,7 +1409,7 @@
   "bounty_max": 7500,
   "reports_count": null,
   "status": "active",
-  "seq": 285,
+  "seq": 283,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -1504,7 +1504,7 @@
   "bounty_max": 1500,
   "reports_count": null,
   "status": "active",
-  "seq": 263,
+  "seq": 262,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -1637,7 +1637,7 @@
   "bounty_max": 1500,
   "reports_count": null,
   "status": "active",
-  "seq": 268,
+  "seq": 292,
   "first_seen": "2026-09-23T21:14:41.469496+00:00"
  },
  {
@@ -1750,7 +1750,7 @@
   "bounty_max": 2000,
   "reports_count": null,
   "status": "active",
-  "seq": 199,
+  "seq": 198,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -1769,7 +1769,7 @@
   "bounty_max": 3000,
   "reports_count": null,
   "status": "active",
-  "seq": 280,
+  "seq": 278,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -1791,7 +1791,7 @@
   "bounty_max": 12000,
   "reports_count": null,
   "status": "active",
-  "seq": 253,
+  "seq": 254,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -1814,7 +1814,7 @@
   "bounty_max": 12000,
   "reports_count": null,
   "status": "active",
-  "seq": 252,
+  "seq": 250,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -1929,7 +1929,7 @@
   "bounty_max": 1000,
   "reports_count": null,
   "status": "active",
-  "seq": 105,
+  "seq": 103,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -1967,7 +1967,7 @@
   "bounty_max": 10000,
   "reports_count": null,
   "status": "active",
-  "seq": 133,
+  "seq": 132,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -2004,7 +2004,7 @@
   "bounty_max": 4500,
   "reports_count": null,
   "status": "active",
-  "seq": 192,
+  "seq": 196,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -2044,7 +2044,7 @@
   "bounty_max": 150000,
   "reports_count": null,
   "status": "active",
-  "seq": 248,
+  "seq": 246,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -2104,7 +2104,7 @@
   "bounty_max": 7500,
   "reports_count": null,
   "status": "active",
-  "seq": 101,
+  "seq": 99,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -2123,7 +2123,7 @@
   "bounty_max": 6000,
   "reports_count": null,
   "status": "active",
-  "seq": 292,
+  "seq": 291,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -2161,7 +2161,7 @@
   "bounty_max": 7000,
   "reports_count": null,
   "status": "active",
-  "seq": 134,
+  "seq": 146,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -2200,7 +2200,7 @@
   "bounty_max": 1500,
   "reports_count": null,
   "status": "active",
-  "seq": 264,
+  "seq": 263,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -2259,7 +2259,7 @@
   "bounty_max": 5000,
   "reports_count": null,
   "status": "active",
-  "seq": 131,
+  "seq": 147,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -2279,7 +2279,7 @@
   "bounty_max": 25000,
   "reports_count": null,
   "status": "active",
-  "seq": 100,
+  "seq": 98,
   "first_seen": "2026-10-05T04:39:36.132148+00:00"
  },
  {
@@ -2358,7 +2358,7 @@
   "bounty_max": 10000,
   "reports_count": null,
   "status": "active",
-  "seq": 94,
+  "seq": 93,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -2397,7 +2397,7 @@
   "bounty_max": 1500,
   "reports_count": null,
   "status": "active",
-  "seq": 128,
+  "seq": 130,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -2419,7 +2419,7 @@
   "bounty_max": 6000,
   "reports_count": null,
   "status": "active",
-  "seq": 241,
+  "seq": 240,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -2458,7 +2458,7 @@
   "bounty_max": 4500,
   "reports_count": null,
   "status": "active",
-  "seq": 180,
+  "seq": 178,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -2478,7 +2478,7 @@
   "bounty_max": 2500,
   "reports_count": null,
   "status": "active",
-  "seq": 287,
+  "seq": 284,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -2497,7 +2497,7 @@
   "bounty_max": 1500,
   "reports_count": null,
   "status": "active",
-  "seq": 274,
+  "seq": 272,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -2574,7 +2574,7 @@
   "bounty_max": 1500,
   "reports_count": null,
   "status": "active",
-  "seq": 96,
+  "seq": 95,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -2594,7 +2594,7 @@
   "bounty_max": 6000,
   "reports_count": null,
   "status": "active",
-  "seq": 195,
+  "seq": 191,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -2632,7 +2632,7 @@
   "bounty_max": 10000,
   "reports_count": null,
   "status": "active",
-  "seq": 142,
+  "seq": 137,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -2729,7 +2729,7 @@
   "bounty_max": 5000,
   "reports_count": null,
   "status": "active",
-  "seq": 279,
+  "seq": 277,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -2748,7 +2748,7 @@
   "bounty_max": 7500,
   "reports_count": null,
   "status": "active",
-  "seq": 186,
+  "seq": 183,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -2845,7 +2845,7 @@
   "bounty_max": 7500,
   "reports_count": null,
   "status": "active",
-  "seq": 293,
+  "seq": 289,
   "first_seen": "2026-09-08T16:13:32.461321+00:00"
  },
  {
@@ -2864,7 +2864,7 @@
   "bounty_max": 1500,
   "reports_count": null,
   "status": "active",
-  "seq": 262,
+  "seq": 295,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -2883,7 +2883,7 @@
   "bounty_max": 1500,
   "reports_count": null,
   "status": "active",
-  "seq": 190,
+  "seq": 187,
   "first_seen": "2026-10-15T11:00:56.743856+00:00"
  },
  {
@@ -2903,7 +2903,7 @@
   "bounty_max": 8000,
   "reports_count": null,
   "status": "active",
-  "seq": 103,
+  "seq": 101,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -2922,7 +2922,7 @@
   "bounty_max": 1500,
   "reports_count": null,
   "status": "active",
-  "seq": 272,
+  "seq": 270,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -2964,7 +2964,7 @@
   "bounty_max": 2500,
   "reports_count": null,
   "status": "active",
-  "seq": 102,
+  "seq": 100,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -3004,7 +3004,7 @@
   "bounty_max": 3500,
   "reports_count": null,
   "status": "active",
-  "seq": 288,
+  "seq": 285,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -3063,7 +3063,7 @@
   "bounty_max": 1500,
   "reports_count": null,
   "status": "active",
-  "seq": 196,
+  "seq": 192,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -3082,7 +3082,7 @@
   "bounty_max": 1500,
   "reports_count": null,
   "status": "active",
-  "seq": 270,
+  "seq": 268,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -3101,7 +3101,7 @@
   "bounty_max": 5000,
   "reports_count": null,
   "status": "active",
-  "seq": 97,
+  "seq": 96,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -3236,7 +3236,7 @@
   "bounty_max": 7500,
   "reports_count": null,
   "status": "active",
-  "seq": 104,
+  "seq": 102,
   "first_seen": "2026-09-03T03:30:21.068501+00:00"
  },
  {
@@ -3255,7 +3255,7 @@
   "bounty_max": 5000,
   "reports_count": null,
   "status": "active",
-  "seq": 197,
+  "seq": 193,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -3349,7 +3349,7 @@
   "bounty_max": 4500,
   "reports_count": null,
   "status": "active",
-  "seq": 290,
+  "seq": 287,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -3405,7 +3405,7 @@
   "bounty_max": 3500,
   "reports_count": null,
   "status": "active",
-  "seq": 135,
+  "seq": 133,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -3425,7 +3425,7 @@
   "bounty_max": 4500,
   "reports_count": null,
   "status": "active",
-  "seq": 92,
+  "seq": 107,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -3521,7 +3521,7 @@
   "bounty_max": 6000,
   "reports_count": null,
   "status": "active",
-  "seq": 246,
+  "seq": 244,
   "first_seen": "2026-09-20T03:57:52.632338+00:00"
  },
  {
@@ -3652,7 +3652,7 @@
   "bounty_max": 30000,
   "reports_count": null,
   "status": "active",
-  "seq": 294,
+  "seq": 290,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -3672,7 +3672,7 @@
   "bounty_max": 3000000,
   "reports_count": null,
   "status": "active",
-  "seq": 254,
+  "seq": 252,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -3691,7 +3691,7 @@
   "bounty_max": 5000,
   "reports_count": null,
   "status": "active",
-  "seq": 187,
+  "seq": 184,
   "first_seen": "2026-09-12T10:17:18.751157+00:00"
  },
  {
@@ -3710,7 +3710,7 @@
   "bounty_max": 4000,
   "reports_count": null,
   "status": "active",
-  "seq": 129,
+  "seq": 148,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -3729,7 +3729,7 @@
   "bounty_max": 3500,
   "reports_count": null,
   "status": "active",
-  "seq": 183,
+  "seq": 181,
   "first_seen": "2026-09-08T03:36:17.492672+00:00"
  },
  {
@@ -3831,7 +3831,7 @@
   "bounty_max": 2500,
   "reports_count": null,
   "status": "active",
-  "seq": 284,
+  "seq": 282,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -3890,7 +3890,7 @@
   "bounty_max": 500,
   "reports_count": null,
   "status": "active",
-  "seq": 198,
+  "seq": 194,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -3909,7 +3909,7 @@
   "bounty_max": 6000,
   "reports_count": null,
   "status": "active",
-  "seq": 250,
+  "seq": 248,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -3929,7 +3929,7 @@
   "bounty_max": 25000,
   "reports_count": null,
   "status": "active",
-  "seq": 295,
+  "seq": 294,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -4119,7 +4119,7 @@
   "bounty_max": 2000,
   "reports_count": null,
   "status": "active",
-  "seq": 271,
+  "seq": 269,
   "first_seen": "2026-09-08T10:49:29.532252+00:00"
  },
  {
@@ -4138,7 +4138,7 @@
   "bounty_max": 1500,
   "reports_count": null,
   "status": "active",
-  "seq": 188,
+  "seq": 185,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -4216,7 +4216,7 @@
   "bounty_max": 4500,
   "reports_count": null,
   "status": "active",
-  "seq": 95,
+  "seq": 94,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -4252,7 +4252,7 @@
   "bounty_max": 5000,
   "reports_count": null,
   "status": "active",
-  "seq": 130,
+  "seq": 140,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -4272,7 +4272,7 @@
   "bounty_max": 1500,
   "reports_count": null,
   "status": "active",
-  "seq": 177,
+  "seq": 175,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -4310,7 +4310,7 @@
   "bounty_max": 1500,
   "reports_count": null,
   "status": "active",
-  "seq": 267,
+  "seq": 266,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -4329,7 +4329,7 @@
   "bounty_max": 1500,
   "reports_count": null,
   "status": "active",
-  "seq": 93,
+  "seq": 92,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -4349,7 +4349,7 @@
   "bounty_max": 1500,
   "reports_count": null,
   "status": "active",
-  "seq": 193,
+  "seq": 189,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -4368,7 +4368,7 @@
   "bounty_max": 1500,
   "reports_count": null,
   "status": "active",
-  "seq": 175,
+  "seq": 199,
   "first_seen": "2026-09-23T21:14:41.469496+00:00"
  },
  {
@@ -4407,7 +4407,7 @@
   "bounty_max": 1500,
   "reports_count": null,
   "status": "active",
-  "seq": 99,
+  "seq": 97,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -4465,7 +4465,7 @@
   "bounty_max": 1500,
   "reports_count": null,
   "status": "active",
-  "seq": 240,
+  "seq": 239,
   "first_seen": "2026-09-22T20:59:56.237339+00:00"
  },
  {
@@ -4484,7 +4484,7 @@
   "bounty_max": 2500,
   "reports_count": null,
   "status": "active",
-  "seq": 191,
+  "seq": 188,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -4522,7 +4522,7 @@
   "bounty_max": 10000,
   "reports_count": null,
   "status": "active",
-  "seq": 194,
+  "seq": 190,
   "first_seen": "2026-10-28T22:18:56.520567+00:00"
  },
  {
@@ -4596,7 +4596,7 @@
   "bounty_max": 6000,
   "reports_count": null,
   "status": "active",
-  "seq": 281,
+  "seq": 279,
   "first_seen": "2026-09-09T20:38:04.309613+00:00"
  },
  {
@@ -4615,7 +4615,7 @@
   "bounty_max": 5000,
   "reports_count": null,
   "status": "active",
-  "seq": 148,
+  "seq": 141,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -4694,7 +4694,7 @@
   "bounty_max": 8000,
   "reports_count": null,
   "status": "active",
-  "seq": 275,
+  "seq": 273,
   "first_seen": "2026-09-16T03:53:02.718731+00:00"
  },
  {
@@ -4814,7 +4814,7 @@
   "bounty_max": 4500,
   "reports_count": null,
   "status": "active",
-  "seq": 282,
+  "seq": 280,
   "first_seen": "2026-09-08T10:49:29.532252+00:00"
  },
  {
@@ -4911,7 +4911,7 @@
   "bounty_max": 3000,
   "reports_count": null,
   "status": "active",
-  "seq": 132,
+  "seq": 131,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -4930,7 +4930,7 @@
   "bounty_max": 1500,
   "reports_count": null,
   "status": "active",
-  "seq": 239,
+  "seq": 238,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -4969,7 +4969,7 @@
   "bounty_max": 133700,
   "reports_count": null,
   "status": "active",
-  "seq": 286,
+  "seq": 293,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -5009,7 +5009,7 @@
   "bounty_max": 100000,
   "reports_count": null,
   "status": "active",
-  "seq": 244,
+  "seq": 251,
   "first_seen": "2026-09-24T03:42:52.441399+00:00"
  },
  {
@@ -5028,7 +5028,7 @@
   "bounty_max": 2500,
   "reports_count": null,
   "status": "active",
-  "seq": 189,
+  "seq": 186,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -5048,7 +5048,7 @@
   "bounty_max": 2500,
   "reports_count": null,
   "status": "active",
-  "seq": 291,
+  "seq": 288,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -5068,7 +5068,7 @@
   "bounty_max": 1500,
   "reports_count": null,
   "status": "active",
-  "seq": 273,
+  "seq": 271,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -5106,7 +5106,7 @@
   "bounty_max": 3500,
   "reports_count": null,
   "status": "active",
-  "seq": 251,
+  "seq": 249,
   "first_seen": "2026-09-18T20:34:43.482506+00:00"
  },
  {
@@ -5364,7 +5364,7 @@
   "bounty_max": 4500,
   "reports_count": null,
   "status": "active",
-  "seq": 107,
+  "seq": 105,
   "first_seen": "2026-09-21T21:47:28.153660+00:00"
  },
  {
@@ -5383,7 +5383,7 @@
   "bounty_max": 3000,
   "reports_count": null,
   "status": "active",
-  "seq": 249,
+  "seq": 247,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -5402,7 +5402,7 @@
   "bounty_max": 5000,
   "reports_count": null,
   "status": "active",
-  "seq": 176,
+  "seq": 200,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -5500,7 +5500,7 @@
   "bounty_max": 1500,
   "reports_count": null,
   "status": "active",
-  "seq": 278,
+  "seq": 276,
   "first_seen": "2026-09-23T21:14:41.469496+00:00"
  },
  {
@@ -5539,7 +5539,7 @@
   "bounty_max": 2500,
   "reports_count": null,
   "status": "active",
-  "seq": 106,
+  "seq": 104,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -5559,7 +5559,7 @@
   "bounty_max": 5000,
   "reports_count": null,
   "status": "active",
-  "seq": 143,
+  "seq": 138,
   "first_seen": "2026-09-23T10:59:35.708465+00:00"
  },
  {
@@ -5615,7 +5615,7 @@
   "bounty_max": 4000,
   "reports_count": null,
   "status": "active",
-  "seq": 140,
+  "seq": 136,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -5635,7 +5635,7 @@
   "bounty_max": 5000,
   "reports_count": null,
   "status": "active",
-  "seq": 178,
+  "seq": 176,
   "first_seen": "2026-08-30T04:17:48.725986+00:00"
  },
  {
@@ -5748,7 +5748,7 @@
   "tags": [],
   "bounty_min": 50,
   "bounty_max": 5000,
-  "reports_count": 323,
+  "reports_count": 327,
   "status": "active",
   "seq": 296,
   "first_seen": "2026-10-21T16:48:28.628811+00:00"
@@ -5767,7 +5767,7 @@
   "bounty_max": 1000,
   "reports_count": 177,
   "status": "active",
-  "seq": 329,
+  "seq": 328,
   "first_seen": "2026-10-21T16:48:28.628811+00:00"
  },
  {
@@ -5784,7 +5784,7 @@
   "bounty_max": 4000,
   "reports_count": 536,
   "status": "active",
-  "seq": 323,
+  "seq": 322,
   "first_seen": "2026-10-21T16:48:28.628811+00:00"
  },
  {
@@ -5804,7 +5804,7 @@
   "bounty_max": 2000,
   "reports_count": 713,
   "status": "active",
-  "seq": 325,
+  "seq": 324,
   "first_seen": "2026-10-21T16:48:28.628811+00:00"
  },
  {
@@ -5917,7 +5917,7 @@
   "bounty_max": 3000,
   "reports_count": 495,
   "status": "active",
-  "seq": 335,
+  "seq": 334,
   "first_seen": "2026-10-21T16:48:28.628811+00:00"
  },
  {
@@ -5937,7 +5937,7 @@
   "bounty_max": 2500,
   "reports_count": 886,
   "status": "active",
-  "seq": 327,
+  "seq": 326,
   "first_seen": "2026-10-21T16:48:28.628811+00:00"
  },
  {
@@ -5973,7 +5973,7 @@
   "bounty_max": 2000,
   "reports_count": 132,
   "status": "active",
-  "seq": 334,
+  "seq": 333,
   "first_seen": "2026-10-21T16:48:28.628811+00:00"
  },
  {
@@ -5988,7 +5988,7 @@
   "tags": [],
   "bounty_min": 50,
   "bounty_max": 2500,
-  "reports_count": 1059,
+  "reports_count": 1060,
   "status": "active",
   "seq": 304,
   "first_seen": "2026-10-21T16:48:28.628811+00:00"
@@ -6027,7 +6027,7 @@
   "bounty_max": 15000,
   "reports_count": 775,
   "status": "active",
-  "seq": 330,
+  "seq": 329,
   "first_seen": "2026-10-21T16:48:28.628811+00:00"
  },
  {
@@ -6047,7 +6047,7 @@
   "bounty_max": 3000,
   "reports_count": 180,
   "status": "active",
-  "seq": 339,
+  "seq": 338,
   "first_seen": "2026-10-21T16:48:28.628811+00:00"
  },
  {
@@ -6065,7 +6065,7 @@
   ],
   "bounty_min": 50,
   "bounty_max": 2000,
-  "reports_count": 2809,
+  "reports_count": 2810,
   "status": "active",
   "seq": 299,
   "first_seen": "2026-10-21T16:48:28.628811+00:00"
@@ -6086,7 +6086,7 @@
   "bounty_max": 4000,
   "reports_count": 349,
   "status": "active",
-  "seq": 338,
+  "seq": 337,
   "first_seen": "2026-10-21T16:48:28.628811+00:00"
  },
  {
@@ -6103,7 +6103,7 @@
   "bounty_max": 1200,
   "reports_count": 236,
   "status": "active",
-  "seq": 343,
+  "seq": 342,
   "first_seen": "2026-10-21T16:48:28.628811+00:00"
  },
  {
@@ -6118,7 +6118,7 @@
   "tags": [],
   "bounty_min": 100,
   "bounty_max": 7000,
-  "reports_count": 4444,
+  "reports_count": 4445,
   "status": "active",
   "seq": 303,
   "first_seen": "2026-10-21T16:48:28.628811+00:00"
@@ -6137,7 +6137,7 @@
   ],
   "bounty_min": 0,
   "bounty_max": 50000,
-  "reports_count": 294,
+  "reports_count": 295,
   "status": "active",
   "seq": 317,
   "first_seen": "2026-10-21T16:48:28.628811+00:00"
@@ -6159,7 +6159,7 @@
   "bounty_max": 5000,
   "reports_count": 729,
   "status": "active",
-  "seq": 337,
+  "seq": 336,
   "first_seen": "2026-10-21T16:48:28.628811+00:00"
  },
  {
@@ -6178,7 +6178,7 @@
   "bounty_max": 5000,
   "reports_count": 237,
   "status": "active",
-  "seq": 344,
+  "seq": 343,
   "first_seen": "2026-10-21T16:48:28.628811+00:00"
  },
  {
@@ -6196,7 +6196,7 @@
   ],
   "bounty_min": 100,
   "bounty_max": 4000,
-  "reports_count": 647,
+  "reports_count": 648,
   "status": "active",
   "seq": 302,
   "first_seen": "2026-10-21T16:48:28.628811+00:00"
@@ -6217,7 +6217,7 @@
   "bounty_max": 8000,
   "reports_count": 422,
   "status": "active",
-  "seq": 333,
+  "seq": 332,
   "first_seen": "2026-10-21T16:48:28.628811+00:00"
  },
  {
@@ -6236,7 +6236,7 @@
   "bounty_max": 2000,
   "reports_count": 148,
   "status": "active",
-  "seq": 332,
+  "seq": 331,
   "first_seen": "2026-10-21T16:48:28.628811+00:00"
  },
  {
@@ -6270,7 +6270,7 @@
   "bounty_max": 1500,
   "reports_count": 843,
   "status": "active",
-  "seq": 345,
+  "seq": 344,
   "first_seen": "2026-10-21T16:48:28.628811+00:00"
  },
  {
@@ -6309,7 +6309,7 @@
   "bounty_max": 12500,
   "reports_count": 1826,
   "status": "active",
-  "seq": 342,
+  "seq": 341,
   "first_seen": "2026-10-21T16:48:28.628811+00:00"
  },
  {
@@ -6324,9 +6324,9 @@
   "tags": [],
   "bounty_min": 50,
   "bounty_max": 5000,
-  "reports_count": 1141,
+  "reports_count": 1143,
   "status": "active",
-  "seq": 341,
+  "seq": 340,
   "first_seen": "2026-10-21T16:48:28.628811+00:00"
  },
  {
@@ -6358,9 +6358,9 @@
   "tags": [],
   "bounty_min": 50,
   "bounty_max": 1250,
-  "reports_count": 413,
+  "reports_count": 414,
   "status": "active",
-  "seq": 326,
+  "seq": 325,
   "first_seen": "2026-10-21T16:48:28.628811+00:00"
  },
  {
@@ -6379,7 +6379,7 @@
   "bounty_max": 3000,
   "reports_count": 658,
   "status": "active",
-  "seq": 324,
+  "seq": 323,
   "first_seen": "2026-10-21T16:48:28.628811+00:00"
  },
  {
@@ -6396,9 +6396,9 @@
   ],
   "bounty_min": 50,
   "bounty_max": 1500,
-  "reports_count": 308,
+  "reports_count": 309,
   "status": "active",
-  "seq": 336,
+  "seq": 335,
   "first_seen": "2026-10-21T16:48:28.628811+00:00"
  },
  {
@@ -6417,26 +6417,7 @@
   "bounty_max": 2000,
   "reports_count": 268,
   "status": "active",
-  "seq": 347,
-  "first_seen": "2026-10-21T16:48:28.628811+00:00"
- },
- {
-  "id": "yeswehack:superbank-public-bug-bounty-program",
-  "platform": "YesWeHack",
-  "name": "Superbank - Public Bug Bounty Program",
-  "handle": "superbank-public-bug-bounty-program",
-  "url": "https://yeswehack.com/programs/superbank-public-bug-bounty-program",
-  "about": "",
-  "policy": "",
-  "logo": "https://cdn-yeswehack.com/program/thumbnail/00e9e8fa-9a2f-4086-b319-9a9bd6e1391e",
-  "tags": [
-   "finance/assurance"
-  ],
-  "bounty_min": 0,
-  "bounty_max": 2000,
-  "reports_count": 147,
-  "status": "active",
-  "seq": 322,
+  "seq": 346,
   "first_seen": "2026-10-21T16:48:28.628811+00:00"
  },
  {
@@ -6453,7 +6434,7 @@
   "bounty_max": 2000,
   "reports_count": 1135,
   "status": "active",
-  "seq": 340,
+  "seq": 339,
   "first_seen": "2026-10-21T16:48:28.628811+00:00"
  },
  {
@@ -6489,7 +6470,7 @@
   ],
   "bounty_min": 100,
   "bounty_max": 230000,
-  "reports_count": 2053,
+  "reports_count": 2055,
   "status": "active",
   "seq": 320,
   "first_seen": "2026-10-21T16:48:28.628811+00:00"
@@ -6506,9 +6487,9 @@
   "tags": [],
   "bounty_min": 100,
   "bounty_max": 10000,
-  "reports_count": 1040,
+  "reports_count": 1041,
   "status": "active",
-  "seq": 331,
+  "seq": 330,
   "first_seen": "2026-10-21T16:48:28.628811+00:00"
  },
  {
@@ -6526,7 +6507,7 @@
   ],
   "bounty_min": 50,
   "bounty_max": 6000,
-  "reports_count": 2146,
+  "reports_count": 2148,
   "status": "active",
   "seq": 297,
   "first_seen": "2026-10-21T16:48:28.628811+00:00"
@@ -6547,7 +6528,7 @@
   "bounty_max": 5000,
   "reports_count": 15,
   "status": "active",
-  "seq": 328,
+  "seq": 327,
   "first_seen": "2026-10-21T16:48:28.628811+00:00"
  },
  {
@@ -6604,7 +6585,7 @@
   ],
   "bounty_min": 5,
   "bounty_max": 1500,
-  "reports_count": 2727,
+  "reports_count": 2728,
   "status": "active",
   "seq": 312,
   "first_seen": "2026-10-21T16:48:28.628811+00:00"
@@ -6664,7 +6645,7 @@
   "bounty_max": 15000,
   "reports_count": 843,
   "status": "active",
-  "seq": 346,
+  "seq": 345,
   "first_seen": "2026-10-21T16:48:28.628811+00:00"
  },
  {
@@ -6681,7 +6662,7 @@
   ],
   "bounty_min": null,
   "bounty_max": null,
-  "reports_count": 6774,
+  "reports_count": 6775,
   "status": "active",
   "seq": 300,
   "first_seen": "2026-10-21T16:48:28.628811+00:00"

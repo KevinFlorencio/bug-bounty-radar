@@ -1,1 +1,13 @@
-[]
+[
+ {
+  "id": "bugcrowd:nord-security-mbb",
+  "platform": "Bugcrowd",
+  "name": "Nord Security Managed Bug Bounty Engagement",
+  "url": "/engagements/nord-security-mbb",
+  "tags": [
+   "computer software"
+  ],
+  "bounty_max": 50000,
+  "first_seen": "2026-11-18T15:17:06.367053+00:00"
+ }
+]

@@ -1,8 +1,8 @@
 {
- "collected_at": "2026-11-18T00:41:56.143302+00:00",
+ "collected_at": "2026-11-18T15:17:06.367053+00:00",
  "programs_total": 347,
  "programs_with_bounty": 341,
- "new_targets": 0,
+ "new_targets": 1,
  "platforms": [
   "Bugcrowd",
   "YesWeHack"

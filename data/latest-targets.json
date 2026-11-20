@@ -1,16 +1,1 @@
-[
- {
-  "id": "bugcrowd:auth0-okta",
-  "platform": "Bugcrowd",
-  "name": "Auth0 by Okta",
-  "url": "/engagements/auth0-okta",
-  "tags": [
-   "mobile",
-   "web",
-   "infrastructure",
-   "cloud"
-  ],
-  "bounty_max": 50000,
-  "first_seen": "2026-11-19T20:08:07.957267+00:00"
- }
-]
+[]
